@@ -1,0 +1,116 @@
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+body {
+  padding-bottom: 160px;
+}
+#footer {
+  height: 160px;
+  width: 100%;
+  min-width: 1240px;
+  background: #243040;
+  position: absolute;
+  bottom: 0;
+}
+#footer .left .nav-top {
+  margin-top: 35px;
+  width: 850px;
+}
+#footer .left .nav-top .logo {
+  float: left;
+  margin-left: 20px;
+}
+#footer .left .nav-top ul li {
+  height: 36px;
+  padding: 5px 0;
+  width: 150px;
+  float: left;
+}
+#footer .left .nav-top ul li a {
+  font-family: 'Microsoft YaHei';
+  font-weight: 700;
+  float: left;
+  color: #697886;
+  height: 36px;
+  line-height: 36px;
+  font-size: 20px;
+}
+#footer .left .nav-top ul li i {
+  float: left;
+  height: 36px;
+  width: 36px;
+  margin-right: 5px;
+  margin-left: 20px;
+}
+#footer .left .nav-top ul li i.btn_1 {
+  background: url('/static/common/static/image/footer_help.png?__sprite');
+}
+#footer .left .nav-top ul li i.btn_2 {
+  background: url('/static/common/static/image/footer_guide.png?__sprite');
+}
+#footer .left .nav-top ul li i.btn_3 {
+  background: url('/static/common/static/image/footer_probrem.png?__sprite');
+}
+#footer .left .nav-top ul li i.btn_4 {
+  background: url('/static/common/static/image/footer_service.png?__sprite');
+}
+#footer .left .nav-bottom {
+  margin-top: 22px;
+}
+#footer .left .nav-bottom ul {
+  margin-top: 9px;
+  float: left;
+}
+#footer .left .nav-bottom ul li {
+  float: left;
+  height: 14px;
+  line-height: 14px;
+}
+#footer .left .nav-bottom ul li.cut {
+  background: #697886;
+  width: 1px;
+}
+#footer .left .nav-bottom ul li a {
+  color: #697886;
+  font-size: 14px;
+  padding: 0 8px;
+}
+#footer .left .nav-bottom p {
+  color: #697886;
+  float: left;
+  font-size: 12px;
+  margin-left: 8px;
+  margin-top: 12px;
+}
+#footer .right {
+  margin-right: 20px;
+  margin-top: 80px;
+}
+#footer .right p {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 8px;
+  margin-right: 5px;
+  text-align: right;
+}

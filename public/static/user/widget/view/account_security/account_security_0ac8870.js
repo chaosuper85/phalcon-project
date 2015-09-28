@@ -1,0 +1,1 @@
+define("user/widget/view/account_security/account_security",function(c,e,t){function n(){$("html body").on("click","#user-account-security .user-content #change-mobile",function(){u.show()})}var i=c("user/widget/view/account_security/select_change_mobile.js"),u=i();t.exports={init:function(){n()}}});

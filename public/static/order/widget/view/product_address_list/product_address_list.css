@@ -1,0 +1,203 @@
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+.user-content {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+  width: 980px;
+  margin-top: 20px;
+  margin-left: 20px;
+  min-height: 600px;
+  padding-bottom: 35px;
+}
+.user-content h3 {
+  font-family: 'Microsoft YaHei';
+  font-size: 16px;
+  height: 22px;
+  line-height: 22px;
+  background: #eff5f6;
+  padding: 10px 20px;
+  border-bottom: #e7ecec;
+}
+.user-content dl {
+  width: 100%;
+  padding-top: 10px;
+}
+.user-content dl dd {
+  margin-top: 25px;
+}
+.user-content dl dd .title,
+.user-content dl dd .content {
+  line-height: 40px;
+  float: left;
+  font-size: 16px;
+}
+.user-content dl dd .title {
+  margin-left: 80px;
+  color: #697886;
+  width: 200px;
+  text-align: right;
+  margin-right: 25px;
+}
+.user-content dl dd .title .must {
+  color: #fd6620;
+  margin-right: 3px;
+}
+.user-content dl dd .content {
+  color: #263241;
+}
+.user-content dl dd .content input {
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  padding: 8px;
+  width: 350px;
+}
+.user-btn {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  padding: 0 15px;
+  background: #6fd1de;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Microsoft YaHei';
+}
+.user-btn:hover {
+  background: #68cbd8;
+}
+.btn-wrap {
+  position: relative;
+  height: 36px;
+  width: 100px;
+  cursor: pointer;
+  margin-top: 2px;
+}
+.btn-wrap input {
+  width: 100px!important;
+  height: 36px!important;
+  padding: 0!important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.btn-wrap .user-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100px;
+  padding: 0!important;
+}
+.btn-wrap:hover .user-btn {
+  background: #68cbd8;
+}
+.submit-wrap {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.submit-wrap .user-btn {
+  background: #fd6620;
+  width: 240px;
+  padding: 5px 15px;
+  margin-left: 375px;
+  font-size: 16px;
+  -webkit-box-shadow: #999 2px 2px 4px;
+  -moz-box-shadow: #999 2px 2px 4px;
+  box-shadow: #999 2px 2px 4px;
+}
+.submit-wrap .user-btn:hover {
+  background: #fd5c11;
+}
+.submit-wrap .submit-tip {
+  color: red;
+  margin-left: 10px;
+}
+.header-content {
+  height: 50px;
+  line-height: 50px;
+  padding: 10px;
+  background: #f7f7f7;
+}
+.load-list {
+  margin: 30px auto;
+}
+.load-list .btn-load {
+  width: 150px;
+  height: 36px;
+  background: #6fd1de;
+  color: #ffffff;
+  border: none;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.load-list .btn-load:hover {
+  cursor: pointer;
+}
+.list-content {
+  min-height: 600px;
+  background: #ffffff;
+  padding: 50px 60px;
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+.list-content .list-product {
+  width: 100%;
+  border: solid 1px #e7ebea;
+  font-size: 15px;
+}
+.list-content .list-product thead {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #f7f7f7;
+  color: #acacae;
+  border-bottom: solid 1px #e7ebea;
+}
+.list-content .list-product thead th {
+  font-weight: normal;
+}
+.list-content .list-product tbody td {
+  height: 90px;
+  text-align: center;
+  vertical-align: middle;
+  border: solid 1px #e7ebea;
+}
+.list-content .list-product tbody td .disable {
+  color: #999999;
+  cursor: default;
+}

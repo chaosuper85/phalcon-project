@@ -1,0 +1,74 @@
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+#modify_record .breadcrumb {
+  font-size: 16px;
+  line-height: 60px;
+  width: 100%;
+  height: 60px;
+  color: #273042;
+  background: #f7f7f7;
+  box-shadow: 1px 1px 1px 1px #dadde9;
+}
+#modify_record .breadcrumb ol {
+  line-height: 60px;
+  height: 100%;
+  padding-left: 20px;
+}
+#modify_record .breadcrumb ol li {
+  line-height: 60px;
+  float: left;
+  height: 60px;
+  padding: 0 2px;
+}
+#modify_record .breadcrumb ol li a {
+  color: #273042;
+}
+#modify_record .breadcrumb ol li a:hover {
+  color: #427dda;
+}
+#modify_record .record {
+  margin-top: 50px;
+  height: 800px;
+  overflow-y: auto;
+  padding: 30px;
+  border: solid 1px #919fab;
+  color: #919fab;
+  background: #ffffff;
+}
+#modify_record .record .modify-content {
+  margin-top: 20px;
+  padding: 20px 100px;
+}
+#modify_record .record .modify-content .content {
+  margin-bottom: 20px;
+}
+#modify_record .record .modify-content .content p {
+  line-height: 25px;
+  font-size: 14px;
+  font-family: 'Microsoft YaHei';
+}
+#modify_record .record .modify-content .content p span {
+  margin-left: 20px;
+}

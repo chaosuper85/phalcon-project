@@ -1,0 +1,76 @@
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+#header-content {
+  height: 70px;
+  line-height: 70px;
+  font-size: 20px;
+  font-family: 'Microsoft YaHei';
+  background: #f7f7f7;
+  -webkit-box-shadow: #e1e1e1 2px 2px 4px;
+  -moz-box-shadow: #e1e1e1 2px 2px 4px;
+  box-shadow: #e1e1e1 2px 2px 4px;
+  border-bottom: #e1e1e1;
+  border-right: #e1e1e1;
+}
+#header-content span {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-top: 13px;
+  height: 40px;
+  width: 40px;
+}
+#header-content .header-title {
+  width: auto;
+  line-height: 45px;
+  margin-left: 0;
+}
+#header-content .tipInfo {
+  width: 300px;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 45px;
+  margin-left: 0;
+  color: #697886;
+}
+#header-content .company {
+  background: url('/static/user/static/image/nav_icons/40/gongsixinxi.png?__sprite');
+}
+#header-content .person {
+  background: url('/static/user/static/image/nav_icons/40/gerenxinxi.png?__sprite');
+}
+#header-content .account {
+  background: url('/static/user/static/image/nav_icons/40/zhanghuanquan.png?__sprite');
+}
+#header-content .new {
+  background: url('/static/user/static/image/nav_icons/40/faqidingdan.png?__sprite');
+}
+#header-content .order-list {
+  background: url('/static/user/static/image/nav_icons/40/jiaoyidingdan.png?__sprite');
+}
+#header-content .car-manage {
+  background: url('/static/user/static/image/nav_icons/40/jiaoyidingdan.png?__sprite');
+}

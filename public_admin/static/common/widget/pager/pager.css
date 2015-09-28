@@ -1,0 +1,7 @@
+#pager {
+  text-align: center;
+}
+#pager .ant-pagination {
+  padding: 20px 0;
+  display: inline-block;
+}

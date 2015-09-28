@@ -1,0 +1,76 @@
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+#error {
+  width: 100%;
+  min-width: 1000px;
+  max-width: 1240px;
+  min-height: 440px;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #ced6dc;
+}
+#error .error-content {
+  width: 100%;
+}
+#error .error-content .err-img {
+  width: 340px;
+}
+#error .error-content .err-img .error-img {
+  display: block;
+  width: 160px;
+  height: 210px;
+  margin-top: 100px;
+  margin-left: 180px;
+}
+#error .error-content .err-info {
+  width: 660px;
+}
+#error .error-content .err-info .error-info {
+  margin-top: 150px;
+  margin-left: 70px;
+  font-size: 28px;
+  color: #fd6620;
+  text-align: left;
+  line-height: 45px;
+}
+#error .error-content .err-info .error-connection {
+  margin-top: 40px;
+  margin-left: 70px;
+  font-size: 18px;
+}
+#error .error-content .err-info .error-connection strong {
+  margin-left: 10px;
+  font-weight: bold;
+  color: #2983cf;
+}
+#error .error-content .error-change {
+  margin-top: 45px;
+  margin-left: 70px;
+  font-size: 18px;
+}
+#error .error-content .error-change a {
+  color: #1895ec;
+}

@@ -1,0 +1,9 @@
+## 定时任务介绍
+
+
+## 每天统计一次次数
+0	0	*	*	*	say 统计开始 && day=`date "+%d"` && php /Users/wanghaibo/phpweb/apps/cli/tools/cli.php EventStat collectDailyEvent $day
+### 每小时一次收集事件次数
+0	*	*	*	*	say 统计开始 && hour=`date "+%h"` && php /Users/wanghaibo/phpweb/apps/cli/tools/cli.php EventStat collectHourlyEvent $hour
+## order status check by xinliang
+*/10 * * * *  say 统计开始 && day=`date "+%d"` && php /Users/xxx/phpweb/apps/cli/tools/cli.php OrderCheck checkOrderIsArrived

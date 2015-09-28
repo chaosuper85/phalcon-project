@@ -1,0 +1,10 @@
+#XDD-loading-Btn {
+  position: relative;
+  text-align: center;
+}
+#XDD-loading-Btn .icon-load-img {
+  width: 24px;
+  height: 24px;
+  margin-top: 8px;
+  margin-right: 8px;
+}

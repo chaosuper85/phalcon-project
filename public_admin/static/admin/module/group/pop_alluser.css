@@ -1,0 +1,14 @@
+.pop_all_user li {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  float: left;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  background: #eaf8fe;
+}
+.pop_all_user li:hover {
+  color: #2db7f5;
+}

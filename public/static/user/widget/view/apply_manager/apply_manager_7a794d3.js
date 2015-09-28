@@ -1,0 +1,1 @@
+define("user/widget/view/apply_manager/apply_manager",function(o,e,n){function l(){$("#upload-licence").AjaxFileUpload({onComplete:function(o,e){console.log(o,e)}}),$("#upload-official").AjaxFileUpload({onComplete:function(o,e){console.log(o,e)}})}o("common/module/upload/uploader.js"),n.exports={init:function(){l()}}});

@@ -1,0 +1,81 @@
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+.loading {
+  -webkit-animation: change .5s linear infinite;
+  font-size: 16px;
+}
+@-webkit-keyframes change {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+.x-form {
+  width: 100%;
+  font-size: 14px;
+}
+.x-form dd {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.x-form dd .title {
+  float: left;
+  width: 90px;
+  text-align: right;
+  line-height: 40px;
+  display: inline-block;
+}
+.x-form dd .title i {
+  color: red;
+  padding-right: 3px;
+}
+.x-form dd .content {
+  margin-left: 105px;
+  line-height: 40px;
+}
+.x-form dd .content input {
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #e2e7e7;
+  width: 100%;
+  padding: 0 10px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.x-form dd.submit-wrap {
+  text-align: center;
+}
+.x-form dd.submit-wrap .submit {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  cursor: pointer;
+  background: #6ad1df;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 10px 100px;
+  margin-top: 20px;
+  font-size: 14px;
+  display: inline-block;
+}
+.x-form dd.submit-wrap .submit:hover {
+  background: #55cbda;
+  cursor: pointer;
+}

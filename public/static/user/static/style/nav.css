@@ -1,0 +1,116 @@
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+#user-nav {
+  width: 240px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #1d2939;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+#user-nav .user-nav-wrap {
+  padding-top: 15px;
+}
+#user-nav li {
+  color: #8c939f;
+  padding: 0 15px;
+}
+#user-nav li.title {
+  height: 55px;
+  line-height: 55px;
+  font-size: 14px;
+}
+#user-nav li.item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+#user-nav li.item a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #8c939f;
+  display: block;
+  height: 24px;
+  line-height: 24px;
+  padding: 9px;
+  padding-left: 50px;
+}
+#user-nav li.item a .nav-icon {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  height: 24px;
+  width: 24px;
+}
+#user-nav li.item a .person {
+  background: url('/static/user/static/image/nav_icons/24/grey/gerenxinxi.png?__sprite');
+}
+#user-nav li.item a .company {
+  background: url('/static/user/static/image/nav_icons/24/grey/gongsixinxi.png?__sprite');
+}
+#user-nav li.item a .account {
+  background: url('/static/user/static/image/nav_icons/24/grey/zhanghuanquan.png?__sprite');
+}
+#user-nav li.item a .new {
+  background: url('/static/user/static/image/nav_icons/24/grey/faqidingdan.png?__sprite');
+}
+#user-nav li.item a .order-list {
+  background: url('/static/user/static/image/nav_icons/24/grey/jiaoyidingdan.png?__sprite');
+}
+#user-nav li.item a .car {
+  background: url('/static/user/static/image/nav_icons/24/grey/cheliangguanli.png?__sprite');
+}
+#user-nav li.item.active a,
+#user-nav li.item:hover a {
+  background: #2983cf;
+  color: #fff;
+}
+#user-nav li.item.active a .person,
+#user-nav li.item:hover a .person {
+  background: url('/static/user/static/image/nav_icons/24/white/gerenxinxi.png?__sprite');
+}
+#user-nav li.item.active a .company,
+#user-nav li.item:hover a .company {
+  background: url('/static/user/static/image/nav_icons/24/white/gongsixinxi.png?__sprite');
+}
+#user-nav li.item.active a .account,
+#user-nav li.item:hover a .account {
+  background: url('/static/user/static/image/nav_icons/24/white/zhanghuanquan.png?__sprite');
+}
+#user-nav li.item.active a .new,
+#user-nav li.item:hover a .new {
+  background: url('/static/user/static/image/nav_icons/24/white/faqidingdan.png?__sprite');
+}
+#user-nav li.item.active a .order-list,
+#user-nav li.item:hover a .order-list {
+  background: url('/static/user/static/image/nav_icons/24/white/jiaoyidingdan.png?__sprite');
+}
+#user-nav li.item.active a .car,
+#user-nav li.item:hover a .car {
+  background: url('/static/user/static/image/nav_icons/24/white/cheliangguanli.png?__sprite');
+}

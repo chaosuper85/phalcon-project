@@ -1,0 +1,187 @@
+.header-conternt {
+  height: 50px;
+  line-height: 50px;
+  padding: 10px;
+  background: #f7f7f7;
+}
+.apply-content {
+  margin-top: 10px;
+  min-height: 400px;
+}
+.apply-content h3 {
+  height: 22px;
+  background: #f7f7f7;
+  font-family: 'Microsoft YaHei';
+  font-size: 14px;
+  color: #2281d1;
+  line-height: 22px;
+  background: #eff5f6;
+  border-bottom: #e7ecec;
+  padding: 10px 20px;
+}
+.apply-content .apply-info {
+  height: 500px;
+  background: #ffffff;
+}
+.apply-content .apply-info .apply-data-selected {
+  width: 158px;
+  height: 84px;
+  margin-top: 50px;
+  float: left;
+  border: 1px solid #eff4f7;
+  background: #eff4f7;
+  border-bottom: none;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  margin-left: 40px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.apply-content .apply-info .apply-data-selected:hover {
+  cursor: pointer;
+}
+.apply-content .apply-info .apply-data-selected .apply-picture {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #d8dfe5;
+  float: left;
+  border-radius: 50%;
+}
+.apply-content .apply-info .apply-data-selected .apply-user {
+  position: absolute;
+  left: 60px;
+  top: 28px;
+}
+.apply-content .apply-info .apply-data-selected .apply-user .name {
+  position: relative;
+  left: 25px;
+  text-align: left;
+}
+.apply-content .apply-info .apply-data-selected .apply-user .phone {
+  position: relative;
+  top: 10px;
+  left: 25px;
+}
+.apply-content .apply-info .apply-data-selected .chooese {
+  position: absolute;
+  left: -1px;
+  top: 100px;
+}
+.apply-content .apply-info .apply-data-selected .chooese input:hover {
+  cursor: pointer;
+}
+.apply-content .apply-info .apply-data-selected .chooese .no-select {
+  border: none;
+  width: 200px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #eff4f7;
+  height: 25px;
+}
+.apply-content .apply-info .apply-data-selected .chooese .selected {
+  border: none;
+  width: 200px;
+  color: #ffffff;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #6fd1de;
+  height: 25px;
+}
+.apply-content .apply-info .apply-data {
+  width: 158px;
+  height: 84px;
+  margin-top: 50px;
+  float: left;
+  border: 1px solid #eff4f7;
+  border-bottom: none;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  margin-left: 40px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.apply-content .apply-info .apply-data:hover {
+  cursor: pointer;
+}
+.apply-content .apply-info .apply-data .apply-picture {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #d8dfe5;
+  float: left;
+  border-radius: 50%;
+}
+.apply-content .apply-info .apply-data .apply-user {
+  position: absolute;
+  left: 60px;
+  top: 28px;
+}
+.apply-content .apply-info .apply-data .apply-user .name {
+  position: relative;
+  left: 25px;
+  text-align: left;
+}
+.apply-content .apply-info .apply-data .apply-user .phone {
+  position: relative;
+  top: 10px;
+  left: 25px;
+}
+.apply-content .apply-info .apply-data .chooese {
+  position: absolute;
+  left: -1px;
+  top: 100px;
+}
+.apply-content .apply-info .apply-data .chooese input:hover {
+  cursor: pointer;
+}
+.apply-content .apply-info .apply-data .chooese .no-select {
+  border: none;
+  width: 200px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #eff4f7;
+  height: 25px;
+}
+.apply-content .apply-info .apply-data .chooese .selected {
+  border: none;
+  width: 200px;
+  color: #ffffff;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #6fd1de;
+  height: 25px;
+}
+.apply-content .apply-info .apply-submit {
+  text-align: right;
+  margin-top: 70px;
+  margin-right: 50px;
+  font-size: 14px;
+}
+.apply-content .apply-info .apply-submit span {
+  margin-right: 25px;
+}
+.apply-content .apply-info .apply-submit .btn-accept {
+  height: 30px;
+  width: 110px;
+  background: #fc8a1a;
+  color: #ffffff;
+  border: none;
+  margin-right: 10px;
+}
+.apply-content .apply-info .apply-submit .btn-accept:hover {
+  cursor: pointer;
+}
+.apply-content .apply-info .apply-submit .btn-refuse {
+  height: 30px;
+  width: 160px;
+  background: #d8dfe5;
+  border: none;
+}
+.apply-content .apply-info .apply-submit .btn-refuse:hover {
+  cursor: pointer;
+}

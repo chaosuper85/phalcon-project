@@ -1,0 +1,55 @@
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+#confirm {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #222;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  margin: 40px auto;
+}
+.confirm-pop-btn {
+  width: 100%;
+}
+.confirm-pop-btn a#confirmBtn,
+.confirm-pop-btn a#cancelBtn {
+  display: block;
+  text-align: center;
+  float: left;
+  margin-left: 42px;
+  background-color: #243040;
+  position: inherit;
+  color: #ffffff;
+  width: 100px;
+  line-height: 36px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.confirm-pop-btn a#confirmBtn:hover,
+.confirm-pop-btn a#cancelBtn:hover {
+  background-color: rgba(36, 48, 64, 0.87);
+}

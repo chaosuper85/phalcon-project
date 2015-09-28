@@ -1,0 +1,292 @@
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+#editProduct {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+#editProduct .editProduct-title {
+  width: 100%;
+  height: 60px;
+  background-color: #eff4f7;
+}
+#editProduct .editProduct-title .editProduct-comfire {
+  float: left;
+  width: 20%;
+  margin-top: 18px;
+}
+#editProduct .editProduct-title .editProduct-comfire .comfireBtn {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  font-size: 14px;
+  line-height: 30px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  padding: 0px;
+  color: #fff;
+  background: #f06700;
+  border: 0px;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#editProduct .editProduct-title .editProduct-comfire .comfireBtn:hover {
+  cursor: pointer;
+  background: #e16000;
+}
+#editProduct .editProduct-title .editProduct-comfire .comfireBtn:active {
+  line-height: 32px;
+}
+#editProduct .editProduct-title .title-text {
+  font-size: 18px;
+  line-height: 60px;
+  float: left;
+  width: 60%;
+  text-align: center;
+}
+#editProduct .editProduct-title .editProduct-cancel {
+  float: left;
+  width: 20%;
+  margin-top: 18px;
+}
+#editProduct .editProduct-title .editProduct-cancel .cancelBtn {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  font-size: 14px;
+  line-height: 30px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  padding: 0px;
+  color: #fff;
+  background: #84cfdf;
+  border: 0px;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#editProduct .editProduct-title .editProduct-cancel .cancelBtn:hover {
+  cursor: pointer;
+  background: #78cadc;
+}
+#editProduct .editProduct-title .editProduct-cancel .cancelBtn:active {
+  line-height: 32px;
+}
+#editProduct .editProduct-content {
+  padding-top: 20px;
+  width: 100%;
+  height: 420px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#editProduct .editProduct-content .address-title {
+  line-height: 40px;
+  width: 100%;
+  height: 50px;
+}
+#editProduct .editProduct-content .address-title .address-name {
+  float: left;
+  width: 50%;
+}
+#editProduct .editProduct-content .address-title .address-name h4 {
+  font-size: 16px;
+  padding-left: 20px;
+}
+#editProduct .editProduct-content .address-title .address-del {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+#editProduct .editProduct-content .address-title .address-del .del-AddressBtn {
+  margin-right: 20px;
+  font-size: 14px;
+  color: #ed3426;
+}
+#editProduct .editProduct-content .address-bottom-line {
+  width: 80%;
+  height: 2px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+  background: url('/static/www/order/static/image/line-dottod.png');
+  background-color: #fff;
+  background-repeat: repeat-x;
+}
+#editProduct .editProduct-content .item {
+  line-height: 34px;
+  padding-bottom: 5px;
+}
+#editProduct .editProduct-content .item .item-name {
+  float: left;
+  width: 120px;
+  height: 100%;
+  font-size: 12px;
+}
+#editProduct .editProduct-content .item .item-name label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+}
+#editProduct .editProduct-content .item .item-name label span.name {
+  float: right;
+  padding-right: 20px;
+  padding-left: 5px;
+}
+#editProduct .editProduct-content .item .item-name label span.icon-require {
+  float: right;
+  margin-top: 4px;
+  color: #f06800;
+}
+#editProduct .editProduct-content .item .item-content {
+  line-height: 34px;
+  position: relative;
+  float: left;
+  width: 520px;
+  height: 100%;
+}
+#editProduct .editProduct-content .item .item-content p {
+  font-size: 12px;
+  color: #222;
+}
+#editProduct .editProduct-content .item .item-content .error {
+  background-color: #fecccc;
+}
+#editProduct .editProduct-content .item .item-content input {
+  font-size: 12px;
+  line-height: 28px;
+  width: 500px;
+  height: 28px;
+  padding: 0;
+  padding-right: 8px;
+  padding-left: 8px;
+  color: #999;
+  border: 1px solid #caced2;
+}
+#editProduct .editProduct-content .item .item-content .selectBox {
+  color: #999;
+}
+#editProduct .editProduct-content .item .item-content .package_date_selectBox {
+  width: 100%;
+  padding-right: 20px;
+  margin-top: 4px;
+  color: #999;
+}
+#editProduct .editProduct-content .item .item-content .package_location {
+  color: #999;
+  margin-top: 4px;
+}
+#editProduct .editProduct-content .item .item-message {
+  float: left;
+  height: 100%;
+}
+#editProduct .editProduct-content .item .item-message .error-message {
+  font-size: 14px;
+  line-height: 34px;
+  height: 100%;
+  color: #e1272b;
+}
+#editProduct .editProduct-content .item .item-message .error-message .icon-warn {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
+  margin-left: 5px;
+  background: url('/static/www/order/static/image/icon-warn.png?__sprite');
+}
+#editProduct .editProduct-content .item .item-message .right-message .icon-right {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
+  margin-left: 5px;
+  background: url('/static/www/order/static/image/icon-right.png?__sprite');
+}
+#editProduct .editProduct-content .item.item-linkman,
+#editProduct .editProduct-content .item.item-contact {
+  width: 50%;
+  float: left;
+  height: 34px;
+}
+#editProduct .editProduct-content .item.item-linkman .item-content,
+#editProduct .editProduct-content .item.item-contact .item-content {
+  width: 180px;
+}
+#editProduct .editProduct-content .item.item-linkman .item-content .linkman,
+#editProduct .editProduct-content .item.item-contact .item-content .linkman,
+#editProduct .editProduct-content .item.item-linkman .item-content .contact,
+#editProduct .editProduct-content .item.item-contact .item-content .contact {
+  width: 157px;
+}
+#editProduct .editProduct-content .item.package_date {
+  position: relative;
+}
+#editProduct .editProduct-content .item.package_date .package_date_selectBox {
+  position: relative;
+  line-height: 34px;
+  height: 34px;
+}
+#editProduct .editProduct-content .item.package_date .add-date {
+  font-size: 12px;
+  color: #467ed5;
+}
+#editProduct .add-other-address {
+  font-size: 14px;
+  line-height: 34px;
+  display: block;
+  width: auto;
+  height: 34px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 60px;
+  cursor: pointer;
+  color: #fff;
+  border: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  outline: none;
+  background: #f06800;
+  box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#editProduct .add-other-address:hover {
+  cursor: pointer;
+  background: #e16100;
+}
+#editProduct .add-other-address:active {
+  padding-top: 2px;
+}

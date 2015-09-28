@@ -1,0 +1,61 @@
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+.popup {
+  overflow: visible;
+}
+.popup #select-box {
+  padding: 45px 20px;
+}
+.popup #select-box .logo {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.popup #select-box dl {
+  margin-top: 70px;
+}
+.popup #select-box dl dd {
+  position: relative;
+  margin-top: 30px;
+}
+.popup #select-box dl dd .user-btn {
+  width: 260px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  padding: 0 15px;
+  background: #ff8f11;
+  color: #fff;
+  font-size: 14px;
+  text-align: left;
+}
+.popup #select-box dl dd .user-btn em {
+  text-align: right;
+  float: right;
+}

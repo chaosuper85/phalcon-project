@@ -1,0 +1,160 @@
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+#login-box {
+  padding: 25px 20px;
+}
+#login-box .logo {
+  width: 110px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#login-box dl dd {
+  position: relative;
+  margin-top: 26px;
+}
+#login-box dl dd input {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  width: 260px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 15px;
+  padding: 12px 14px;
+  border: 1px solid #c9ced2;
+  transition-property: outline;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
+  transition-timing-function: linear;
+  -webkit-transition-property: outline;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-delay: 0s;
+  -webkit-transition-timing-function: linear;
+  -o-transition-property: outline;
+  -o-transition-duration: 0.3s;
+  -o-transition-delay: 0s;
+  -o-transition-timing-function: linear;
+  -moz-transition-property: outline;
+  -moz-transition-duration: 0.5s;
+  -moz-transition-delay: 0s;
+  -moz-transition-timing-function: linear;
+}
+#login-box dl dd input#login-captcha {
+  width: 150px;
+}
+#login-box dl dd .captcha-wrap {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #c9ced2;
+  height: 44px;
+  width: 100px;
+  float: right;
+}
+#login-box dl dd span {
+  display: block;
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  width: 20px;
+  height: 20px;
+}
+#login-box dl dd span.icon-user {
+  background: url('/static/common/static/image/icon_user.png?__sprite');
+}
+#login-box dl dd span.icon-pass {
+  background: url('/static/common/static/image/icon_lock.png?__sprite');
+}
+#login-box #login-tip {
+  text-align: right;
+  color: red;
+  font-size: 13px;
+  padding: 10px 0;
+  height: 13px;
+}
+#login-box .func {
+  line-height: 14px;
+  *line-height: 14px;
+}
+#login-box .func input,
+#login-box .func label {
+  float: left;
+  cursor: pointer;
+}
+#login-box .func input {
+  margin: 1px 3px 0 0;
+  *margin: -3px 1px 0 0;
+}
+#login-box .func label {
+  font-size: 14px;
+  color: #666;
+}
+#login-box .func a {
+  float: right;
+  color: #2db2fc;
+  font-size: 14px;
+}
+#login-box #login-submit {
+  display: block;
+  font-size: 14px;
+  line-height: 44px;
+  width: 290px;
+  height: 44px;
+  cursor: pointer;
+  padding: 0px;
+  color: #fff;
+  background: #fa8a2f;
+  border: 0px;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  transition-property: background;
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+  -webkit-transition-property: background;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-delay: 0s;
+  -webkit-transition-timing-function: ease;
+  -o-transition-property: background;
+  -o-transition-duration: 0.5s;
+  -o-transition-delay: 0s;
+  -o-transition-timing-function: ease;
+  -moz-transition-property: background;
+  -moz-transition-duration: 0.5s;
+  -moz-transition-delay: 0s;
+  -moz-transition-timing-function: ease;
+  margin-top: 20px;
+}
+#login-box #login-submit:hover {
+  cursor: pointer;
+  background: #fa8220;
+}
+#login-box #login-submit:active {
+  line-height: 46px;
+}

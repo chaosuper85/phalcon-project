@@ -1,0 +1,58 @@
+[][WARNING][2015-09-16 11:46:25.024273 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][2361][dba56207eff5d090f1145011ef67335c][GET][/order/details?orderid=29&dispatch=2][1024.2729187012][1.215934753418][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:556] 产装时间：81 地址：44 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-16 11:46:32.186248 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][2361][f0f9ebd799d5ad11c8a6e3edc7174651][GET][/order/details?orderid=29&dispatch=2][1186.2480640411][1.1210441589355][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:556] 产装时间：81 地址：44 已经产装记录:2 不可修改。
+
+[][WARNING][2015-09-16 11:46:37.597028 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][2361][7e13662c90e2e61c65d2e14623fc4b54][GET][/order/details?orderid=29&dispatch=2][597.02801704407][1.4951229095459][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:556] 产装时间：81 地址：44 已经产装记录:3 不可修改。
+
+[][WARNING][2015-09-16 11:48:41.943305 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][2363][aee7c760924eabf1eadda39bcde19026][GET][/order/details?orderid=29][14943.305015564][1.349925994873][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:556] 产装时间：81 地址：44 已经产装记录:3 不可修改。
+
+[][WARNING][2015-09-16 11:51:35.007170 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][77063][ee62289c1f962b812077fe6c78969b6d][GET][/order/details?orderid=29][1007.1699619293][2.3200511932373][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:556] 产装时间：81 地址：44 已经产装记录:3 不可修改。
+
+[][WARNING][2015-09-16 15:20:58.002863 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][14593][f71017740ce301eaa98f246f54bce2c8][GET][/order/details?orderid=29][1002.8629302979][1.7328262329102][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:556] 产装时间：81 地址：44 已经产装记录:3 不可修改。
+
+[][WARNING][2015-09-16 15:21:23.958357 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][14593][a2c5f399998131c90f393011aeefa4b4][POST][/api/carteam/order/address_confirm][1958.3570957184][186.54108047485][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderProductTimeService.php:22] 参数传递出错，请查看!
+
+[][WARNING][2015-09-16 15:21:23.960407 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][14593][a2c5f399998131c90f393011aeefa4b4][POST][/api/carteam/order/address_confirm][1960.4070186615][2.0499229431152][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderProductAddressService.php:340] OrderProductTimeService->createProductTime return false
+
+[][WARNING][2015-09-16 15:21:23.968135 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][14593][a2c5f399998131c90f393011aeefa4b4][POST][/api/carteam/order/address_confirm][1968.1351184845][7.728099822998][/Users/chaosuper/migrate_project/phpweb/apps/services/LogicService/OrderAddressConfirmService.php:99] OrderProductAddressService->saveNewProductAddress return false
+
+[][WARNING][2015-09-16 15:22:10.884717 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13384][e92a8ebde18589df892db31384d8c1b6][GET][/order/details?orderid=29][884.71698760986][1.6169548034668][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:556] 产装时间：81 地址：44 已经产装记录:3 不可修改。
+
+[][WARNING][2015-09-16 15:22:54.064877 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13384][1700a1803505174f72f8f245531695ce][GET][/order/details?orderid=29][1064.8770332336][2.9289722442627][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:556] 产装时间：81 地址：44 已经产装记录:3 不可修改。
+
+[][WARNING][2015-09-16 15:23:12.596114 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13386][319f23cdaf2c45bb4765f3f38baca905][GET][/order/details?orderid=29][596.11392021179][1.446008682251][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:556] 产装时间：81 地址：44 已经产装记录:3 不可修改。
+
+[][WARNING][2015-09-16 15:23:29.122093 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13385][18a3b240c5d2b5fdb366055619396dbd][POST][/api/carteam/order/address_confirm][1122.092962265][448.85993003845][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderProductTimeService.php:22] 参数传递出错，请查看!
+
+[][WARNING][2015-09-16 15:23:29.124193 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13385][18a3b240c5d2b5fdb366055619396dbd][POST][/api/carteam/order/address_confirm][1124.1929531097][2.0999908447266][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderProductAddressService.php:340] OrderProductTimeService->createProductTime return false
+
+[][WARNING][2015-09-16 15:23:29.130253 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13385][18a3b240c5d2b5fdb366055619396dbd][POST][/api/carteam/order/address_confirm][1130.2530765533][6.0601234436035][/Users/chaosuper/migrate_project/phpweb/apps/services/LogicService/OrderAddressConfirmService.php:99] OrderProductAddressService->saveNewProductAddress return false
+
+[][WARNING][2015-09-16 15:25:37.556383 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13386][70a2c18b2fb8932ee0bcf10a753bd5ff][POST][/api/carteam/order/address_confirm][1556.382894516][399.76382255554][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderProductTimeService.php:22] 参数传递出错，请查看!
+
+[][WARNING][2015-09-16 15:25:37.558250 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13386][70a2c18b2fb8932ee0bcf10a753bd5ff][POST][/api/carteam/order/address_confirm][1558.2499504089][1.8670558929443][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderProductAddressService.php:340] OrderProductTimeService->createProductTime return false
+
+[][WARNING][2015-09-16 15:25:37.565115 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13386][70a2c18b2fb8932ee0bcf10a753bd5ff][POST][/api/carteam/order/address_confirm][1565.1149749756][6.8650245666504][/Users/chaosuper/migrate_project/phpweb/apps/services/LogicService/OrderAddressConfirmService.php:99] OrderProductAddressService->saveNewProductAddress return false
+
+[][WARNING][2015-09-16 15:31:50.069651 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13385][9fb179f471376e15c7dba741996f2d2b][GET][/order/details?orderid=30][1069.650888443][1.7688274383545][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:556] 产装时间：75 地址：41 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-16 15:41:41.745767 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13386][98f97fe18102966758fb96330d9d3223][GET][/order/details?orderid=28&dispatch=2][745.76711654663][1.3120174407959][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:556] 产装时间：82 地址：45 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-16 15:46:23.931504 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13384][d050e34e029fd964d733f31b21d7ce53][GET][/order/details?orderid=26&dispatch=2][931.50401115417][1.3980865478516][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:532] 产装时间：115 地址：59 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-16 15:46:37.612859 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][14593][e16f8b7b5ec3e4b1bbde2b9d569db9a5][GET][/order/details?orderid=26&dispatch=2][612.85901069641][1.5249252319336][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:532] 产装时间：115 地址：59 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-16 15:46:45.449125 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13386][ebf1f403d10b630661bb4f19275a0699][GET][/order/details?orderid=26&dispatch=2][1449.1250514984][1.5840530395508][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:532] 产装时间：115 地址：59 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-16 15:46:54.881485 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13385][98aa01c1a96dcdbd3a280150a6b20b98][GET][/order/details?orderid=26&dispatch=2][881.48498535156][1.2290477752686][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:532] 产装时间：115 地址：59 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-16 15:47:00.666835 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13384][16553fc68837240cb1597a01249c5b97][GET][/order/details?orderid=26&dispatch=2][666.83506965637][1.3570785522461][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:532] 产装时间：115 地址：59 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-16 15:47:17.718949 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13384][9ef0e4300c4eb73c884de4b0699a99e1][GET][/order/details?orderid=26&dispatch=2][718.94907951355][1.3611316680908][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:532] 产装时间：115 地址：59 已经产装记录:2 不可修改。
+
+[][WARNING][2015-09-16 15:47:22.271121 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13384][fdaa8dd86a8ab1125a574c42ff1fa84d][GET][/order/details?orderid=26&dispatch=2][1271.1210250854][3.4770965576172][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:532] 产装时间：115 地址：59 已经产装记录:3 不可修改。
+
+[][WARNING][2015-09-16 15:47:46.507279 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13386][7b0f8bf1ea3a330e954af10ae5b0b570][GET][/order/details?orderid=26][507.27891921997][1.7800331115723][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:532] 产装时间：115 地址：59 已经产装记录:3 不可修改。
+
+[][WARNING][2015-09-16 16:05:34.966156 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][14593][ca6d97abc5dba04594a1e403aed6cfd7][GET][/order/details?orderid=26][966.15600585938][1.2190341949463][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:532] 产装时间：115 地址：59 已经产装记录:3 不可修改。
+

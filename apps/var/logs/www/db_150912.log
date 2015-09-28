@@ -1,0 +1,222 @@
+[][TRACE][2015-09-12 22:03:54.522029 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26882][d0823d4585bba7e1bab14255ca5187c9][POST][/api/index/do_login][522.02892303467][59.618949890137][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+
+[][TRACE][2015-09-12 22:03:54.557624 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26882][d0823d4585bba7e1bab14255ca5187c9][POST][/api/index/do_login][557.62410163879][35.595178604126][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:DESCRIBE `users`
+
+[][TRACE][2015-09-12 22:03:54.573830 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26882][d0823d4585bba7e1bab14255ca5187c9][POST][/api/index/do_login][573.82988929749][16.205787658691][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT `users`.`id`, `users`.`created_at`, `users`.`updated_at`, `users`.`usertype`, `users`.`mobile`, `users`.`telephone_number`, `users`.`contactName`, `users`.`contactNumber`, `users`.`pwd`, `users`.`salt`, `users`.`enable`, `users`.`regist_platform`, `users`.`remember_token`, `users`.`regist_version`, `users`.`username`, `users`.`email`, `users`.`invite_userid`, `users`.`avatarpicurl`, `users`.`enterprise_licence`, `users`.`enterpriseid`, `users`.`unverify_enterprisename`, `users`.`enterprise_groupid`, `users`.`invite_token`, `users`.`real_name` FROM `users` WHERE `users`.`username` = wanghuitest AND `users`.`usertype` IN (1, 2) LIMIT 1
+
+[][TRACE][2015-09-12 22:03:54.590166 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26882][d0823d4585bba7e1bab14255ca5187c9][POST][/api/index/do_login][590.16609191895][3.2401084899902][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT `users`.`id`, `users`.`created_at`, `users`.`updated_at`, `users`.`usertype`, `users`.`mobile`, `users`.`telephone_number`, `users`.`contactName`, `users`.`contactNumber`, `users`.`pwd`, `users`.`salt`, `users`.`enable`, `users`.`regist_platform`, `users`.`remember_token`, `users`.`regist_version`, `users`.`username`, `users`.`email`, `users`.`invite_userid`, `users`.`avatarpicurl`, `users`.`enterprise_licence`, `users`.`enterpriseid`, `users`.`unverify_enterprisename`, `users`.`enterprise_groupid`, `users`.`invite_token`, `users`.`real_name` FROM `users` WHERE `users`.`id` = 866714839 LIMIT 1
+
+[][TRACE][2015-09-12 22:03:54.593592 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26882][d0823d4585bba7e1bab14255ca5187c9][POST][/api/index/do_login][593.59192848206][3.4258365631104][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:UPDATE `users` SET `created_at` = 0000-00-00 00:00:00, `updated_at` = 0000-00-00 00:00:00, `usertype` = 1, `mobile` = 13641069324, `telephone_number` = , `contactName` = , `contactNumber` = 1364108983, `pwd` = beb601190a2f85ae1a040da1409b4eef, `salt` = pPRhHb8OUpCmQ6Oz, `enable` = 1, `regist_platform` = 1, `remember_token` = 866714839-1442153034, `regist_version` = 1.0, `username` = wanghuitest, `email` = , `invite_userid` = 0, `avatarpicurl` = , `enterprise_licence` = 66666666666, `enterpriseid` = 0, `unverify_enterprisename` = wanghuitest车队, `enterprise_groupid` = 0, `invite_token` = 62EFE59C@0CFC@7569@2364@3681D9C1EF07, `real_name` =  WHERE `id` = 866714839
+
+[][TRACE][2015-09-12 22:03:54.608503 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26882][d0823d4585bba7e1bab14255ca5187c9][POST][/api/index/do_login][608.50310325623][14.91117477417][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'login_record' AND `TABLE_SCHEMA` = DATABASE()
+
+[][TRACE][2015-09-12 22:03:54.611857 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26882][d0823d4585bba7e1bab14255ca5187c9][POST][/api/index/do_login][611.85693740845][3.3538341522217][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:DESCRIBE `login_record`
+
+[][TRACE][2015-09-12 22:03:54.616924 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26882][d0823d4585bba7e1bab14255ca5187c9][POST][/api/index/do_login][616.92404747009][5.0671100616455][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT `login_record`.`id`, `login_record`.`created_at`, `login_record`.`updated_at`, `login_record`.`user_id`, `login_record`.`token`, `login_record`.`status`, `login_record`.`expire_date` FROM `login_record` WHERE `login_record`.`user_id` = 866714839 AND `login_record`.`status` = 1
+
+[][TRACE][2015-09-12 22:03:54.624211 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26882][d0823d4585bba7e1bab14255ca5187c9][POST][/api/index/do_login][624.21107292175][7.2870254516602][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:UPDATE `login_record` SET `created_at` = 0000-00-00 00:00:00, `updated_at` = 2015-09-11 18:28:39, `user_id` = 866714839, `token` = 866714839-1442053719, `status` = 3, `expire_date` = 2015-09-12 18:28:39 WHERE `id` = 992
+
+[][TRACE][2015-09-12 22:03:54.627328 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26882][d0823d4585bba7e1bab14255ca5187c9][POST][/api/index/do_login][627.32791900635][3.1168460845947][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:INSERT INTO `login_record` (`created_at`, `updated_at`, `user_id`, `token`, `status`, `expire_date`) VALUES (DEFAULT, DEFAULT, 866714839, 866714839-1442153034, 1, 2015-09-13 22:03:54)
+
+[][TRACE][2015-09-12 22:03:54.785729 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12881][e01a2cd7dbaae134ad65c5596e49ca1d][GET][/account/personalInfo][785.728931427][8.4428787231445][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+
+[][TRACE][2015-09-12 22:03:54.791685 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12881][e01a2cd7dbaae134ad65c5596e49ca1d][GET][/account/personalInfo][791.68510437012][5.9561729431152][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:DESCRIBE `users`
+
+[][TRACE][2015-09-12 22:03:54.812365 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12881][e01a2cd7dbaae134ad65c5596e49ca1d][GET][/account/personalInfo][812.36505508423][20.679950714111][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT `users`.`id`, `users`.`created_at`, `users`.`updated_at`, `users`.`usertype`, `users`.`mobile`, `users`.`telephone_number`, `users`.`contactName`, `users`.`contactNumber`, `users`.`pwd`, `users`.`salt`, `users`.`enable`, `users`.`regist_platform`, `users`.`remember_token`, `users`.`regist_version`, `users`.`username`, `users`.`email`, `users`.`invite_userid`, `users`.`avatarpicurl`, `users`.`enterprise_licence`, `users`.`enterpriseid`, `users`.`unverify_enterprisename`, `users`.`enterprise_groupid`, `users`.`invite_token`, `users`.`real_name` FROM `users` WHERE `users`.`id` = 866714839 LIMIT 1
+
+[][TRACE][2015-09-12 22:03:54.819038 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12881][e01a2cd7dbaae134ad65c5596e49ca1d][GET][/account/personalInfo][819.03791427612][6.6728591918945][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL: select status from car_team_user WHERE userid=866714839
+
+[][TRACE][2015-09-12 22:03:54.828140 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12881][e01a2cd7dbaae134ad65c5596e49ca1d][GET][/account/personalInfo][828.14002037048][2.1629333496094][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL: select u.id,usertype,mobile,contactName,contactNumber,enable, telephone_number,username,real_name,email,invite_userid,avatarpicurl,enterprise_licence,enterpriseid,unverify_enterprisename,enterprise_groupid,invite_token,eg.group_name,eg.description from users u  LEFT JOIN enterprise_group eg on u.enterprise_groupid = eg.id where u.id ='866714839'
+
+[][TRACE][2015-09-12 22:03:54.832947 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12881][e01a2cd7dbaae134ad65c5596e49ca1d][GET][/account/personalInfo][832.94701576233][4.8069953918457][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'car_team_user' AND `TABLE_SCHEMA` = DATABASE()
+
+[][TRACE][2015-09-12 22:03:54.834711 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12881][e01a2cd7dbaae134ad65c5596e49ca1d][GET][/account/personalInfo][834.7110748291][1.7640590667725][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:DESCRIBE `car_team_user`
+
+[][TRACE][2015-09-12 22:03:54.842914 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12881][e01a2cd7dbaae134ad65c5596e49ca1d][GET][/account/personalInfo][842.91410446167][8.2030296325684][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT `car_team_user`.`id` AS `id`, `car_team_user`.`userid` AS `userid`, `car_team_user`.`teamName` AS `teamName`, `car_team_user`.`teamPic` AS `teamPic`, `car_team_user`.`ownerName` AS `ownerName`, `car_team_user`.`ownerIdentityCardId` AS `ownerIdentityCardId`, `car_team_user`.`status` AS `status`, `car_team_user`.`idcard_pic` AS `idcard_pic` FROM `car_team_user` WHERE `car_team_user`.`userid` = 866714839
+
+[][TRACE][2015-09-12 22:03:56.616519 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][616.5189743042][4.4400691986084][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+
+[][TRACE][2015-09-12 22:03:56.620131 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][620.13101577759][3.6120414733887][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:DESCRIBE `users`
+
+[][TRACE][2015-09-12 22:03:56.626061 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][626.060962677][5.9299468994141][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT `users`.`id`, `users`.`created_at`, `users`.`updated_at`, `users`.`usertype`, `users`.`mobile`, `users`.`telephone_number`, `users`.`contactName`, `users`.`contactNumber`, `users`.`pwd`, `users`.`salt`, `users`.`enable`, `users`.`regist_platform`, `users`.`remember_token`, `users`.`regist_version`, `users`.`username`, `users`.`email`, `users`.`invite_userid`, `users`.`avatarpicurl`, `users`.`enterprise_licence`, `users`.`enterpriseid`, `users`.`unverify_enterprisename`, `users`.`enterprise_groupid`, `users`.`invite_token`, `users`.`real_name` FROM `users` WHERE `users`.`id` = 866714839 LIMIT 1
+
+[][TRACE][2015-09-12 22:03:56.627940 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][627.9399394989][1.8789768218994][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL: select status from car_team_user WHERE userid=866714839
+
+[][TRACE][2015-09-12 22:03:56.634202 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][634.202003479][5.0249099731445][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id, yundan_code, freightagent_user, cock_city_code, import_type, carrier_userid,                tidan_code, ship_name_id, shipping_company_id, ship_ticket, ship_ticket_desc, yard_id,                product_name, product_desc, product_weight, box_20gp_count, box_40gp_count, box_40hq_count,                 order_status, order_total_percent, create_time, submit_time FROM `order_freight` WHERE `carrier_userid` = 866714839 ORDER BY `create_time` DESC LIMIT 6 OFFSET 0
+
+[][TRACE][2015-09-12 22:03:56.642080 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][642.08006858826][1.8501281738281][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id FROM `order_freight` WHERE `carrier_userid` = 866714839
+
+[][TRACE][2015-09-12 22:03:56.644378 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][644.37794685364][2.2978782653809][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id FROM `order_freight` WHERE `carrier_userid` = 866714839 AND `order_status` = 1
+
+[][TRACE][2015-09-12 22:03:56.646022 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][646.02208137512][1.6441345214844][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id FROM `order_freight` WHERE `carrier_userid` = 866714839 AND `order_status` = 2
+
+[][TRACE][2015-09-12 22:03:56.647491 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][647.49097824097][1.4688968658447][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id FROM `order_freight` WHERE `carrier_userid` = 866714839 AND `order_status` = 3
+
+[][TRACE][2015-09-12 22:03:56.648893 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][648.89311790466][1.4021396636963][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id FROM `order_freight` WHERE `carrier_userid` = 866714839 AND `order_status` = 4
+
+[][TRACE][2015-09-12 22:03:56.650317 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][650.31695365906][1.4238357543945][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id FROM `order_freight` WHERE `carrier_userid` = 866714839 AND `order_status` = 5
+
+[][TRACE][2015-09-12 22:03:56.651722 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][651.7219543457][1.4050006866455][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id FROM `order_freight` WHERE `carrier_userid` = 866714839 AND `order_status` = 6
+
+[][TRACE][2015-09-12 22:03:56.653073 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][653.07307243347][1.3511180877686][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id FROM `order_freight` WHERE `carrier_userid` = 866714839 AND `order_status` = 7
+
+[][TRACE][2015-09-12 22:03:56.655269 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][655.268907547][2.1958351135254][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id FROM `order_freight` WHERE `carrier_userid` = 866714839 AND `order_status` = 8
+
+[][TRACE][2015-09-12 22:03:56.656916 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][656.91590309143][1.6469955444336][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id, contactName, contactNumber, enterpriseid, unverify_enterprisename FROM `users` WHERE `id` = 866714838
+
+[][TRACE][2015-09-12 22:03:56.658472 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][658.47206115723][1.5561580657959][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id, contactName, contactNumber, enterpriseid, unverify_enterprisename FROM `users` WHERE `id` = 866714839
+
+[][TRACE][2015-09-12 22:03:56.660044 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][660.04395484924][1.5718936920166][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id, order_freight_id, contact_name, contact_number, address_provinceid, address_cityid, address_townid, address_detail FROM `order_product_address` WHERE `order_freight_id` = 255
+
+[][TRACE][2015-09-12 22:03:56.663146 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][663.14601898193][3.1020641326904][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 3
+
+[][TRACE][2015-09-12 22:03:56.664835 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][664.83497619629][1.6889572143555][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 36
+
+[][TRACE][2015-09-12 22:03:56.666196 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][666.19610786438][1.3611316680908][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 440
+
+[][TRACE][2015-09-12 22:03:56.667596 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][667.59610176086][1.3999938964844][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT product_supply_time FROM `order_product_time` WHERE `order_product_addressid` = 185
+
+[][TRACE][2015-09-12 22:03:56.669170 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][669.16990280151][1.5738010406494][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 2
+
+[][TRACE][2015-09-12 22:03:56.670722 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][670.72200775146][1.5521049499512][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 34
+
+[][TRACE][2015-09-12 22:03:56.672302 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][672.30200767517][1.5799999237061][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 395
+
+[][TRACE][2015-09-12 22:03:56.673699 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][673.69890213013][1.3968944549561][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT product_supply_time FROM `order_product_time` WHERE `order_product_addressid` = 186
+
+[][TRACE][2015-09-12 22:03:56.675189 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][675.18901824951][1.4901161193848][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 1
+
+[][TRACE][2015-09-12 22:03:56.676659 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][676.65910720825][1.4700889587402][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 33
+
+[][TRACE][2015-09-12 22:03:56.678033 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][678.03311347961][1.3740062713623][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 375
+
+[][TRACE][2015-09-12 22:03:56.679516 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][679.51607704163][1.4829635620117][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT product_supply_time FROM `order_product_time` WHERE `order_product_addressid` = 187
+
+[][TRACE][2015-09-12 22:03:56.680958 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][680.95803260803][1.4419555664062][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT china_name, english_name FROM `shipping_company` WHERE `id` = 5
+
+[][TRACE][2015-09-12 22:03:56.682519 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][682.51895904541][1.5609264373779][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT china_name, eng_name FROM `ship_name` WHERE `id` = 43
+
+[][TRACE][2015-09-12 22:03:56.685440 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][685.44006347656][2.9211044311523][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT au.id, au.username  ,au.phone_number   from  admin_users au ,  admin_order ao                WHERE   ao.order_id = 255 and  ao.admin_id = au.id   limit 1
+
+[][TRACE][2015-09-12 22:03:56.687310 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][687.30998039246][1.8699169158936][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id, contactName, contactNumber, enterpriseid, unverify_enterprisename FROM `users` WHERE `id` = 866714838
+
+[][TRACE][2015-09-12 22:03:56.688720 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][688.71998786926][1.4100074768066][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id, contactName, contactNumber, enterpriseid, unverify_enterprisename FROM `users` WHERE `id` = 866714839
+
+[][TRACE][2015-09-12 22:03:56.690093 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][690.09304046631][1.3730525970459][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id, order_freight_id, contact_name, contact_number, address_provinceid, address_cityid, address_townid, address_detail FROM `order_product_address` WHERE `order_freight_id` = 149
+
+[][TRACE][2015-09-12 22:03:56.691845 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][691.84494018555][1.7518997192383][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 3
+
+[][TRACE][2015-09-12 22:03:56.693273 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][693.27306747437][1.4281272888184][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 38
+
+[][TRACE][2015-09-12 22:03:56.694787 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][694.78702545166][1.5139579772949][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 462
+
+[][TRACE][2015-09-12 22:03:56.696134 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][696.13409042358][1.3470649719238][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT product_supply_time FROM `order_product_time` WHERE `order_product_addressid` = 180
+
+[][TRACE][2015-09-12 22:03:56.697813 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][697.81303405762][1.6789436340332][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 2
+
+[][TRACE][2015-09-12 22:03:56.699231 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][699.23090934753][1.417875289917][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 34
+
+[][TRACE][2015-09-12 22:03:56.700807 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][700.80709457397][1.5761852264404][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 396
+
+[][TRACE][2015-09-12 22:03:56.702236 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][702.23593711853][1.4288425445557][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT product_supply_time FROM `order_product_time` WHERE `order_product_addressid` = 181
+
+[][TRACE][2015-09-12 22:03:56.703841 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][703.84097099304][1.6050338745117][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 1
+
+[][TRACE][2015-09-12 22:03:56.705574 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][705.57403564453][1.7330646514893][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 33
+
+[][TRACE][2015-09-12 22:03:56.706970 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][706.96997642517][1.3959407806396][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 377
+
+[][TRACE][2015-09-12 22:03:56.708314 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][708.31394195557][1.3439655303955][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT product_supply_time FROM `order_product_time` WHERE `order_product_addressid` = 182
+
+[][TRACE][2015-09-12 22:03:56.709901 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][709.90109443665][1.5871524810791][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 3
+
+[][TRACE][2015-09-12 22:03:56.711324 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][711.32397651672][1.4228820800781][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 41
+
+[][TRACE][2015-09-12 22:03:56.712806 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][712.80598640442][1.4820098876953][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 528
+
+[][TRACE][2015-09-12 22:03:56.714664 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][714.66398239136][1.8579959869385][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT product_supply_time FROM `order_product_time` WHERE `order_product_addressid` = 183
+
+[][TRACE][2015-09-12 22:03:56.716296 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][716.29595756531][1.6319751739502][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT china_name, english_name FROM `shipping_company` WHERE `id` = 5
+
+[][TRACE][2015-09-12 22:03:56.717847 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][717.84710884094][1.5511512756348][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT china_name, eng_name FROM `ship_name` WHERE `id` = 27
+
+[][TRACE][2015-09-12 22:03:56.719441 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][719.44093704224][1.5938282012939][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT au.id, au.username  ,au.phone_number   from  admin_users au ,  admin_order ao                WHERE   ao.order_id = 149 and  ao.admin_id = au.id   limit 1
+
+[][TRACE][2015-09-12 22:03:56.721045 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][721.04501724243][1.6040802001953][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id, contactName, contactNumber, enterpriseid, unverify_enterprisename FROM `users` WHERE `id` = 866714838
+
+[][TRACE][2015-09-12 22:03:56.722638 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][722.63789176941][1.5928745269775][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id, contactName, contactNumber, enterpriseid, unverify_enterprisename FROM `users` WHERE `id` = 866714839
+
+[][TRACE][2015-09-12 22:03:56.724254 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][724.25389289856][1.6160011291504][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id, order_freight_id, contact_name, contact_number, address_provinceid, address_cityid, address_townid, address_detail FROM `order_product_address` WHERE `order_freight_id` = 148
+
+[][TRACE][2015-09-12 22:03:56.725913 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][725.91304779053][1.6591548919678][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 12
+
+[][TRACE][2015-09-12 22:03:56.727590 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][727.59008407593][1.6770362854004][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 130
+
+[][TRACE][2015-09-12 22:03:56.729220 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][729.21991348267][1.6298294067383][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 1389
+
+[][TRACE][2015-09-12 22:03:56.730699 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][730.69906234741][1.4791488647461][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT product_supply_time FROM `order_product_time` WHERE `order_product_addressid` = 178
+
+[][TRACE][2015-09-12 22:03:56.732319 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][732.31911659241][1.6200542449951][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 3
+
+[][TRACE][2015-09-12 22:03:56.733788 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][733.78801345825][1.4688968658447][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 36
+
+[][TRACE][2015-09-12 22:03:56.735389 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][735.38899421692][1.600980758667][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 439
+
+[][TRACE][2015-09-12 22:03:56.737026 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][737.02597618103][1.6369819641113][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT product_supply_time FROM `order_product_time` WHERE `order_product_addressid` = 179
+
+[][TRACE][2015-09-12 22:03:56.738795 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][738.79504203796][1.7690658569336][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 1
+
+[][TRACE][2015-09-12 22:03:56.740412 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][740.41199684143][1.6169548034668][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 33
+
+[][TRACE][2015-09-12 22:03:56.742028 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][742.02799797058][1.6160011291504][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 380
+
+[][TRACE][2015-09-12 22:03:56.743666 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][743.66593360901][1.6379356384277][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT product_supply_time FROM `order_product_time` WHERE `order_product_addressid` = 188
+
+[][TRACE][2015-09-12 22:03:56.745644 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][745.64409255981][1.9781589508057][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT china_name, english_name FROM `shipping_company` WHERE `id` = 48
+
+[][TRACE][2015-09-12 22:03:56.747101 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][747.1010684967][1.4569759368896][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT china_name, eng_name FROM `ship_name` WHERE `id` = 38
+
+[][TRACE][2015-09-12 22:03:56.748658 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][748.65794181824][1.5568733215332][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT au.id, au.username  ,au.phone_number   from  admin_users au ,  admin_order ao                WHERE   ao.order_id = 148 and  ao.admin_id = au.id   limit 1
+
+[][TRACE][2015-09-12 22:03:56.750028 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][750.02789497375][1.3699531555176][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id, contactName, contactNumber, enterpriseid, unverify_enterprisename FROM `users` WHERE `id` = 866714838
+
+[][TRACE][2015-09-12 22:03:56.751469 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][751.46889686584][1.4410018920898][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id, contactName, contactNumber, enterpriseid, unverify_enterprisename FROM `users` WHERE `id` = 866714839
+
+[][TRACE][2015-09-12 22:03:56.752927 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][752.92706489563][1.4581680297852][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id, order_freight_id, contact_name, contact_number, address_provinceid, address_cityid, address_townid, address_detail FROM `order_product_address` WHERE `order_freight_id` = 140
+
+[][TRACE][2015-09-12 22:03:56.754716 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][754.71591949463][1.788854598999][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 4
+
+[][TRACE][2015-09-12 22:03:56.756397 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][756.39700889587][1.6810894012451][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 48
+
+[][TRACE][2015-09-12 22:03:56.757768 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][757.76791572571][1.370906829834][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 623
+
+[][TRACE][2015-09-12 22:03:56.759221 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][759.22107696533][1.453161239624][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT product_supply_time FROM `order_product_time` WHERE `order_product_addressid` = 170
+
+[][TRACE][2015-09-12 22:03:56.761052 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][761.05189323425][1.8308162689209][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 9
+
+[][TRACE][2015-09-12 22:03:56.762736 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][762.73608207703][1.6841888427734][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 105
+
+[][TRACE][2015-09-12 22:03:56.764153 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][764.15300369263][1.4169216156006][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT cityName FROM `tbl_province` WHERE `id` = 1154
+
+[][TRACE][2015-09-12 22:03:56.765725 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][765.72489738464][1.5718936920166][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT product_supply_time FROM `order_product_time` WHERE `order_product_addressid` = 171
+
+[][TRACE][2015-09-12 22:03:56.767264 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][767.26388931274][1.5389919281006][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT china_name, english_name FROM `shipping_company` WHERE `id` = 47
+
+[][TRACE][2015-09-12 22:03:56.768872 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][768.87202262878][1.60813331604][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT china_name, eng_name FROM `ship_name` WHERE `id` = 37
+
+[][TRACE][2015-09-12 22:03:56.770408 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][770.40791511536][1.5358924865723][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT au.id, au.username  ,au.phone_number   from  admin_users au ,  admin_order ao                WHERE   ao.order_id = 140 and  ao.admin_id = au.id   limit 1
+
+[][TRACE][2015-09-12 22:03:56.772177 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][772.17698097229][1.7690658569336][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id, contactName, contactNumber, enterpriseid, unverify_enterprisename FROM `users` WHERE `id` = 4294967295
+
+[][TRACE][2015-09-12 22:03:56.773653 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][773.65303039551][1.4760494232178][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id, contactName, contactNumber, enterpriseid, unverify_enterprisename FROM `users` WHERE `id` = 866714839
+
+[][TRACE][2015-09-12 22:03:56.775243 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][775.24304389954][1.5900135040283][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id, order_freight_id, contact_name, contact_number, address_provinceid, address_cityid, address_townid, address_detail FROM `order_product_address` WHERE `order_freight_id` = 247
+
+[][TRACE][2015-09-12 22:03:56.776901 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][776.90100669861][1.6579627990723][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT china_name, english_name FROM `shipping_company` WHERE `id` = 48
+
+[][TRACE][2015-09-12 22:03:56.779743 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][779.7429561615][2.8419494628906][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT china_name, eng_name FROM `ship_name` WHERE `id` = 38
+
+[][TRACE][2015-09-12 22:03:56.783379 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][783.37907791138][3.6361217498779][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT au.id, au.username  ,au.phone_number   from  admin_users au ,  admin_order ao                WHERE   ao.order_id = 247 and  ao.admin_id = au.id   limit 1
+
+[][TRACE][2015-09-12 22:03:56.785198 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][12879][2e8b000b24820722b2f35b8b6edc88ab][GET][/order/list][785.19797325134][1.8188953399658][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Module.php:92] SQL:SELECT id FROM `order_freight` WHERE `carrier_userid` = 866714839
+

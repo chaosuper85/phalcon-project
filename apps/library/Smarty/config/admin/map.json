@@ -1,0 +1,1430 @@
+{
+    "res": {
+        "assets/css/base.less": {
+            "uri": "/static/assets/css/base_53eb519.css",
+            "type": "css",
+            "pkg": "p0"
+        },
+        "assets/css/common/button.less": {
+            "uri": "/static/assets/css/common/button_f180278.css",
+            "type": "css"
+        },
+        "assets/css/common/form.less": {
+            "uri": "/static/assets/css/common/form_7167afe.css",
+            "type": "css"
+        },
+        "assets/css/common/table.less": {
+            "uri": "/static/assets/css/common/table_194b400.css",
+            "type": "css"
+        },
+        "assets/css/iconfont/iconfont.css": {
+            "uri": "/static/assets/css/iconfont/iconfont_7f7a8f2.css",
+            "type": "css",
+            "pkg": "p0"
+        },
+        "assets/css/vars.less": {
+            "uri": "/static/assets/css/vars_d41d8cd.css",
+            "type": "css"
+        },
+        "assets/lib/antd/antd-0.8.0.min.css": {
+            "uri": "/static/assets/lib/antd/antd-0.8.0.min_3727174.css",
+            "type": "css"
+        },
+        "assets/lib/antd/antd-0.8.0.min.js": {
+            "uri": "/static/assets/lib/antd/antd-0.8.0.min_8c5d26e.js",
+            "type": "js",
+            "deps": [
+                "react"
+            ],
+            "pkg": "p1"
+        },
+        "assets/lib/mod.js": {
+            "uri": "/static/assets/lib/mod_36ad799.js",
+            "type": "js",
+            "pkg": "p2"
+        },
+        "assets/lib/webuploader/webuploader.css": {
+            "uri": "/static/assets/lib/webuploader/webuploader_08d9db4.css",
+            "type": "css"
+        },
+        "assets/lib/webuploader/webuploader.html5only.js": {
+            "uri": "/static/assets/lib/webuploader/webuploader.html5only_508b211.js",
+            "type": "js",
+            "deps": [
+                "webuploader"
+            ]
+        },
+        "common/module/es6/es6.jsx": {
+            "uri": "/static/common/module/es6/es6_4dca796.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/es6/es6"
+            },
+            "pkg": "p3"
+        },
+        "common/module/popup/popup.jsx": {
+            "uri": "/static/common/module/popup/popup_dff039f.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/popup/popup"
+            },
+            "pkg": "p3"
+        },
+        "common/module/upload/upload.jsx": {
+            "uri": "/static/common/module/upload/upload_dd1b4e1.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/upload/upload"
+            },
+            "deps": [
+                "common/module/util/util.jsx"
+            ],
+            "pkg": "p3"
+        },
+        "common/module/util/util.jsx": {
+            "uri": "/static/common/module/util/util_1381203.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/util/util"
+            },
+            "pkg": "p3"
+        },
+        "common/widget/header/header.jsx": {
+            "uri": "/static/common/widget/header/header_603a528.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/widget/header/header"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "common/widget/header/header.less"
+            ],
+            "pkg": "p3"
+        },
+        "common/widget/header/header.less": {
+            "uri": "/static/common/widget/header/header_6a21348.css",
+            "type": "css",
+            "pkg": "p4"
+        },
+        "common/widget/header/header.tpl": {
+            "uri": "common/widget/header/header_485dbf3.tpl",
+            "type": "tpl",
+            "deps": [
+                "common/widget/header/header.jsx",
+                "common/widget/header/header.less"
+            ]
+        },
+        "common/widget/nav/nav.less": {
+            "uri": "/static/common/widget/nav/nav_6d9e234.css",
+            "type": "css",
+            "pkg": "p4"
+        },
+        "common/widget/nav/nav.tpl": {
+            "uri": "common/widget/nav/nav_3b6ea70.tpl",
+            "type": "tpl",
+            "deps": [
+                "common/widget/nav/nav.less"
+            ]
+        },
+        "common/widget/pager/pager.jsx": {
+            "uri": "/static/common/widget/pager/pager_73eb163.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/widget/pager/pager"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "common/widget/pager/pager.less"
+            ],
+            "pkg": "p3"
+        },
+        "common/widget/pager/pager.less": {
+            "uri": "/static/common/widget/pager/pager_4957dbe.css",
+            "type": "css",
+            "pkg": "p4"
+        },
+        "common/widget/pager/pager.tpl": {
+            "uri": "common/widget/pager/pager_d46347e.tpl",
+            "type": "tpl",
+            "deps": [
+                "common/widget/pager/pager.jsx",
+                "common/widget/pager/pager.less"
+            ]
+        },
+        "common/widget/table/date_filter.tpl/date.jsx": {
+            "uri": "/static/common/widget/table/date_filter.tpl/date_2714cdc.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/widget/table/date_filter.tpl/date"
+            },
+            "deps": [
+                "common/module/util/util.jsx"
+            ],
+            "pkg": "p3"
+        },
+        "common/widget/table/date_filter.tpl/date.tpl": {
+            "uri": "common/widget/table/date_filter.tpl/date_0e86381.tpl",
+            "type": "tpl",
+            "deps": [
+                "common/widget/table/date_filter.tpl/date.jsx"
+            ]
+        },
+        "common/widget/table/table.jsx": {
+            "uri": "/static/common/widget/table/table_5a4c101.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/widget/table/table"
+            },
+            "pkg": "p3"
+        },
+        "www/common/module/addSelectTimeBox/addSelectTimeBox.js": {
+            "uri": "/static/www/common/module/addSelectTimeBox/addSelectTimeBox_1a6004f.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/common/module/addSelectTimeBox/addSelectTimeBox"
+            },
+            "deps": [
+                "www/common/module/selectTimeBox/selectTimeBox.js",
+                "www/common/module/addSelectTimeBox/addSelectTimeBox.less"
+            ]
+        },
+        "www/common/module/addSelectTimeBox/addSelectTimeBox.less": {
+            "uri": "/static/www/common/module/addSelectTimeBox/addSelectTimeBox_96bb06e.css",
+            "type": "css"
+        },
+        "www/common/module/address/address.js": {
+            "uri": "/static/www/common/module/address/address_84eb1ce.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/common/module/address/address"
+            },
+            "deps": [
+                "www/common/module/storage.js",
+                "www/common/module/select/select.js",
+                "www/common/module/address/address.less"
+            ]
+        },
+        "www/common/module/address/address.less": {
+            "uri": "/static/www/common/module/address/address_2413d5b.css",
+            "type": "css"
+        },
+        "www/common/module/alert/alert.ejs": {
+            "uri": "/static/www/common/module/alert/alert_ce5534b.js",
+            "type": "js",
+            "deps": [
+                "www/common/module/alert/alert.less"
+            ]
+        },
+        "www/common/module/alert/alert.less": {
+            "uri": "/static/www/common/module/alert/alert_d204566.css",
+            "type": "css"
+        },
+        "www/common/module/alert/alert.js": {
+            "uri": "/static/www/common/module/alert/alert_1dfc74c.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/common/module/alert/alert"
+            },
+            "deps": [
+                "www/common/module/popup/popup.js",
+                "www/common/module/alert/alert.less"
+            ]
+        },
+        "www/common/module/cards/cards.js": {
+            "uri": "/static/www/common/module/cards/cards_be18843.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/common/module/cards/cards"
+            },
+            "deps": [
+                "www/common/module/cards/cards.less"
+            ]
+        },
+        "www/common/module/cards/cards.less": {
+            "uri": "/static/www/common/module/cards/cards_552741f.css",
+            "type": "css"
+        },
+        "www/common/module/confirm/confirm.ejs": {
+            "uri": "/static/www/common/module/confirm/confirm_54eaa78.js",
+            "type": "js",
+            "deps": [
+                "www/common/module/confirm/confirm.less"
+            ]
+        },
+        "www/common/module/confirm/confirm.less": {
+            "uri": "/static/www/common/module/confirm/confirm_8772bed.css",
+            "type": "css"
+        },
+        "www/common/module/confirm/confirm.js": {
+            "uri": "/static/www/common/module/confirm/confirm_131fba9.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/common/module/confirm/confirm"
+            },
+            "deps": [
+                "www/common/module/popup/popup.js",
+                "www/common/module/confirm/confirm.less"
+            ]
+        },
+        "www/common/module/map/map.js": {
+            "uri": "/static/www/common/module/map/map_c4bdaaa.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/common/module/map/map"
+            }
+        },
+        "www/common/module/popup/popup.js": {
+            "uri": "/static/www/common/module/popup/popup_b8fa4d3.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/common/module/popup/popup"
+            },
+            "deps": [
+                "www/common/module/popup/popup.less"
+            ]
+        },
+        "www/common/module/popup/popup.less": {
+            "uri": "/static/www/common/module/popup/popup_e8c1329.css",
+            "type": "css"
+        },
+        "www/common/module/select/select.js": {
+            "uri": "/static/www/common/module/select/select_f81152b.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/common/module/select/select"
+            },
+            "deps": [
+                "www/common/module/select/select.less"
+            ]
+        },
+        "www/common/module/select/tpl/select.tmpl": {
+            "uri": "/static/www/common/module/select/tpl/select_9918ef7.js",
+            "type": "js"
+        },
+        "www/common/module/select/select.less": {
+            "uri": "/static/www/common/module/select/select_21a6aac.css",
+            "type": "css"
+        },
+        "www/common/module/selectTimeBox/selectTimeBox.js": {
+            "uri": "/static/www/common/module/selectTimeBox/selectTimeBox_c88d060.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/common/module/selectTimeBox/selectTimeBox"
+            },
+            "deps": [
+                "www/common/module/util.js",
+                "www/common/module/select/select.js",
+                "www/common/module/selectTimeBox/selectTimeBox.less"
+            ]
+        },
+        "www/common/module/selectTimeBox/selectTimeBox.less": {
+            "uri": "/static/www/common/module/selectTimeBox/selectTimeBox_2dd922f.css",
+            "type": "css"
+        },
+        "www/common/module/storage.js": {
+            "uri": "/static/www/common/module/storage_cea8a1c.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/common/module/storage"
+            }
+        },
+        "www/common/module/upload/uploader.js": {
+            "uri": "/static/www/common/module/upload/uploader_906aac5.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/common/module/upload/uploader"
+            }
+        },
+        "www/common/module/util.js": {
+            "uri": "/static/www/common/module/util_e026c0c.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/common/module/util"
+            }
+        },
+        "www/common/static/script/boot.js": {
+            "uri": "/static/www/common/static/script/boot_ed6d0d1.js",
+            "type": "js",
+            "deps": [
+                "www/common/module/alert/alert.js"
+            ]
+        },
+        "www/common/static/script/jquery.js": {
+            "uri": "/static/www/common/static/script/jquery_7f38dcb.js",
+            "type": "js"
+        },
+        "www/common/static/script/jquery.json.js": {
+            "uri": "/static/www/common/static/script/jquery.json_4214cd4.js",
+            "type": "js"
+        },
+        "www/common/static/style/base.less": {
+            "uri": "/static/www/common/static/style/base_3d1d341.css",
+            "type": "css"
+        },
+        "www/common/static/style/vars.less": {
+            "uri": "/static/www/common/static/style/vars_d41d8cd.css",
+            "type": "css"
+        },
+        "www/order/module/assign_pop/assign_pop.js": {
+            "uri": "/static/www/order/module/assign_pop/assign_pop_8bfaacc.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/order/module/assign_pop/assign_pop"
+            },
+            "deps": [
+                "www/common/module/popup/popup.js",
+                "www/common/module/select/select.js",
+                "www/order/module/assign_pop/assign_pop.less"
+            ]
+        },
+        "www/order/module/assign_pop/tpl/assign_pop.tmpl": {
+            "uri": "/static/www/order/module/assign_pop/tpl/assign_pop_2f1033f.js",
+            "type": "js"
+        },
+        "www/order/module/assign_pop/tpl/item.tmpl": {
+            "uri": "/static/www/order/module/assign_pop/tpl/item_aca1d48.js",
+            "type": "js"
+        },
+        "www/order/module/assign_pop/tpl/complete-item.tmpl": {
+            "uri": "/static/www/order/module/assign_pop/tpl/complete-item_7eada87.js",
+            "type": "js"
+        },
+        "www/order/module/assign_pop/assign_pop.less": {
+            "uri": "/static/www/order/module/assign_pop/assign_pop_431e85a.css",
+            "type": "css"
+        },
+        "www/order/module/comfirm_psw_pop/comfirm_psw_pop.js": {
+            "uri": "/static/www/order/module/comfirm_psw_pop/comfirm_psw_pop_ce43331.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/order/module/comfirm_psw_pop/comfirm_psw_pop"
+            },
+            "deps": [
+                "www/common/module/popup/popup.js",
+                "www/order/module/comfirm_psw_pop/comfirm_psw_pop.less"
+            ]
+        },
+        "www/order/module/comfirm_psw_pop/tpl/comfirm_psw_pop.tmpl": {
+            "uri": "/static/www/order/module/comfirm_psw_pop/tpl/comfirm_psw_pop_62db849.js",
+            "type": "js"
+        },
+        "www/order/module/comfirm_psw_pop/comfirm_psw_pop.less": {
+            "uri": "/static/www/order/module/comfirm_psw_pop/comfirm_psw_pop_dedc3d2.css",
+            "type": "css"
+        },
+        "www/order/module/commonBox.js": {
+            "uri": "/static/www/order/module/commonBox_c05c217.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/order/module/commonBox"
+            },
+            "deps": [
+                "www/common/module/util.js",
+                "www/common/module/select/select.js",
+                "www/common/module/address/address.js"
+            ]
+        },
+        "www/order/module/confirm_product/confirm_product.js": {
+            "uri": "/static/www/order/module/confirm_product/confirm_product_316a450.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/order/module/confirm_product/confirm_product"
+            },
+            "deps": [
+                "www/common/module/popup/popup.js",
+                "www/order/module/confirm_product/confirm_product.less"
+            ]
+        },
+        "www/order/module/confirm_product/tpl/confirm_product.tmpl": {
+            "uri": "/static/www/order/module/confirm_product/tpl/confirm_product_2ba7879.js",
+            "type": "js"
+        },
+        "www/order/module/confirm_product/confirm_product.less": {
+            "uri": "/static/www/order/module/confirm_product/confirm_product_3ba6508.css",
+            "type": "css"
+        },
+        "www/order/module/edit_product/edit_product.js": {
+            "uri": "/static/www/order/module/edit_product/edit_product_041a79c.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/order/module/edit_product/edit_product"
+            },
+            "deps": [
+                "www/common/module/popup/popup.js",
+                "www/order/module/commonBox.js",
+                "www/common/module/addSelectTimeBox/addSelectTimeBox.js",
+                "www/order/module/edit_product/edit_product.less"
+            ]
+        },
+        "www/order/module/edit_product/tpl/edit_product.tmpl": {
+            "uri": "/static/www/order/module/edit_product/tpl/edit_product_c98e7e5.js",
+            "type": "js"
+        },
+        "www/order/module/edit_product/tpl/productInfo_box.tmpl": {
+            "uri": "/static/www/order/module/edit_product/tpl/productInfo_box_76b2777.js",
+            "type": "js"
+        },
+        "www/order/module/edit_product/edit_product.less": {
+            "uri": "/static/www/order/module/edit_product/edit_product_5229b06.css",
+            "type": "css"
+        },
+        "www/order/module/ensupe_pop/ensupe_pop.js": {
+            "uri": "/static/www/order/module/ensupe_pop/ensupe_pop_65e8d99.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/order/module/ensupe_pop/ensupe_pop"
+            },
+            "deps": [
+                "www/common/module/popup/popup.js",
+                "www/order/module/ensupe_pop/ensupe_pop.less"
+            ]
+        },
+        "www/order/module/ensupe_pop/tpl/ensupe_pop.tmpl": {
+            "uri": "/static/www/order/module/ensupe_pop/tpl/ensupe_pop_198cab6.js",
+            "type": "js"
+        },
+        "www/order/module/ensupe_pop/ensupe_pop.less": {
+            "uri": "/static/www/order/module/ensupe_pop/ensupe_pop_8509a78.css",
+            "type": "css"
+        },
+        "www/order/module/quit_load/quit_load.js": {
+            "uri": "/static/www/order/module/quit_load/quit_load_fdaf820.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/order/module/quit_load/quit_load"
+            },
+            "deps": [
+                "www/common/module/popup/popup.js",
+                "www/order/module/quit_load/quit_load.less"
+            ]
+        },
+        "www/order/module/quit_load/quit_load.tmpl": {
+            "uri": "/static/www/order/module/quit_load/quit_load_2ac27c8.js",
+            "type": "js",
+            "deps": [
+                "www/order/module/quit_load/quit_load.less"
+            ]
+        },
+        "www/order/module/quit_load/quit_load.less": {
+            "uri": "/static/www/order/module/quit_load/quit_load_a60b797.css",
+            "type": "css"
+        },
+        "www/order/module/remark/html.tmpl": {
+            "uri": "/static/www/order/module/remark/html_f692ab8.js",
+            "type": "js"
+        },
+        "www/order/module/remark/remark.js": {
+            "uri": "/static/www/order/module/remark/remark_b89fda5.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/order/module/remark/remark"
+            },
+            "deps": [
+                "www/common/module/popup/popup.js",
+                "www/order/module/remark/remark.less"
+            ]
+        },
+        "www/order/module/remark/remark.less": {
+            "uri": "/static/www/order/module/remark/remark_7867387.css",
+            "type": "css"
+        },
+        "www/order/static/style/order-vars.less": {
+            "uri": "/static/www/order/static/style/order-vars_d41d8cd.css",
+            "type": "css"
+        },
+        "www/order/widget/com/order_file_download/order_file_download.js": {
+            "uri": "/static/www/order/widget/com/order_file_download/order_file_download_268a722.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/order/widget/com/order_file_download/order_file_download"
+            },
+            "deps": [
+                "www/order/widget/com/order_file_download/order_file_download.less"
+            ]
+        },
+        "www/order/widget/com/order_file_download/order_file_download.less": {
+            "uri": "/static/www/order/widget/com/order_file_download/order_file_download_c9c352a.css",
+            "type": "css"
+        },
+        "www/order/widget/com/order_file_download/order_file_download.tpl": {
+            "uri": "www/order/widget/com/order_file_download/order_file_download_8df9ef0.tpl",
+            "type": "tpl",
+            "deps": [
+                "www/order/widget/com/order_file_download/order_file_download.js",
+                "www/order/widget/com/order_file_download/order_file_download.less"
+            ]
+        },
+        "www/order/widget/view/order_details/order_details.js": {
+            "uri": "/static/www/order/widget/view/order_details/order_details_27cb613.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/order/widget/view/order_details/order_details"
+            },
+            "deps": [
+                "www/order/module/edit_product/edit_product.js",
+                "www/order/module/confirm_product/confirm_product.js",
+                "www/common/module/cards/cards.js",
+                "www/order/module/comfirm_psw_pop/comfirm_psw_pop.js",
+                "www/order/widget/view/order_details/order_details.less"
+            ]
+        },
+        "www/order/widget/view/order_details/order_details.less": {
+            "uri": "/static/www/order/widget/view/order_details/order_details_277f0fa.css",
+            "type": "css"
+        },
+        "www/order/widget/view/order_details/order_details.tpl": {
+            "uri": "www/order/widget/view/order_details/order_details_495c914.tpl",
+            "type": "tpl",
+            "deps": [
+                "www/order/widget/view/order_details/order_details.js",
+                "www/order/widget/view/order_details/order_details.less"
+            ]
+        },
+        "www/order/widget/view/order_details/partial/box_info/box_info.js": {
+            "uri": "/static/www/order/widget/view/order_details/partial/box_info/box_info_f478c82.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/order/widget/view/order_details/partial/box_info/box_info"
+            },
+            "deps": [
+                "www/order/module/ensupe_pop/ensupe_pop.js",
+                "www/order/module/assign_pop/assign_pop.js",
+                "www/common/module/cards/cards.js",
+                "www/common/module/select/select.js",
+                "www/common/module/confirm/confirm.js",
+                "www/order/widget/view/order_details/partial/box_info/box_info.less"
+            ]
+        },
+        "www/order/widget/view/order_details/partial/box_info/tpl/box_details.tmpl": {
+            "uri": "/static/www/order/widget/view/order_details/partial/box_info/tpl/box_details_7916393.js",
+            "type": "js"
+        },
+        "www/order/widget/view/order_details/partial/box_info/box_info.less": {
+            "uri": "/static/www/order/widget/view/order_details/partial/box_info/box_info_c2b0680.css",
+            "type": "css"
+        },
+        "www/order/widget/view/order_details/partial/box_info/box_info.tpl": {
+            "uri": "www/order/widget/view/order_details/partial/box_info/box_info_5a0dda1.tpl",
+            "type": "tpl",
+            "deps": [
+                "www/order/widget/view/order_details/partial/box_info/box_info.js",
+                "www/order/widget/view/order_details/partial/box_info/box_info.less"
+            ]
+        },
+        "www/order/widget/view/order_trace/order_trace.js": {
+            "uri": "/static/www/order/widget/view/order_trace/order_trace_c09a08e.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/order/widget/view/order_trace/order_trace"
+            },
+            "deps": [
+                "www/order/widget/view/order_trace/order_trace.less"
+            ]
+        },
+        "www/order/widget/view/order_trace/order_trace.less": {
+            "uri": "/static/www/order/widget/view/order_trace/order_trace_1e378b6.css",
+            "type": "css"
+        },
+        "www/order/widget/view/order_trace/order_trace.tpl": {
+            "uri": "www/order/widget/view/order_trace/order_trace_44be9e4.tpl",
+            "type": "tpl",
+            "deps": [
+                "www/order/widget/view/order_trace/order_trace.js",
+                "www/order/widget/view/order_trace/order_trace.less"
+            ]
+        },
+        "www/order/widget/view/order_trace/templete/order_trace_details/order_trace_details.js": {
+            "uri": "/static/www/order/widget/view/order_trace/templete/order_trace_details/order_trace_details_aea56b5.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/order/widget/view/order_trace/templete/order_trace_details/order_trace_details"
+            },
+            "deps": [
+                "www/common/module/map/map.js",
+                "www/order/widget/view/order_trace/templete/order_trace_details/order_trace_details.less"
+            ]
+        },
+        "www/order/widget/view/order_trace/templete/order_trace_details/tpl/infoWindow.tmpl": {
+            "uri": "/static/www/order/widget/view/order_trace/templete/order_trace_details/tpl/infoWindow_de40995.js",
+            "type": "js"
+        },
+        "www/order/widget/view/order_trace/templete/order_trace_details/order_trace_details.less": {
+            "uri": "/static/www/order/widget/view/order_trace/templete/order_trace_details/order_trace_details_b0999ed.css",
+            "type": "css"
+        },
+        "www/order/widget/view/order_trace/templete/order_trace_details/order_trace_details.tpl": {
+            "uri": "www/order/widget/view/order_trace/templete/order_trace_details/order_trace_details_066ef00.tpl",
+            "type": "tpl",
+            "deps": [
+                "www/order/widget/view/order_trace/templete/order_trace_details/order_trace_details.js",
+                "www/order/widget/view/order_trace/templete/order_trace_details/order_trace_details.less"
+            ]
+        },
+        "www/order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar.js": {
+            "uri": "/static/www/order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar_c752517.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "www/order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar"
+            },
+            "deps": [
+                "www/order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar.less"
+            ]
+        },
+        "www/order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar.less": {
+            "uri": "/static/www/order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar_023645a.css",
+            "type": "css"
+        },
+        "www/order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar.tpl": {
+            "uri": "www/order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar_c492da4.tpl",
+            "type": "tpl",
+            "deps": [
+                "www/order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar.js",
+                "www/order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar.less"
+            ]
+        },
+        "index/partial/error/error.less": {
+            "uri": "/static/index/partial/error/error_c5cc88e.css",
+            "type": "css",
+            "pkg": "p5"
+        },
+        "index/partial/error/error.tpl": {
+            "uri": "index/partial/error/error_95dc8f0.tpl",
+            "type": "tpl",
+            "deps": [
+                "index/partial/error/error.less"
+            ]
+        },
+        "index/partial/index/index.jsx": {
+            "uri": "/static/index/partial/index/index_6168958.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "index/partial/index/index"
+            },
+            "deps": [
+                "index/partial/index/index.less"
+            ],
+            "pkg": "p6"
+        },
+        "index/partial/index/index.less": {
+            "uri": "/static/index/partial/index/index_f91d32e.css",
+            "type": "css",
+            "pkg": "p5"
+        },
+        "index/partial/index/index.tpl": {
+            "uri": "index/partial/index/index_3f17dff.tpl",
+            "type": "tpl",
+            "deps": [
+                "index/partial/index/index.jsx",
+                "index/partial/index/index.less"
+            ]
+        },
+        "index/partial/login/login.jsx": {
+            "uri": "/static/index/partial/login/login_340639a.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "index/partial/login/login"
+            },
+            "deps": [
+                "index/partial/login/login.less"
+            ],
+            "pkg": "p6"
+        },
+        "index/partial/login/login.less": {
+            "uri": "/static/index/partial/login/login_53fde72.css",
+            "type": "css",
+            "pkg": "p5"
+        },
+        "index/partial/login/login.tpl": {
+            "uri": "index/partial/login/login_970b5a4.tpl",
+            "type": "tpl",
+            "deps": [
+                "index/partial/login/login.jsx",
+                "index/partial/login/login.less"
+            ]
+        },
+        "user/module/api/api.jsx": {
+            "uri": "/static/user/module/api/api_6d538c9.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "user/module/api/api"
+            },
+            "pkg": "p7"
+        },
+        "user/module/pop_userDetail/pop_userDetail.jsx": {
+            "uri": "/static/user/module/pop_userDetail/pop_userDetail_d072da2.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "user/module/pop_userDetail/pop_userDetail"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "user/module/api/api.jsx",
+                "user/module/pop_userDetail/pop_userDetail.less"
+            ],
+            "pkg": "p7"
+        },
+        "user/module/pop_userDetail/pop_userDetail.less": {
+            "uri": "/static/user/module/pop_userDetail/pop_userDetail_9d8bc12.css",
+            "type": "css",
+            "pkg": "p8"
+        },
+        "user/partial/agent/agent.jsx": {
+            "uri": "/static/user/partial/agent/agent_e0d4a3c.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "user/partial/agent/agent"
+            },
+            "deps": [
+                "common/widget/table/table.jsx",
+                "common/module/util/util.jsx",
+                "user/module/pop_userDetail/pop_userDetail.jsx",
+                "user/module/api/api.jsx",
+                "user/partial/agent/agent.less"
+            ],
+            "pkg": "p7"
+        },
+        "user/partial/agent/agent.less": {
+            "uri": "/static/user/partial/agent/agent_194b400.css",
+            "type": "css",
+            "pkg": "p8"
+        },
+        "user/partial/agent/agent.tpl": {
+            "uri": "user/partial/agent/agent_4ab8be3.tpl",
+            "type": "tpl",
+            "deps": [
+                "user/partial/agent/agent.jsx",
+                "user/partial/agent/agent.less"
+            ]
+        },
+        "user/partial/carteam/carteam.jsx": {
+            "uri": "/static/user/partial/carteam/carteam_08b130d.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "user/partial/carteam/carteam"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "common/widget/table/table.jsx",
+                "user/module/pop_userDetail/pop_userDetail.jsx",
+                "user/module/api/api.jsx",
+                "user/partial/carteam/carteam.less"
+            ],
+            "pkg": "p7"
+        },
+        "user/partial/carteam/carteam.less": {
+            "uri": "/static/user/partial/carteam/carteam_194b400.css",
+            "type": "css",
+            "pkg": "p8"
+        },
+        "user/partial/carteam/carteam.tpl": {
+            "uri": "user/partial/carteam/carteam_52c5ccb.tpl",
+            "type": "tpl",
+            "deps": [
+                "user/partial/carteam/carteam.jsx",
+                "user/partial/carteam/carteam.less"
+            ]
+        },
+        "user/partial/driver/driver.jsx": {
+            "uri": "/static/user/partial/driver/driver_954be45.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "user/partial/driver/driver"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "user/partial/driver/driver.less"
+            ],
+            "pkg": "p7"
+        },
+        "user/partial/driver/driver.less": {
+            "uri": "/static/user/partial/driver/driver_d29f803.css",
+            "type": "css",
+            "pkg": "p8"
+        },
+        "user/partial/driver/driver.tpl": {
+            "uri": "user/partial/driver/driver_f7b4a5b.tpl",
+            "type": "tpl",
+            "deps": [
+                "user/partial/driver/driver.jsx",
+                "user/partial/driver/driver.less"
+            ]
+        },
+        "order/module/pop_orderManager/pop_orderManager.jsx": {
+            "uri": "/static/order/module/pop_orderManager/pop_orderManager_c933ae4.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/module/pop_orderManager/pop_orderManager"
+            },
+            "deps": [
+                "common/module/util/util.jsx"
+            ],
+            "pkg": "p9"
+        },
+        "order/partial/all/all.jsx": {
+            "uri": "/static/order/partial/all/all_c8aec5b.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/partial/all/all"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "order/module/pop_orderManager/pop_orderManager.jsx",
+                "order/partial/all/all.less"
+            ],
+            "pkg": "p9"
+        },
+        "order/partial/all/all.less": {
+            "uri": "/static/order/partial/all/all_72700b8.css",
+            "type": "css",
+            "pkg": "p10"
+        },
+        "order/partial/all/all.tpl": {
+            "uri": "order/partial/all/all_c9ccd58.tpl",
+            "type": "tpl",
+            "deps": [
+                "order/partial/all/all.jsx",
+                "order/partial/all/all.less"
+            ]
+        },
+        "order/partial/my/my.jsx": {
+            "uri": "/static/order/partial/my/my_1160b3b.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/partial/my/my"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "order/partial/my/my.less"
+            ],
+            "pkg": "p9"
+        },
+        "order/partial/my/my.less": {
+            "uri": "/static/order/partial/my/my_194b400.css",
+            "type": "css",
+            "pkg": "p10"
+        },
+        "order/partial/my/my.tpl": {
+            "uri": "order/partial/my/my_f38a189.tpl",
+            "type": "tpl",
+            "deps": [
+                "order/partial/my/my.jsx",
+                "order/partial/my/my.less"
+            ]
+        },
+        "resource/module/citycode/citycode.jsx": {
+            "uri": "/static/resource/module/citycode/citycode_25b3c66.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "resource/module/citycode/citycode"
+            },
+            "pkg": "p11"
+        },
+        "resource/module/ship_com/ship_com.jsx": {
+            "uri": "/static/resource/module/ship_com/ship_com_0ffa50e.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "resource/module/ship_com/ship_com"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "resource/module/ship_com/ship_com.less"
+            ],
+            "pkg": "p11"
+        },
+        "resource/module/ship_com/ship_com.less": {
+            "uri": "/static/resource/module/ship_com/ship_com_ff56255.css",
+            "type": "css",
+            "pkg": "p12"
+        },
+        "resource/module/ship_edit/ship_edit.jsx": {
+            "uri": "/static/resource/module/ship_edit/ship_edit_fd79f57.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "resource/module/ship_edit/ship_edit"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "resource/module/ship_edit/ship_edit.less"
+            ],
+            "pkg": "p11"
+        },
+        "resource/module/ship_edit/ship_edit.less": {
+            "uri": "/static/resource/module/ship_edit/ship_edit_ff56255.css",
+            "type": "css",
+            "pkg": "p12"
+        },
+        "resource/partial/ship/ship.jsx": {
+            "uri": "/static/resource/partial/ship/ship_b191e8d.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "resource/partial/ship/ship"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "resource/module/ship_edit/ship_edit.jsx",
+                "resource/partial/ship/ship.less"
+            ],
+            "pkg": "p11"
+        },
+        "resource/partial/ship/ship.less": {
+            "uri": "/static/resource/partial/ship/ship_194b400.css",
+            "type": "css",
+            "pkg": "p12"
+        },
+        "resource/partial/ship/ship.tpl": {
+            "uri": "resource/partial/ship/ship_0dc56fa.tpl",
+            "type": "tpl",
+            "deps": [
+                "resource/partial/ship/ship.jsx",
+                "resource/partial/ship/ship.less"
+            ]
+        },
+        "resource/partial/ship_company/ship_company.jsx": {
+            "uri": "/static/resource/partial/ship_company/ship_company_e6ec3f5.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "resource/partial/ship_company/ship_company"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "resource/module/ship_com/ship_com.jsx",
+                "resource/partial/ship_company/ship_company.less"
+            ],
+            "pkg": "p11"
+        },
+        "resource/partial/ship_company/ship_company.less": {
+            "uri": "/static/resource/partial/ship_company/ship_company_194b400.css",
+            "type": "css",
+            "pkg": "p12"
+        },
+        "resource/partial/ship_company/ship_company.tpl": {
+            "uri": "resource/partial/ship_company/ship_company_614e609.tpl",
+            "type": "tpl",
+            "deps": [
+                "resource/partial/ship_company/ship_company.jsx",
+                "resource/partial/ship_company/ship_company.less"
+            ]
+        },
+        "resource/partial/yard/yard.jsx": {
+            "uri": "/static/resource/partial/yard/yard_fe1c453.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "resource/partial/yard/yard"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "resource/partial/yard/yard.less"
+            ],
+            "pkg": "p11"
+        },
+        "resource/partial/yard/yard.less": {
+            "uri": "/static/resource/partial/yard/yard_194b400.css",
+            "type": "css",
+            "pkg": "p12"
+        },
+        "resource/partial/yard/yard.tpl": {
+            "uri": "resource/partial/yard/yard_461cdee.tpl",
+            "type": "tpl",
+            "deps": [
+                "resource/partial/yard/yard.jsx",
+                "resource/partial/yard/yard.less"
+            ]
+        },
+        "resource/partial/yard_detail/yard_detail.jsx": {
+            "uri": "/static/resource/partial/yard_detail/yard_detail_c009a49.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "resource/partial/yard_detail/yard_detail"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "resource/module/citycode/citycode.jsx",
+                "resource/partial/yard_detail/yard_detail.less"
+            ],
+            "pkg": "p11"
+        },
+        "resource/partial/yard_detail/yard_detail.less": {
+            "uri": "/static/resource/partial/yard_detail/yard_detail_db95a8a.css",
+            "type": "css",
+            "pkg": "p12"
+        },
+        "resource/partial/yard_detail/yard_detail.tpl": {
+            "uri": "resource/partial/yard_detail/yard_detail_3b7cd78.tpl",
+            "type": "tpl",
+            "deps": [
+                "resource/partial/yard_detail/yard_detail.jsx",
+                "resource/partial/yard_detail/yard_detail.less"
+            ]
+        },
+        "admin/module/group/pop_alluser.jsx": {
+            "uri": "/static/admin/module/group/pop_alluser_35c09d6.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "admin/module/group/pop_alluser"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "admin/module/group/pop_alluser.less"
+            ],
+            "pkg": "p13"
+        },
+        "admin/module/group/pop_alluser.less": {
+            "uri": "/static/admin/module/group/pop_alluser_620d1f5.css",
+            "type": "css",
+            "pkg": "p14"
+        },
+        "admin/module/user/adduser.jsx": {
+            "uri": "/static/admin/module/user/adduser_9af5dfe.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "admin/module/user/adduser"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "admin/module/user/adduser.less"
+            ],
+            "pkg": "p13"
+        },
+        "admin/module/user/adduser.less": {
+            "uri": "/static/admin/module/user/adduser_ff56255.css",
+            "type": "css",
+            "pkg": "p14"
+        },
+        "admin/partial/group/group.jsx": {
+            "uri": "/static/admin/partial/group/group_7187b44.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "admin/partial/group/group"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "admin/module/group/pop_alluser.jsx",
+                "admin/partial/group/group.less"
+            ],
+            "pkg": "p13"
+        },
+        "admin/partial/group/group.less": {
+            "uri": "/static/admin/partial/group/group_bf7a8d2.css",
+            "type": "css",
+            "pkg": "p14"
+        },
+        "admin/partial/group/group.tpl": {
+            "uri": "admin/partial/group/group_cdce235.tpl",
+            "type": "tpl",
+            "deps": [
+                "admin/partial/group/group.jsx",
+                "admin/partial/group/group.less"
+            ]
+        },
+        "admin/partial/role/role.jsx": {
+            "uri": "/static/admin/partial/role/role_31393b1.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "admin/partial/role/role"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "admin/partial/role/role.less"
+            ],
+            "pkg": "p13"
+        },
+        "admin/partial/role/role.less": {
+            "uri": "/static/admin/partial/role/role_4c2b4a2.css",
+            "type": "css",
+            "pkg": "p14"
+        },
+        "admin/partial/role/role.tpl": {
+            "uri": "admin/partial/role/role_e020d28.tpl",
+            "type": "tpl",
+            "deps": [
+                "admin/partial/role/role.jsx",
+                "admin/partial/role/role.less"
+            ]
+        },
+        "admin/partial/user/user.jsx": {
+            "uri": "/static/admin/partial/user/user_25ca351.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "admin/partial/user/user"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "admin/module/user/adduser.jsx",
+                "admin/partial/user/user.less"
+            ],
+            "pkg": "p13"
+        },
+        "admin/partial/user/user.less": {
+            "uri": "/static/admin/partial/user/user_194b400.css",
+            "type": "css",
+            "pkg": "p14"
+        },
+        "admin/partial/user/user.tpl": {
+            "uri": "admin/partial/user/user_654c60f.tpl",
+            "type": "tpl",
+            "deps": [
+                "admin/partial/user/user.jsx",
+                "admin/partial/user/user.less"
+            ]
+        },
+        "admin/partial/userinfo/userinfo.jsx": {
+            "uri": "/static/admin/partial/userinfo/userinfo_b3a2aa4.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "admin/partial/userinfo/userinfo"
+            },
+            "deps": [
+                "common/module/util/util.jsx",
+                "admin/module/user/adduser.jsx",
+                "admin/partial/userinfo/userinfo.less"
+            ],
+            "pkg": "p13"
+        },
+        "admin/partial/userinfo/userinfo.less": {
+            "uri": "/static/admin/partial/userinfo/userinfo_d41d8cd.css",
+            "type": "css",
+            "pkg": "p14"
+        },
+        "admin/partial/userinfo/userinfo.tpl": {
+            "uri": "admin/partial/userinfo/userinfo_6eec6ae.tpl",
+            "type": "tpl",
+            "deps": [
+                "admin/partial/userinfo/userinfo.jsx",
+                "admin/partial/userinfo/userinfo.less"
+            ]
+        },
+        "admin/static/css/common_role.less": {
+            "uri": "/static/admin/static/css/common_role_4c2b4a2.css",
+            "type": "css",
+            "pkg": "p14"
+        },
+        "bower_components/normalize-css/normalize.css": {
+            "uri": "/static/bower_components/normalize-css/normalize_dd5983a.css",
+            "type": "css",
+            "pkg": "p0"
+        },
+        "bower_components/es5-shim/es5-shim.js": {
+            "uri": "/static/bower_components/es5-shim/es5-shim_5d01eeb.js",
+            "type": "js",
+            "pkg": "p2"
+        },
+        "bower_components/jquery/dist/jquery.min.js": {
+            "uri": "/static/bower_components/jquery/dist/jquery.min_f9c7afd.js",
+            "type": "js",
+            "pkg": "p2"
+        },
+        "bower_components/react/react.min.js": {
+            "uri": "/static/bower_components/react/react.min_c3b6b1b.js",
+            "type": "js",
+            "pkg": "p1"
+        },
+        "bower_components/react/JSXTransformer.js": {
+            "uri": "/static/bower_components/react/JSXTransformer_bcadfc7.js",
+            "type": "js",
+            "pkg": "p1"
+        },
+        "bower_components/echarts/build/dist/echarts-all.js": {
+            "uri": "/static/bower_components/echarts/build/dist/echarts-all_1ecf36f.js",
+            "type": "js"
+        }
+    },
+    "pkg": {
+        "p0": {
+            "uri": "/static/pkg/libs/base_42c2652.css",
+            "type": "css",
+            "has": [
+                "assets/css/base.less",
+                "assets/css/iconfont/iconfont.css",
+                "bower_components/normalize-css/normalize.css"
+            ]
+        },
+        "p1": {
+            "uri": "/static/pkg/libs/react_7e16f88.js",
+            "type": "js",
+            "has": [
+                "bower_components/react/JSXTransformer.js",
+                "bower_components/react/react.min.js",
+                "assets/lib/antd/antd-0.8.0.min.js"
+            ],
+            "deps": [
+                "react"
+            ]
+        },
+        "p2": {
+            "uri": "/static/pkg/libs/libs_56f7711.js",
+            "type": "js",
+            "has": [
+                "assets/lib/mod.js",
+                "bower_components/es5-shim/es5-shim.js",
+                "bower_components/jquery/dist/jquery.min.js"
+            ]
+        },
+        "p3": {
+            "uri": "/static/pkg/js/common_2d43302.js",
+            "type": "js",
+            "has": [
+                "common/module/es6/es6.jsx",
+                "common/module/popup/popup.jsx",
+                "common/module/util/util.jsx",
+                "common/module/upload/upload.jsx",
+                "common/widget/header/header.jsx",
+                "common/widget/pager/pager.jsx",
+                "common/widget/table/date_filter.tpl/date.jsx",
+                "common/widget/table/table.jsx"
+            ],
+            "deps": [
+                "common/widget/header/header.less",
+                "common/widget/pager/pager.less"
+            ]
+        },
+        "p4": {
+            "uri": "/static/pkg/css/common_6a5ff0f.css",
+            "type": "css",
+            "has": [
+                "common/widget/header/header.less",
+                "common/widget/nav/nav.less",
+                "common/widget/pager/pager.less"
+            ]
+        },
+        "p5": {
+            "uri": "/static/pkg/css/index_12f8c37.css",
+            "type": "css",
+            "has": [
+                "index/partial/error/error.less",
+                "index/partial/index/index.less",
+                "index/partial/login/login.less"
+            ]
+        },
+        "p6": {
+            "uri": "/static/pkg/js/index_3359c97.js",
+            "type": "js",
+            "has": [
+                "index/partial/index/index.jsx",
+                "index/partial/login/login.jsx"
+            ],
+            "deps": [
+                "index/partial/index/index.less",
+                "index/partial/login/login.less"
+            ]
+        },
+        "p7": {
+            "uri": "/static/pkg/js/user_684f678.js",
+            "type": "js",
+            "has": [
+                "user/module/api/api.jsx",
+                "user/module/pop_userDetail/pop_userDetail.jsx",
+                "user/partial/agent/agent.jsx",
+                "user/partial/carteam/carteam.jsx",
+                "user/partial/driver/driver.jsx"
+            ],
+            "deps": [
+                "common/module/util/util.jsx",
+                "user/module/pop_userDetail/pop_userDetail.less",
+                "common/widget/table/table.jsx",
+                "user/partial/agent/agent.less",
+                "user/partial/carteam/carteam.less",
+                "user/partial/driver/driver.less"
+            ]
+        },
+        "p8": {
+            "uri": "/static/pkg/css/user_c5a1878.css",
+            "type": "css",
+            "has": [
+                "user/module/pop_userDetail/pop_userDetail.less",
+                "user/partial/agent/agent.less",
+                "user/partial/carteam/carteam.less",
+                "user/partial/driver/driver.less"
+            ]
+        },
+        "p9": {
+            "uri": "/static/pkg/js/order_6dadd5c.js",
+            "type": "js",
+            "has": [
+                "order/module/pop_orderManager/pop_orderManager.jsx",
+                "order/partial/all/all.jsx",
+                "order/partial/my/my.jsx"
+            ],
+            "deps": [
+                "common/module/util/util.jsx",
+                "order/partial/all/all.less",
+                "order/partial/my/my.less"
+            ]
+        },
+        "p10": {
+            "uri": "/static/pkg/css/order_d6f2877.css",
+            "type": "css",
+            "has": [
+                "order/partial/all/all.less",
+                "order/partial/my/my.less"
+            ]
+        },
+        "p11": {
+            "uri": "/static/pkg/js/resource_2a1c05f.js",
+            "type": "js",
+            "has": [
+                "resource/module/citycode/citycode.jsx",
+                "resource/module/ship_com/ship_com.jsx",
+                "resource/module/ship_edit/ship_edit.jsx",
+                "resource/partial/ship/ship.jsx",
+                "resource/partial/ship_company/ship_company.jsx",
+                "resource/partial/yard/yard.jsx",
+                "resource/partial/yard_detail/yard_detail.jsx"
+            ],
+            "deps": [
+                "common/module/util/util.jsx",
+                "resource/module/ship_com/ship_com.less",
+                "resource/module/ship_edit/ship_edit.less",
+                "resource/partial/ship/ship.less",
+                "resource/partial/ship_company/ship_company.less",
+                "resource/partial/yard/yard.less",
+                "resource/partial/yard_detail/yard_detail.less"
+            ]
+        },
+        "p12": {
+            "uri": "/static/pkg/css/resource_1f9ec86.css",
+            "type": "css",
+            "has": [
+                "resource/module/ship_com/ship_com.less",
+                "resource/module/ship_edit/ship_edit.less",
+                "resource/partial/ship/ship.less",
+                "resource/partial/ship_company/ship_company.less",
+                "resource/partial/yard/yard.less",
+                "resource/partial/yard_detail/yard_detail.less"
+            ]
+        },
+        "p13": {
+            "uri": "/static/pkg/js/admin_8302a36.js",
+            "type": "js",
+            "has": [
+                "admin/module/group/pop_alluser.jsx",
+                "admin/module/user/adduser.jsx",
+                "admin/partial/group/group.jsx",
+                "admin/partial/role/role.jsx",
+                "admin/partial/user/user.jsx",
+                "admin/partial/userinfo/userinfo.jsx"
+            ],
+            "deps": [
+                "common/module/util/util.jsx",
+                "admin/module/group/pop_alluser.less",
+                "admin/module/user/adduser.less",
+                "admin/partial/group/group.less",
+                "admin/partial/role/role.less",
+                "admin/partial/user/user.less",
+                "admin/partial/userinfo/userinfo.less"
+            ]
+        },
+        "p14": {
+            "uri": "/static/pkg/css/admin_641708d.css",
+            "type": "css",
+            "has": [
+                "admin/module/group/pop_alluser.less",
+                "admin/module/user/adduser.less",
+                "admin/partial/group/group.less",
+                "admin/partial/role/role.less",
+                "admin/partial/user/user.less",
+                "admin/partial/userinfo/userinfo.less",
+                "admin/static/css/common_role.less"
+            ]
+        }
+    }
+}

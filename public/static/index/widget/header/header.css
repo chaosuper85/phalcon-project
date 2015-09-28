@@ -1,0 +1,107 @@
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+.header-second {
+  width: 100%;
+  min-width: 1000px;
+  max-width: 1240px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+  position: relative;
+}
+.header-second .logo {
+  height: 33px;
+  width: 138px;
+  margin-top: 23px;
+  margin-left: 15px;
+  float: left;
+}
+.header-second div.right {
+  height: 80px;
+}
+.header-second div.right a {
+  color: #333;
+  line-height: 80px;
+  height: 80px;
+  display: inline-block;
+  font-size: 14px;
+  padding: 0 20px;
+  float: left;
+}
+.header-second div.right span {
+  display: inline-block;
+  float: left;
+  line-height: 80px;
+  color: #333;
+  font-size: 14px;
+}
+.header-second div.right .header-app i {
+  background: url('/static/common/static/image/icon_phone.png?__sprite');
+  float: left;
+  height: 16px;
+  width: 10px;
+  margin-top: 32px;
+  margin-right: 4px;
+}
+.header-second div.right .service-phone i {
+  background: url('/static/index/static/image/phone-b.png?__sprite');
+  float: left;
+  height: 14px;
+  width: 14px;
+  margin-top: 32px;
+  margin-right: 4px;
+}
+.header-second.home div.right a {
+  color: #fff;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-delay: 0s;
+  -webkit-transition-timing-function: ease;
+  -o-transition-property: color;
+  -o-transition-duration: 0.5s;
+  -o-transition-delay: 0s;
+  -o-transition-timing-function: ease;
+  -moz-transition-property: color;
+  -moz-transition-duration: 0.5s;
+  -moz-transition-delay: 0s;
+  -moz-transition-timing-function: ease;
+}
+.header-second.home div.right a:hover {
+  color: #e6e6e6;
+}
+.header-second.home div.right span {
+  color: #fff;
+}
+.header-second.home div.right .header-app i {
+  background: url('/static/common/static/image/icon_phone_write.png?__sprite');
+}
+.header-second.home div.right .service-phone i {
+  background: url('/static/index/static/image/phone.png?__sprite');
+}

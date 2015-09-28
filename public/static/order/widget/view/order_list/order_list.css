@@ -1,0 +1,389 @@
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+.user-content {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+  width: 980px;
+  margin-top: 20px;
+  margin-left: 20px;
+  min-height: 600px;
+  padding-bottom: 35px;
+}
+.user-content h3 {
+  font-family: 'Microsoft YaHei';
+  font-size: 16px;
+  height: 22px;
+  line-height: 22px;
+  background: #eff5f6;
+  padding: 10px 20px;
+  border-bottom: #e7ecec;
+}
+.user-content dl {
+  width: 100%;
+  padding-top: 10px;
+}
+.user-content dl dd {
+  margin-top: 25px;
+}
+.user-content dl dd .title,
+.user-content dl dd .content {
+  line-height: 40px;
+  float: left;
+  font-size: 16px;
+}
+.user-content dl dd .title {
+  margin-left: 80px;
+  color: #697886;
+  width: 200px;
+  text-align: right;
+  margin-right: 25px;
+}
+.user-content dl dd .title .must {
+  color: #fd6620;
+  margin-right: 3px;
+}
+.user-content dl dd .content {
+  color: #263241;
+}
+.user-content dl dd .content input {
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  padding: 8px;
+  width: 350px;
+}
+.user-btn {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  padding: 0 15px;
+  background: #6fd1de;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Microsoft YaHei';
+}
+.user-btn:hover {
+  background: #68cbd8;
+}
+.btn-wrap {
+  position: relative;
+  height: 36px;
+  width: 100px;
+  cursor: pointer;
+  margin-top: 2px;
+}
+.btn-wrap input {
+  width: 100px!important;
+  height: 36px!important;
+  padding: 0!important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.btn-wrap .user-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100px;
+  padding: 0!important;
+}
+.btn-wrap:hover .user-btn {
+  background: #68cbd8;
+}
+.submit-wrap {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.submit-wrap .user-btn {
+  background: #fd6620;
+  width: 240px;
+  padding: 5px 15px;
+  margin-left: 375px;
+  font-size: 16px;
+  -webkit-box-shadow: #999 2px 2px 4px;
+  -moz-box-shadow: #999 2px 2px 4px;
+  box-shadow: #999 2px 2px 4px;
+}
+.submit-wrap .user-btn:hover {
+  background: #fd5c11;
+}
+.submit-wrap .submit-tip {
+  color: red;
+  margin-left: 10px;
+}
+#order-list table {
+  width: 100%;
+  text-align: center;
+}
+#order-list .nav tr {
+  height: 70px;
+  line-height: 70px;
+}
+#order-list .nav tr td.cut {
+  width: 1px;
+  background: #d8dfe5;
+}
+#order-list .nav tr td {
+  border-bottom: 1px solid #d8dfe5;
+  background: #eff4f7;
+}
+#order-list .nav tr td:hover {
+  background: #ecf2f5;
+}
+#order-list .nav tr td a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  color: #6a7179;
+}
+#order-list .nav tr td a span {
+  color: #92a0ac;
+}
+#order-list .nav tr td.active {
+  color: #6bd1df;
+  background: #ffffff;
+  border: none;
+  border-bottom: none;
+}
+#order-list .order-search-form {
+  height: 80px;
+  background: #ffffff;
+  line-height: 80px;
+  padding-left: 30px;
+  position: relative;
+}
+#order-list .order-search-form .search-box {
+  width: 330px;
+  height: 40px;
+  border: solid 1px #919faa;
+  padding-left: 105px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+#order-list .order-search-form .search-btn {
+  width: 95px;
+  height: 40px;
+  border: none;
+  background: #6bd1df;
+  color: #ffffff;
+  margin-left: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+#order-list .order-search-form .search-btn:hover {
+  cursor: pointer;
+}
+#order-list .order-search-form .select-container {
+  position: absolute;
+  left: 45px;
+  top: 23px;
+  color: #666;
+}
+#order-list .order-search-form .select-container #searchTypeSelector {
+  border: 0px;
+}
+#order-list .order-search-form .select-container #searchTypeSelector .select-box {
+  border-top: 0px;
+  border-left: 0px;
+  border-bottom: 0px;
+  border-radius: 0;
+}
+#order-list .order-search-form .search-icon {
+  width: 15px;
+  height: 15px;
+  display: block;
+  position: absolute;
+  background: url('/static/user/static/image/search.png?__sprite');
+  top: 35px;
+  left: 40px;
+}
+#order-list .order-search-form .clear-btn {
+  position: relative;
+  top: 6px;
+  right: 155px;
+  font-size: 25px;
+  color: #FFF;
+  cursor: pointer;
+  background: rgba(225, 230, 236, 0.6);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 3px;
+}
+#order-list .order-search-form .clear-btn:hover {
+  background: #e1e6ec;
+}
+#order-list .order-search {
+  height: 80px;
+  background: #ffffff;
+}
+#order-list .order-search .search {
+  line-height: 80px;
+  padding-left: 30px;
+  position: relative;
+}
+#order-list table.content {
+  border-top: solid 1px #d8dfe5;
+}
+#order-list table.content th,
+#order-list table.content tr,
+#order-list table.content td {
+  vertical-align: middle;
+}
+#order-list table.content tr {
+  border-bottom: solid 1px #d8dfe5;
+}
+#order-list table.content thead {
+  height: 50px;
+  line-height: 50px;
+  color: #919fac;
+  background: #ffffff;
+  font-size: 14px;
+  font-family: 'Microsoft YaHei';
+}
+#order-list table.content tr.item-head {
+  height: 30px;
+  line-height: 30px;
+  background: #f7f7f7;
+  font-size: 13px;
+  color: #555;
+}
+#order-list table.content tr.item-head .left {
+  margin-left: 20px;
+}
+#order-list table.content tr.item-head .right {
+  margin-right: 20px;
+}
+#order-list table.content tr.item-content {
+  height: 100px;
+}
+#order-list table.content tr.item-content td {
+  position: relative;
+  font-size: 14px;
+  color: #333;
+  padding: 0 18px;
+  border-right: solid 1px #d8dfe5;
+}
+#order-list table.content tr.item-content td p {
+  line-height: 20px;
+  padding-bottom: 5px;
+}
+#order-list table.content tr.item-content td p.top {
+  padding-top: 16px;
+  font-size: 14px;
+  font-weight: bold;
+}
+#order-list table.content tr.item-content td p.bottom {
+  color: #2983cf;
+  font-size: 12px;
+}
+#order-list table.content tr.item-content td a {
+  line-height: 20px;
+}
+#order-list table.content tr.item-content td a.user-btn {
+  padding: 5px 10px;
+  height: auto;
+}
+#order-list table.content tr.item-content td .box-type {
+  background: #e1e6ec;
+  padding: 2px 5px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+#order-list table.content tr.item-content td.last {
+  border-right: none;
+}
+#order-list table.content tr.item-content td.last ul.star-wrapper {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#order-list table.content tr.item-content td.last ul.star-wrapper li {
+  float: left;
+  padding: 2px;
+  cursor: pointer;
+}
+#order-list table.content tr.item-content td.last ul.star-wrapper li span {
+  width: 16px;
+  height: 15px;
+  display: block;
+  background: url('/static/order/static/image/star_off_s.png?__sprite');
+}
+#order-list table.content tr.item-content td.last ul.star-wrapper li.on span {
+  background: url('/static/order/static/image/star_on_s.png?__sprite');
+}
+#order-list table.content tr.item-content .icon-export {
+  display: block;
+  width: 48px;
+  height: 46px;
+  background: url('/static/order/static/image/export.png?__sprite');
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#order-list #no_order_list_c,
+#order-list #no_order_list_f {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  text-align: center;
+  line-height: 37px;
+  font-size: 16px;
+}
+#order-list #no_order_list_c .choose_order,
+#order-list #no_order_list_f .choose_order {
+  color: #57c5f7;
+}
+#order-list #no_order_list_c .choose_order:hover,
+#order-list #no_order_list_f .choose_order:hover {
+  text-decoration: underline;
+}
+#order-list #no_order_list_c .tel-text,
+#order-list #no_order_list_f .tel-text {
+  color: #57c5f7;
+  height: 37px;
+}
+#order-list #no_order_list_c .tel-text a,
+#order-list #no_order_list_f .tel-text a {
+  color: #57c5f7;
+}
+#order-list #no_order_list_c .tel-text a:hover,
+#order-list #no_order_list_f .tel-text a:hover {
+  text-decoration: underline;
+}

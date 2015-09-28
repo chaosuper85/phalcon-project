@@ -1,0 +1,95 @@
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+#passwordConfirm {
+  padding: 25px 20px;
+}
+#passwordConfirm .logo {
+  width: 140px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: url('/static/common/static/image/logo.png') no-repeat;
+}
+#passwordConfirm dl dd {
+  position: relative;
+  margin-top: 25px;
+}
+#passwordConfirm dl dd input {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  width: 260px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 15px;
+  padding: 12px 14px;
+  border: 1px solid #c9ced2;
+}
+#passwordConfirm dl dd input#login-captcha {
+  width: 150px;
+}
+#passwordConfirm dl dd .captcha-wrap {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #c9ced2;
+  height: 44px;
+  width: 100px;
+  float: right;
+}
+#passwordConfirm dl dd span {
+  display: block;
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  width: 20px;
+  height: 20px;
+}
+#passwordConfirm dl dd span.icon-pass {
+  background: url('/static/common/static/image/icon_lock.png?__sprite');
+}
+#passwordConfirm #quit_tip {
+  text-align: right;
+  color: red;
+  font-size: 13px;
+  padding: 10px 0;
+  height: 13px;
+}
+#passwordConfirm #confirm_submit {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+  background: #fa8a2f;
+  width: 290px;
+  padding: 14px 0;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Microsoft YaHei';
+}
+#passwordConfirm #confirm_submit:hover {
+  background: #f78122;
+}

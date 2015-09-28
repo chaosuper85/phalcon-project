@@ -1,0 +1,38 @@
+.XDD_searchBox_container {
+  position: relative;
+  z-index: 20;
+}
+.XDD_searchBox_container .XDD_searchBox_result {
+  position: absolute;
+  z-index: 20;
+  left: 0px;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #caced2;
+  border-top: 0px;
+  background-color: #fff;
+  display: none;
+}
+.XDD_searchBox_container .XDD_searchBox_result li {
+  border-top: 1px solid #D0DCE9;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.XDD_searchBox_container .XDD_searchBox_result li a {
+  display: block;
+  color: #575C5B;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.XDD_searchBox_container .XDD_searchBox_result li.hover {
+  background-color: #EDF2FB;
+}
+.XDD_searchBox_container .XDD_searchBox_result li.active {
+  background-color: #4680d4;
+}
+.XDD_searchBox_container .XDD_searchBox_result li.active a {
+  color: #fff;
+}

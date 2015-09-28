@@ -1,0 +1,14 @@
+/* 删除icon */
+.delTimeBtn {
+  position: absolute;
+  display: block;
+  top: 50%;
+  right: 5px;
+  margin-top: -16px;
+}
+.delTimeBtn .icon-del-timeBox {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url('/static/www/common/static/image/icon-del.png?__sprite');
+}

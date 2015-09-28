@@ -1,0 +1,955 @@
+.employee-header #header-content {
+  height: 70px;
+  line-height: 70px;
+  font-size: 20px;
+  font-family: 'Microsoft YaHei';
+  background: #f7f7f7;
+  -webkit-box-shadow: #e1e1e1 2px 2px 4px;
+  -moz-box-shadow: #e1e1e1 2px 2px 4px;
+  box-shadow: #e1e1e1 2px 2px 4px;
+  border-bottom: #e1e1e1;
+  border-right: #e1e1e1;
+}
+.employee-header #header-content span {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-top: 23px;
+  height: 24px;
+  width: 24px;
+  background: url('/static/user/static/image/employee.png?__sprite');
+}
+.employee-content .user-admin-apply {
+  min-height: 800px;
+}
+.employee-content .user-admin-apply h3 {
+  font-family: 'Microsoft YaHei';
+  font-size: 14px;
+  line-height: 22px;
+  background: #eff5f6;
+  padding: 10px 20px;
+  border-bottom: #e7ecec;
+}
+.employee-content .user-admin-apply .content-header {
+  height: 70px;
+  font-family: 'Microsoft YaHei';
+  font-size: 14px;
+  background: #eff5f6;
+  position: relative;
+}
+.employee-content .user-admin-apply .content-header .man-employee {
+  height: 70px;
+  float: left;
+  position: relative;
+}
+.employee-content .user-admin-apply .content-header .man-employee li {
+  cursor: pointer;
+  float: left;
+  height: 70px;
+  line-height: 70px;
+  padding: 0px 20px;
+}
+.employee-content .user-admin-apply .content-header .man-employee li span {
+  font-size: 12px;
+  color: #d8dfe5;
+}
+.employee-content .user-admin-apply .content-header .man-employee .cur {
+  color: #6bd1df;
+  background: #ffffff;
+}
+.employee-content .user-admin-apply .content-header .man-employee .employee-hide {
+  font-weight: 500;
+  background: #eff4f7;
+}
+.employee-content .user-admin-apply .content-header .search-employee {
+  width: 710px;
+  float: left;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  position: relative;
+}
+.employee-content .user-admin-apply .content-header .search-employee .search {
+  width: 335px;
+  height: 35px;
+  border: none;
+  position: relative;
+  padding-left: 25px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.employee-content .user-admin-apply .content-header .search-employee .search-li {
+  width: 335px;
+  height: 35px;
+  border: solid 1px #d8dfe5;
+  position: relative;
+  padding-left: 25px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.employee-content .user-admin-apply .content-header .search-employee .icon-search {
+  width: 15px;
+  height: 15px;
+  display: block;
+  position: absolute;
+  background: url('/static/user/static/image/search.png?__sprite');
+  top: 28px;
+  left: 160px;
+}
+.employee-content .user-admin-apply .content-header .search-employee .btn-submit {
+  width: 95px;
+  height: 35px;
+  background: #6bd1df;
+  color: #ffffff;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.employee-content .user-admin-apply #all_employee h3 {
+  font-family: 'Microsoft YaHei';
+  font-size: 16px;
+  color: #2281d1;
+  padding-left: 20px;
+  background: #ffffff;
+}
+.employee-content .user-admin-apply #all_employee .other-apply #other-user {
+  min-height: 255px;
+}
+.employee-content .user-admin-apply #all_employee .other-apply #other-user h3 {
+  font-family: 'Microsoft YaHei';
+  font-size: 14px;
+  color: #000000;
+  line-height: 22px;
+  background: #f7f7f7;
+  padding: 10px 20px;
+  border-bottom: #e7ecec;
+}
+.employee-content .user-admin-apply #all_employee .other-apply .other-user {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background: #fff;
+  width: 980px;
+  margin-top: 20px;
+}
+.employee-content .user-admin-apply #all_employee .other-apply .employee-data {
+  width: 165px;
+  height: 120px;
+  margin-top: 50px;
+  padding-left: 25px;
+  float: left;
+  position: relative;
+}
+.employee-content .user-admin-apply #all_employee .other-apply .employee-data .user-picture {
+  width: 60px;
+  height: 60px;
+  background: #d8dfe5;
+  float: left;
+  border-radius: 50%;
+}
+.employee-content .user-admin-apply #all_employee .other-apply .employee-data .user-info {
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+.employee-content .user-admin-apply #all_employee .other-apply .employee-data .user-info .phone {
+  position: relative;
+  top: 10px;
+}
+.employee-content .user-admin-apply #all_employee .other-apply .check-all a {
+  float: right;
+  margin-right: 23px;
+  margin-bottom: 50px;
+  font-size: 13px;
+  color: #2281d1;
+}
+.employee-content .user-admin-apply #all_employee .my-employee {
+  margin-bottom: 30px;
+}
+.employee-content .user-admin-apply #all_employee .my-employee .my-header {
+  width: 980px;
+}
+.employee-content .user-admin-apply #all_employee .my-employee .my-header h3 {
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.employee-content .user-admin-apply #all_employee .my-employee #section-one,
+.employee-content .user-admin-apply #all_employee .my-employee #section-two {
+  min-height: 255px;
+}
+.employee-content .user-admin-apply #all_employee .my-employee #section-one h3,
+.employee-content .user-admin-apply #all_employee .my-employee #section-two h3 {
+  font-family: 'Microsoft YaHei';
+  font-size: 14px;
+  color: #000000;
+  line-height: 22px;
+  background: #f7f7f7;
+  padding: 10px 20px;
+  border-bottom: #e7ecec;
+}
+.employee-content .user-admin-apply #all_employee .my-employee .section-one {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background: #fff;
+  width: 980px;
+}
+.employee-content .user-admin-apply #all_employee .my-employee .section-one h3 {
+  font-family: 'Microsoft YaHei';
+  font-size: 14px;
+  line-height: 22px;
+  background: #eff5f6;
+  padding: 10px 20px;
+  border-bottom: #e7ecec;
+}
+.employee-content .user-admin-apply #all_employee .my-employee .section-one .employee-data {
+  width: 165px;
+  height: 60px;
+  margin-top: 30px;
+  padding-left: 25px;
+  float: left;
+  position: relative;
+}
+.employee-content .user-admin-apply #all_employee .my-employee .section-one .employee-data .user-picture {
+  width: 60px;
+  height: 60px;
+  background: #d8dfe5;
+  float: left;
+  border-radius: 50%;
+}
+.employee-content .user-admin-apply #all_employee .my-employee .section-one .employee-data .user-info {
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+.employee-content .user-admin-apply #all_employee .my-employee .section-one .employee-data .user-info .name {
+  font-weight: 500;
+}
+.employee-content .user-admin-apply #all_employee .my-employee .section-one .employee-data .user-info .phone {
+  position: relative;
+  top: 10px;
+}
+.employee-content .user-content {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background: #fff;
+  width: 980px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.employee-content .user-content .employee-data {
+  width: 220px;
+  height: 120px;
+  margin-top: 40px;
+  padding-left: 23px;
+  float: left;
+  position: relative;
+}
+.employee-content .user-content .employee-data .user-picture {
+  width: 60px;
+  height: 60px;
+  background: #d8dfe5;
+  float: left;
+  border-radius: 50%;
+}
+.employee-content .user-content .employee-data .group {
+  text-align: center;
+  margin-top: 10px;
+  position: absolute;
+}
+.employee-content .user-content .employee-data .group .group-msg {
+  width: 115px;
+  height: 25px;
+  background: #fc8a1a;
+  color: #ffffff;
+  cursor: pointer;
+  position: relative;
+  left: 30px;
+  top: 10px;
+  border: none;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.employee-content .user-content .employee-data .group .icon-down {
+  background: url('/static/user/static/image/xiala.png?__sprite') no-repeat;
+  width: 10px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  top: 21px;
+  left: 112px;
+}
+.employee-content .user-content .employee-data .group .user_group {
+  height: 240px;
+  width: 200px;
+  border: solid 1px #d8dfe5;
+  background: #ffffff;
+  position: absolute;
+  display: none;
+  z-index: 10;
+  margin-top: 15px;
+  left: 30px;
+}
+.employee-content .user-content .employee-data .group .user_group .title {
+  font-family: 'Microsoft YaHei';
+  padding-top: 15px;
+  padding-left: 15px;
+  float: left;
+}
+.employee-content .user-content .employee-data .group .user_group ul {
+  width: 190px;
+  padding-left: 10px;
+  float: left;
+}
+.employee-content .user-content .employee-data .group .user_group ul li {
+  height: 20px;
+  padding-top: 15px;
+}
+.employee-content .user-content .employee-data .group .user_group ul li input {
+  float: left;
+}
+.employee-content .user-content .employee-data .group .user_group ul li span {
+  padding-left: 10px;
+  float: left;
+}
+.employee-content .user-content .employee-data .group .user_group .new-group {
+  position: relative;
+  top: 15px;
+  text-align: center;
+}
+.employee-content .user-content .employee-data .group .user_group .new-group input {
+  width: 180px;
+  height: 30px;
+  border: 1px solid #d8dfe5;
+  background: none;
+  cursor: pointer;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.employee-content .user-content .employee-data .group .user_group .new-group span {
+  background: url('/static/user/static/image/cross.png?__sprite');
+  width: 13px;
+  height: 13px;
+  display: block;
+  position: absolute;
+  top: 9px;
+  left: 55px;
+}
+.employee-content .user-content .employee-data .group .user_group .submit input {
+  width: 70px;
+  height: 25px;
+  color: #ffffff;
+  border: none;
+  background: #fc8a1a;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.employee-content .user-content .employee-data .group .user_group .submit input:hover {
+  cursor: pointer;
+}
+.employee-content .user-content .employee-data .user-info {
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+.employee-content .user-content .employee-data .user-info .name {
+  font-weight: 500;
+}
+.employee-content .user-content .employee-data .user-info .name span {
+  font-size: 12px;
+  color: #a7a7a7;
+  margin-left: 5px;
+}
+.employee-content .user-content .employee-data .user-info .phone {
+  position: relative;
+  top: 10px;
+}
+.employee-content .user-content .employee-data .approval {
+  padding-top: 20px;
+  text-align: center;
+}
+.employee-content .user-content .employee-data .approval .btn-agree {
+  width: 70px;
+  height: 25px;
+  background: #fc8a1a;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.employee-content .user-content .employee-data .approval .btn-agree:hover {
+  cursor: pointer;
+}
+.employee-content .user-content .employee-data .approval .btn-refuse {
+  width: 70px;
+  height: 25px;
+  background: #d8dfe5;
+  margin-left: 15px;
+  border: none;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.employee-content .user-content .employee-data .approval .btn-refuse:hover {
+  cursor: pointer;
+}
+.employee-content .user-content .check-all a {
+  float: right;
+  margin-right: 23px;
+  margin-top: 40px;
+  font-size: 13px;
+  color: #2281d1;
+}
+.employee-content .user-content .apply-employee,
+.employee-content .user-content .search-result {
+  min-height: 800px;
+  position: relative;
+  display: none;
+}
+.employee-content .user-content .apply-employee .apply-header,
+.employee-content .user-content .search-result .apply-header {
+  height: 49px;
+  width: 100%;
+  border-bottom: 1px solid #d8dfe5;
+}
+.employee-content .user-content .apply-employee .apply-header li,
+.employee-content .user-content .search-result .apply-header li {
+  width: 33.33%;
+  height: 48px;
+  line-height: 48px;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+}
+.employee-content .user-content .apply-employee .apply-header li span,
+.employee-content .user-content .search-result .apply-header li span {
+  font-size: 12px;
+  color: #d8dfe5;
+}
+.employee-content .user-content .apply-employee .apply-header .cur,
+.employee-content .user-content .search-result .apply-header .cur {
+  border-bottom: 2px solid #6bd1df;
+}
+.employee-content .user-content .apply-employee #send_apply,
+.employee-content .user-content .search-result #send_apply,
+.employee-content .user-content .apply-employee #recommend_apply,
+.employee-content .user-content .search-result #recommend_apply {
+  display: none;
+}
+.employee-content .user-content .apply-employee .search-none,
+.employee-content .user-content .search-result .search-none {
+  margin: 100px;
+  text-align: center;
+  display: none;
+}
+.employee-content .user-content .apply-employee .search-none .none-result,
+.employee-content .user-content .search-result .search-none .none-result {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info,
+.employee-content .user-content .search-result .send-apply .wait-apply-info,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info,
+.employee-content .user-content .search-result .search-invite .wait-apply-info {
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid #d8dfe5;
+  position: relative;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .wait-apply-data,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .wait-apply-data,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .wait-apply-data,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .wait-apply-data,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .wait-apply-data,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .wait-apply-data,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .wait-apply-data,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .wait-apply-data {
+  width: 50%;
+  height: 100px;
+  float: left;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .wait-apply-data .user-picture,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .wait-apply-data .user-picture,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .wait-apply-data .user-picture,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .wait-apply-data .user-picture,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .wait-apply-data .user-picture,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .wait-apply-data .user-picture,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .wait-apply-data .user-picture,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .wait-apply-data .user-picture {
+  width: 60px;
+  height: 60px;
+  background: #d8dfe5;
+  float: left;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .wait-apply-data .user-info,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .wait-apply-data .user-info,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .wait-apply-data .user-info,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .wait-apply-data .user-info,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .wait-apply-data .user-info,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .wait-apply-data .user-info,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .wait-apply-data .user-info,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .wait-apply-data .user-info {
+  position: relative;
+  left: 10px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .wait-apply-data .user-info .name,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .wait-apply-data .user-info .name,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .wait-apply-data .user-info .name,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .wait-apply-data .user-info .name,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .wait-apply-data .user-info .name,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .wait-apply-data .user-info .name,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .wait-apply-data .user-info .name,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .wait-apply-data .user-info .name {
+  position: absolute;
+  font-weight: 500;
+  left: 80px;
+  top: 25px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .wait-apply-data .user-info .name span,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .wait-apply-data .user-info .name span,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .wait-apply-data .user-info .name span,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .wait-apply-data .user-info .name span,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .wait-apply-data .user-info .name span,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .wait-apply-data .user-info .name span,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .wait-apply-data .user-info .name span,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .wait-apply-data .user-info .name span {
+  font-size: 12px;
+  color: #a7a7a7;
+  margin-left: 5px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .wait-apply-data .user-info .phone,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .wait-apply-data .user-info .phone,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .wait-apply-data .user-info .phone,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .wait-apply-data .user-info .phone,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .wait-apply-data .user-info .phone,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .wait-apply-data .user-info .phone,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .wait-apply-data .user-info .phone,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .wait-apply-data .user-info .phone {
+  position: absolute;
+  top: 55px;
+  left: 78px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .operation,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .operation,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .operation,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .operation,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .operation,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .operation,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .operation,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .operation {
+  width: 50%;
+  height: 100px;
+  line-height: 100px;
+  float: left;
+  text-align: right;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .operation .confirm,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .operation .confirm,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .operation .confirm,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .operation .confirm,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .operation .confirm,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .operation .confirm,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .operation .confirm,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .operation .confirm,
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .operation .absorb,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .operation .absorb,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .operation .absorb,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .operation .absorb,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .operation .absorb,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .operation .absorb,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .operation .absorb,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .operation .absorb {
+  width: 100px;
+  height: 30px;
+  background: #ff6600;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .operation .confirm:hover,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .operation .confirm:hover,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .operation .confirm:hover,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .operation .confirm:hover,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .operation .confirm:hover,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .operation .confirm:hover,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .operation .confirm:hover,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .operation .confirm:hover,
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .operation .absorb:hover,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .operation .absorb:hover,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .operation .absorb:hover,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .operation .absorb:hover,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .operation .absorb:hover,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .operation .absorb:hover,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .operation .absorb:hover,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .operation .absorb:hover {
+  cursor: pointer;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .operation .refuse,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .operation .refuse,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .operation .refuse,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .operation .refuse,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .operation .refuse,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .operation .refuse,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .operation .refuse,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .operation .refuse,
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .operation .appeal,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .operation .appeal,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .operation .appeal,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .operation .appeal,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .operation .appeal,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .operation .appeal,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .operation .appeal,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .operation .appeal {
+  width: 100px;
+  height: 30px;
+  background: #d8dfe5;
+  margin-left: 15px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .operation .refuse:hover,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .operation .refuse:hover,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .operation .refuse:hover,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .operation .refuse:hover,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .operation .refuse:hover,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .operation .refuse:hover,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .operation .refuse:hover,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .operation .refuse:hover,
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .operation .appeal:hover,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .operation .appeal:hover,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .operation .appeal:hover,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .operation .appeal:hover,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .operation .appeal:hover,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .operation .appeal:hover,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .operation .appeal:hover,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .operation .appeal:hover {
+  cursor: pointer;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .operation span,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .operation span,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .operation span,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .operation span,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .operation span,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .operation span,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .operation span,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .operation span {
+  margin-right: 30px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .appeal-window,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .appeal-window,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .appeal-window,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .appeal-window,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .appeal-window,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .appeal-window,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .appeal-window,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .appeal-window {
+  display: none;
+  width: 370px;
+  height: 250px;
+  border: 1px solid #d8dfe5;
+  position: absolute;
+  z-index: 9999;
+  background: #ffffff;
+  top: 80px;
+  left: 600px;
+  text-align: center;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .appeal-window .appeal-content,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .appeal-window .appeal-content,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .appeal-window .appeal-content,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .appeal-window .appeal-content,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .appeal-window .appeal-content,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .appeal-window .appeal-content,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .appeal-window .appeal-content,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .appeal-window .appeal-content {
+  width: 320px;
+  height: 110px;
+  resize: none;
+  border: 1px solid #d8dfe5;
+  margin: 22px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .appeal-window .title,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .appeal-window .title,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .appeal-window .title,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .appeal-window .title,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .appeal-window .title,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .appeal-window .title,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .appeal-window .title,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .appeal-window .title {
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .appeal-window .send,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .appeal-window .send,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .appeal-window .send,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .appeal-window .send,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .appeal-window .send,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .appeal-window .send,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .appeal-window .send,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .appeal-window .send {
+  width: 150px;
+  height: 30px;
+  border: 1px solid #d8dfe5;
+  background: #6bd1df;
+  margin-top: 10px;
+  color: #ffffff;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .appeal-window .send:hover,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .appeal-window .send:hover,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .appeal-window .send:hover,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .appeal-window .send:hover,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .appeal-window .send:hover,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .appeal-window .send:hover,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .appeal-window .send:hover,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .appeal-window .send:hover {
+  cursor: pointer;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .appeal-window .cancle,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .appeal-window .cancle,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .appeal-window .cancle,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .appeal-window .cancle,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .appeal-window .cancle,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .appeal-window .cancle,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .appeal-window .cancle,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .appeal-window .cancle {
+  width: 150px;
+  height: 30px;
+  border: 1px solid #d8dfe5;
+  background: #ffffff;
+  margin-left: 22px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .appeal-window .cancle:hover,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .appeal-window .cancle:hover,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .appeal-window .cancle:hover,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .appeal-window .cancle:hover,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .appeal-window .cancle:hover,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .appeal-window .cancle:hover,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .appeal-window .cancle:hover,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .appeal-window .cancle:hover {
+  cursor: pointer;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .invit-window,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .invit-window,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .invit-window,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .invit-window,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .invit-window,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .invit-window,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .invit-window,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .invit-window {
+  width: 320px;
+  height: 180px;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  border: 1px solid #d8dfe5;
+  background: #ffffff;
+  text-align: center;
+  top: 85px;
+  left: 630px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .invit-window .arrow-up,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .invit-window .arrow-up,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .invit-window .arrow-up,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .invit-window .arrow-up,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .invit-window .arrow-up,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .invit-window .arrow-up,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .invit-window .arrow-up,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .invit-window .arrow-up {
+  position: relative;
+  display: block;
+  width: 51px;
+  height: 45px;
+  background: url('/static/user/static/image/arrow-up.png?__sprite');
+  top: -20px;
+  left: 135px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .invit-window .invit-warning,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .invit-window .invit-warning,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .invit-window .invit-warning,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .invit-window .invit-warning,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .invit-window .invit-warning,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .invit-window .invit-warning,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .invit-window .invit-warning,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .invit-window .invit-warning {
+  color: #ff6600;
+  font-size: 14px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .invit-window .btn-invit,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .invit-window .btn-invit,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .invit-window .btn-invit,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .invit-window .btn-invit,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .invit-window .btn-invit,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .invit-window .btn-invit,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .invit-window .btn-invit,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .invit-window .btn-invit {
+  width: 150px;
+  height: 30px;
+  border: 1px solid #d8dfe5;
+  background: #6bd1df;
+  margin-top: 30px;
+  color: #ffffff;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .invit-window .btn-invit:hover,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .invit-window .btn-invit:hover,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .invit-window .btn-invit:hover,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .invit-window .btn-invit:hover,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .invit-window .btn-invit:hover,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .invit-window .btn-invit:hover,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .invit-window .btn-invit:hover,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .invit-window .btn-invit:hover {
+  cursor: pointer;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .invit-info,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .invit-info,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .invit-info,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .invit-info,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .invit-info,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .invit-info,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .invit-info,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .invit-info {
+  position: relative;
+  top: 100px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .invit-info .invit-user,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .invit-info .invit-user,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .invit-info .invit-user,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .invit-info .invit-user,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .invit-info .invit-user,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .invit-info .invit-user,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .invit-info .invit-user,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .invit-info .invit-user {
+  text-align: center;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .invit-info .invit-user .notice,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .invit-info .invit-user .notice,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .invit-info .invit-user .notice,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .invit-info .invit-user .notice,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .invit-info .invit-user .notice,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .invit-info .invit-user .notice,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .invit-info .invit-user .notice,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .invit-info .invit-user .notice {
+  text-align: left;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .invit-info .invit-user .invit-href,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .invit-info .invit-user .invit-href,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .invit-info .invit-user .invit-href,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .invit-info .invit-user .invit-href,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .invit-info .invit-user .invit-href,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .invit-info .invit-user .invit-href,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .invit-info .invit-user .invit-href,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .invit-info .invit-user .invit-href {
+  width: 640px;
+  height: 36px;
+  border: 1px solid #d8dfe5;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .invit-info .invit-user .copy-href,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .invit-info .invit-user .copy-href,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .invit-info .invit-user .copy-href,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .invit-info .invit-user .copy-href,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .invit-info .invit-user .copy-href,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .invit-info .invit-user .copy-href,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .invit-info .invit-user .copy-href,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .invit-info .invit-user .copy-href {
+  width: 230px;
+  height: 40px;
+  font-size: 16px;
+  margin-left: 20px;
+  background: #ff6600;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .invit-info .invit-user .copy-href:hover,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .invit-info .invit-user .copy-href:hover,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .invit-info .invit-user .copy-href:hover,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .invit-info .invit-user .copy-href:hover,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .invit-info .invit-user .copy-href:hover,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .invit-info .invit-user .copy-href:hover,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .invit-info .invit-user .copy-href:hover,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .invit-info .invit-user .copy-href:hover {
+  cursor: pointer;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .invit-info .generate,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .invit-info .generate,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .invit-info .generate,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .invit-info .generate,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .invit-info .generate,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .invit-info .generate,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .invit-info .generate,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .invit-info .generate {
+  font-size: 14px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .invit-info .generate .rebuild-href,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .invit-info .generate .rebuild-href,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .invit-info .generate .rebuild-href,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .invit-info .generate .rebuild-href,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .invit-info .generate .rebuild-href,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .invit-info .generate .rebuild-href,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .invit-info .generate .rebuild-href,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .invit-info .generate .rebuild-href {
+  width: 230px;
+  height: 40px;
+  font-size: 16px;
+  background: #6bd1df;
+  color: #ffffff;
+  margin: 20px 10px 0px 40px;
+  border: none;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.employee-content .user-content .apply-employee .wait-apply .wait-apply-info .invit-info .generate .rebuild-href:hover,
+.employee-content .user-content .search-result .wait-apply .wait-apply-info .invit-info .generate .rebuild-href:hover,
+.employee-content .user-content .apply-employee .send-apply .wait-apply-info .invit-info .generate .rebuild-href:hover,
+.employee-content .user-content .search-result .send-apply .wait-apply-info .invit-info .generate .rebuild-href:hover,
+.employee-content .user-content .apply-employee .recommend-apply .wait-apply-info .invit-info .generate .rebuild-href:hover,
+.employee-content .user-content .search-result .recommend-apply .wait-apply-info .invit-info .generate .rebuild-href:hover,
+.employee-content .user-content .apply-employee .search-invite .wait-apply-info .invit-info .generate .rebuild-href:hover,
+.employee-content .user-content .search-result .search-invite .wait-apply-info .invit-info .generate .rebuild-href:hover {
+  cursor: pointer;
+}
+.employee-content .check-all a {
+  float: right;
+  margin-right: 23px;
+  margin-top: 40px;
+  font-size: 13px;
+  color: #2281d1;
+}

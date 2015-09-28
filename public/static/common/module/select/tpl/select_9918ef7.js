@@ -1,0 +1,15 @@
+[function(_template_object) {
+var _template_fun_array=[];
+var fn=(function(__data__){
+var _template_varName='';
+for(var name in __data__){
+_template_varName+=('var '+name+'=__data__["'+name+'"];');
+};
+eval(_template_varName);
+_template_fun_array.push('<div class="select-box"><div class="selected"><span class="selected-text" data-value="',typeof( defaultValue ) === 'undefined'?'':baidu.template._encodeHTML( defaultValue ),'" title="');if(defaultText && defaultValue){_template_fun_array.push('',typeof( defaultText ) === 'undefined'?'':baidu.template._encodeHTML( defaultText ),''); }else{ _template_fun_array.push('',typeof( placeholder || '请选择' ) === 'undefined'?'':baidu.template._encodeHTML( placeholder || '请选择' ),'');}_template_fun_array.push('">');if(defaultText && defaultValue){_template_fun_array.push('',typeof( defaultText ) === 'undefined'?'':baidu.template._encodeHTML( defaultText ),''); }else{ _template_fun_array.push('',typeof( placeholder || '请选择' ) === 'undefined'?'':baidu.template._encodeHTML( placeholder || '请选择' ),'');}_template_fun_array.push('</span><i class="select-box-icon-drop down"></i></div><ul class="select-option">'); var length = options.length;_template_fun_array.push(''); if(length > 0){ _template_fun_array.push('');if(placeholder){_template_fun_array.push('<li class="');if(!defaultText || !defaultValue){_template_fun_array.push('active');}_template_fun_array.push('" data-value="" title="',typeof( placeholder || '请选择') === 'undefined'?'':baidu.template._encodeHTML( placeholder || '请选择'),'"><a href="javaScript:">',typeof( placeholder || '请选择') === 'undefined'?'':baidu.template._encodeHTML( placeholder || '请选择'),'</a></li>');}_template_fun_array.push(''); for(var i = 0; i < length; i++){ _template_fun_array.push('<li class="');if(defaultValue && defaultValue == options[i].value){_template_fun_array.push('active');}_template_fun_array.push('" data-value="',typeof( options[i].value ) === 'undefined'?'':baidu.template._encodeHTML( options[i].value ),'" title="',typeof( options[i].text ) === 'undefined'?'':baidu.template._encodeHTML( options[i].text ),'"><a href="javaScript:">',typeof( options[i].text ) === 'undefined'?'':baidu.template._encodeHTML( options[i].text ),'</a></li>'); } _template_fun_array.push(''); }else{ _template_fun_array.push('');if(placeholder){_template_fun_array.push('<li class="');if(!defaultText || !defaultValue){_template_fun_array.push('active');}_template_fun_array.push('" data-value="',typeof( defaultValue ) === 'undefined'?'':baidu.template._encodeHTML( defaultValue ),'" title="',typeof( placeholder || '请选择') === 'undefined'?'':baidu.template._encodeHTML( placeholder || '请选择'),'"><a href="javaScript:">',typeof( placeholder || '请选择') === 'undefined'?'':baidu.template._encodeHTML( placeholder || '请选择'),'</a></li>');}_template_fun_array.push(''); } _template_fun_array.push('</ul></div>');
+_template_varName=null;
+})(_template_object);
+fn = null;
+return _template_fun_array.join('');
+
+}][0]

@@ -1,0 +1,1 @@
+define("common/widget/header/header",function(e,o,n){"use strict";var t=e("common/module/util/util"),r=antd.message;n.exports=function(){t.bind(document.getElementById("logout"),"click",function(){t.get("/api/logOut").then(function(e){0==e.error_code?(r.success("退出成功"),location.href="/login"):r.error(e.error_msg)},function(e){r.error(e)})})}});

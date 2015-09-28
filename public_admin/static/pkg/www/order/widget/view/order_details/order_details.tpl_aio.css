@@ -1,0 +1,1231 @@
+/*!www/common/module/popup/popup.less*/
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+.popup-bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: #000;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  display: none;
+}
+.popup {
+  width: 380px;
+  height: 160px;
+  z-index: 101;
+  position: fixed;
+  background: #fff;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.popup .pop-close {
+  width: 26px !important;
+  height: 26px !important;
+  position: absolute !important;
+  z-index: 500 !important;
+  right: -13px !important;
+  top: -13px !important;
+  cursor: pointer !important;
+  background: url(/static/www/common/static/image/cross_close.png?__sprite) no-repeat !important;
+  float: right;
+}
+.popup h2 {
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  background: #243040;
+  font-weight: normal;
+  font-family: "微软雅黑";
+  font-weight: 700;
+}
+.popup h2 .pop-close {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  z-index: 500;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  background: url(/static/www/common/static/image/pop_close.png?__sprite) no-repeat;
+}
+
+/*!www/common/module/select/select.less*/
+.select-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #caced2;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o--border-radius: 4px;
+  z-index: 1;
+}
+.select-box .selected {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.select-box .selected .selected-text {
+  display: block;
+  width: 90%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.select-box .selected .select-box-icon-drop {
+  position: absolute;
+  width: 8px;
+  height: 4px;
+  display: inline-block;
+  right: 0px;
+  top: 50%;
+  margin-top: -2px;
+}
+.select-box .selected .select-box-icon-drop.down {
+  background: url('/static/www/common/static/image/select_arrow_down.png?__sprite');
+}
+.select-box .selected .select-box-icon-drop.up {
+  background: url('/static/www/common/static/image/select_arrow_up.png?__sprite');
+}
+.select-box .select-option {
+  display: none;
+  width: 100%;
+  position: absolute;
+  left: -1px;
+  background-color: #fff;
+  border: 1px solid #caced2;
+  border-top: 0px;
+  top: 29px;
+  border-radius: 0px 0px 4px 4px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.select-box .select-option li {
+  border-top: 1px solid #D0DCE9;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.select-box .select-option li a {
+  display: block;
+  color: #575C5B;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.select-box .select-option li:hover {
+  background-color: #EDF2FB;
+}
+.select-box .select-option li.active {
+  background-color: #4680d4;
+}
+.select-box .select-option li.active a {
+  color: #fff;
+}
+
+/*!www/common/module/address/address.less*/
+.address_province {
+  float: left;
+}
+.address_city {
+  float: left;
+  margin-left: 30px;
+}
+.address_area {
+  float: left;
+  margin-left: 30px;
+}
+
+/*!www/common/module/selectTimeBox/selectTimeBox.less*/
+.select_time_year {
+  float: left;
+}
+.select_time_month,
+.select_time_day,
+.select_time_hour,
+.select_time_min,
+.select_time_sec {
+  float: left;
+  margin-left: 10px;
+}
+.select_year_text,
+.select_month_text,
+.select_day_text,
+.select_hours_text,
+.select_min_text,
+.select_sec_text {
+  float: left;
+  margin-left: 10px;
+}
+
+/*!www/common/module/addSelectTimeBox/addSelectTimeBox.less*/
+/* 删除icon */
+.delTimeBtn {
+  position: absolute;
+  display: block;
+  top: 50%;
+  right: 5px;
+  margin-top: -16px;
+}
+.delTimeBtn .icon-del-timeBox {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url('/static/www/common/static/image/icon-del.png?__sprite');
+}
+
+/*!www/order/module/edit_product/edit_product.less*/
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+#editProduct {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+#editProduct .editProduct-title {
+  width: 100%;
+  height: 60px;
+  background-color: #eff4f7;
+}
+#editProduct .editProduct-title .editProduct-comfire {
+  float: left;
+  width: 20%;
+  margin-top: 18px;
+}
+#editProduct .editProduct-title .editProduct-comfire .comfireBtn {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  font-size: 14px;
+  line-height: 30px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  padding: 0px;
+  color: #fff;
+  background: #f06700;
+  border: 0px;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#editProduct .editProduct-title .editProduct-comfire .comfireBtn:hover {
+  cursor: pointer;
+  background: #e16000;
+}
+#editProduct .editProduct-title .editProduct-comfire .comfireBtn:active {
+  line-height: 32px;
+}
+#editProduct .editProduct-title .title-text {
+  font-size: 18px;
+  line-height: 60px;
+  float: left;
+  width: 60%;
+  text-align: center;
+}
+#editProduct .editProduct-title .editProduct-cancel {
+  float: left;
+  width: 20%;
+  margin-top: 18px;
+}
+#editProduct .editProduct-title .editProduct-cancel .cancelBtn {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  font-size: 14px;
+  line-height: 30px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  padding: 0px;
+  color: #fff;
+  background: #84cfdf;
+  border: 0px;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#editProduct .editProduct-title .editProduct-cancel .cancelBtn:hover {
+  cursor: pointer;
+  background: #78cadc;
+}
+#editProduct .editProduct-title .editProduct-cancel .cancelBtn:active {
+  line-height: 32px;
+}
+#editProduct .editProduct-content {
+  padding-top: 20px;
+  width: 100%;
+  height: 420px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#editProduct .editProduct-content .address-title {
+  line-height: 40px;
+  width: 100%;
+  height: 50px;
+}
+#editProduct .editProduct-content .address-title .address-name {
+  float: left;
+  width: 50%;
+}
+#editProduct .editProduct-content .address-title .address-name h4 {
+  font-size: 16px;
+  padding-left: 20px;
+}
+#editProduct .editProduct-content .address-title .address-del {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+#editProduct .editProduct-content .address-title .address-del .del-AddressBtn {
+  margin-right: 20px;
+  font-size: 14px;
+  color: #ed3426;
+}
+#editProduct .editProduct-content .address-bottom-line {
+  width: 80%;
+  height: 2px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+  background: url('/static/www/order/static/image/line-dottod.png');
+  background-color: #fff;
+  background-repeat: repeat-x;
+}
+#editProduct .editProduct-content .item {
+  line-height: 34px;
+  padding-bottom: 5px;
+}
+#editProduct .editProduct-content .item .item-name {
+  float: left;
+  width: 120px;
+  height: 100%;
+  font-size: 12px;
+}
+#editProduct .editProduct-content .item .item-name label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+}
+#editProduct .editProduct-content .item .item-name label span.name {
+  float: right;
+  padding-right: 20px;
+  padding-left: 5px;
+}
+#editProduct .editProduct-content .item .item-name label span.icon-require {
+  float: right;
+  margin-top: 4px;
+  color: #f06800;
+}
+#editProduct .editProduct-content .item .item-content {
+  line-height: 34px;
+  position: relative;
+  float: left;
+  width: 520px;
+  height: 100%;
+}
+#editProduct .editProduct-content .item .item-content p {
+  font-size: 12px;
+  color: #222;
+}
+#editProduct .editProduct-content .item .item-content .error {
+  background-color: #fecccc;
+}
+#editProduct .editProduct-content .item .item-content input {
+  font-size: 12px;
+  line-height: 28px;
+  width: 500px;
+  height: 28px;
+  padding: 0;
+  padding-right: 8px;
+  padding-left: 8px;
+  color: #999;
+  border: 1px solid #caced2;
+}
+#editProduct .editProduct-content .item .item-content .selectBox {
+  color: #999;
+}
+#editProduct .editProduct-content .item .item-content .package_date_selectBox {
+  width: 100%;
+  padding-right: 20px;
+  margin-top: 4px;
+  color: #999;
+}
+#editProduct .editProduct-content .item .item-content .package_location {
+  color: #999;
+  margin-top: 4px;
+}
+#editProduct .editProduct-content .item .item-message {
+  float: left;
+  height: 100%;
+}
+#editProduct .editProduct-content .item .item-message .error-message {
+  font-size: 14px;
+  line-height: 34px;
+  height: 100%;
+  color: #e1272b;
+}
+#editProduct .editProduct-content .item .item-message .error-message .icon-warn {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
+  margin-left: 5px;
+  background: url('/static/www/order/static/image/icon-warn.png?__sprite');
+}
+#editProduct .editProduct-content .item .item-message .right-message .icon-right {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
+  margin-left: 5px;
+  background: url('/static/www/order/static/image/icon-right.png?__sprite');
+}
+#editProduct .editProduct-content .item.item-linkman,
+#editProduct .editProduct-content .item.item-contact {
+  width: 50%;
+  float: left;
+  height: 34px;
+}
+#editProduct .editProduct-content .item.item-linkman .item-content,
+#editProduct .editProduct-content .item.item-contact .item-content {
+  width: 180px;
+}
+#editProduct .editProduct-content .item.item-linkman .item-content .linkman,
+#editProduct .editProduct-content .item.item-contact .item-content .linkman,
+#editProduct .editProduct-content .item.item-linkman .item-content .contact,
+#editProduct .editProduct-content .item.item-contact .item-content .contact {
+  width: 157px;
+}
+#editProduct .editProduct-content .item.package_date {
+  position: relative;
+}
+#editProduct .editProduct-content .item.package_date .package_date_selectBox {
+  position: relative;
+  line-height: 34px;
+  height: 34px;
+}
+#editProduct .editProduct-content .item.package_date .add-date {
+  font-size: 12px;
+  color: #467ed5;
+}
+#editProduct .add-other-address {
+  font-size: 14px;
+  line-height: 34px;
+  display: block;
+  width: auto;
+  height: 34px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 60px;
+  cursor: pointer;
+  color: #fff;
+  border: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  outline: none;
+  background: #f06800;
+  box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#editProduct .add-other-address:hover {
+  cursor: pointer;
+  background: #e16100;
+}
+#editProduct .add-other-address:active {
+  padding-top: 2px;
+}
+
+/*!www/order/module/confirm_product/confirm_product.less*/
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+#confirmProduct {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+#confirmProduct .confirmProduct-title {
+  width: 100%;
+  height: 60px;
+  background-color: #eff4f7;
+}
+#confirmProduct .confirmProduct-title .confirmProduct-comfire {
+  float: left;
+  width: 20%;
+  margin-top: 18px;
+}
+#confirmProduct .confirmProduct-title .confirmProduct-comfire .comfireBtn {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  font-size: 14px;
+  line-height: 30px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  padding: 0px;
+  color: #fff;
+  background: #f06700;
+  border: 0px;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#confirmProduct .confirmProduct-title .confirmProduct-comfire .comfireBtn:hover {
+  cursor: pointer;
+  background: #e16000;
+}
+#confirmProduct .confirmProduct-title .confirmProduct-comfire .comfireBtn:active {
+  line-height: 32px;
+}
+#confirmProduct .confirmProduct-title .title-text {
+  font-size: 18px;
+  line-height: 60px;
+  float: left;
+  width: 60%;
+  text-align: center;
+}
+#confirmProduct .confirmProduct-title .confirmProduct-edit {
+  float: left;
+  width: 20%;
+  margin-top: 18px;
+}
+#confirmProduct .confirmProduct-title .confirmProduct-edit .editBtn {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  font-size: 14px;
+  line-height: 30px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  padding: 0px;
+  color: #fff;
+  background: #84cfdf;
+  border: 0px;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#confirmProduct .confirmProduct-title .confirmProduct-edit .editBtn:hover {
+  cursor: pointer;
+  background: #78cadc;
+}
+#confirmProduct .confirmProduct-title .confirmProduct-edit .editBtn:active {
+  line-height: 32px;
+}
+#confirmProduct .confirmProduct-content {
+  padding-top: 20px;
+  width: 100%;
+  height: 420px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#confirmProduct .confirmProduct-content .address-title {
+  line-height: 40px;
+  width: 100%;
+  height: 50px;
+}
+#confirmProduct .confirmProduct-content .address-title .address-name {
+  float: left;
+  width: 50%;
+}
+#confirmProduct .confirmProduct-content .address-title .address-name h4 {
+  font-size: 16px;
+  padding-left: 20px;
+}
+#confirmProduct .confirmProduct-content .address-title .address-del {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+#confirmProduct .confirmProduct-content .address-title .address-del .del-AddressBtn {
+  margin-right: 20px;
+  font-size: 14px;
+  color: #ed3426;
+}
+#confirmProduct .confirmProduct-content .address-bottom-line {
+  width: 80%;
+  height: 2px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+  background: url('/static/www/order/static/image/line-dottod.png');
+  background-color: #fff;
+  background-repeat: repeat-x;
+}
+#confirmProduct .confirmProduct-content .item {
+  line-height: 34px;
+  padding-bottom: 5px;
+}
+#confirmProduct .confirmProduct-content .item .item-name {
+  float: left;
+  width: 120px;
+  height: 100%;
+  font-size: 14px;
+}
+#confirmProduct .confirmProduct-content .item .item-name label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+}
+#confirmProduct .confirmProduct-content .item .item-name label span.name {
+  float: right;
+  padding-right: 20px;
+  padding-left: 5px;
+}
+#confirmProduct .confirmProduct-content .item .item-name label span.icon-require {
+  float: right;
+  margin-top: 4px;
+  color: #f06800;
+}
+#confirmProduct .confirmProduct-content .item .item-content {
+  line-height: 34px;
+  position: relative;
+  float: left;
+  width: 520px;
+  height: 100%;
+}
+#confirmProduct .confirmProduct-content .item .item-content .error {
+  background-color: #fecccc;
+}
+#confirmProduct .confirmProduct-content .item .item-content input {
+  font-size: 14px;
+  line-height: 28px;
+  width: 500px;
+  height: 28px;
+  padding: 0;
+  padding-right: 8px;
+  padding-left: 8px;
+  color: #999;
+  border: 1px solid #caced2;
+}
+#confirmProduct .confirmProduct-content .item .item-content .selectBox {
+  color: #999;
+}
+#confirmProduct .confirmProduct-content .item .item-content .package_date_selectBox {
+  width: 100%;
+  padding-right: 20px;
+  margin-top: 4px;
+  color: #999;
+}
+#confirmProduct .confirmProduct-content .item .item-content .package_location {
+  color: #999;
+  margin-top: 4px;
+}
+#confirmProduct .confirmProduct-content .item .item-message {
+  float: left;
+  height: 100%;
+}
+#confirmProduct .confirmProduct-content .item .item-message .error-message {
+  font-size: 14px;
+  line-height: 34px;
+  height: 100%;
+  color: #e1272b;
+}
+#confirmProduct .confirmProduct-content .item .item-message .error-message .icon-warn {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
+  margin-left: 5px;
+  background: url('/static/www/order/static/image/icon-warn.png?__sprite');
+}
+#confirmProduct .confirmProduct-content .item .item-message .right-message .icon-right {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
+  margin-left: 5px;
+  background: url('/static/www/order/static/image/icon-right.png?__sprite');
+}
+#confirmProduct .confirmProduct-content .item.item-linkman,
+#confirmProduct .confirmProduct-content .item.item-contact {
+  width: 50%;
+  float: left;
+  height: 34px;
+}
+#confirmProduct .confirmProduct-content .item.item-linkman .item-content,
+#confirmProduct .confirmProduct-content .item.item-contact .item-content {
+  width: 180px;
+}
+#confirmProduct .confirmProduct-content .item.item-linkman .item-content .linkman,
+#confirmProduct .confirmProduct-content .item.item-contact .item-content .linkman,
+#confirmProduct .confirmProduct-content .item.item-linkman .item-content .contact,
+#confirmProduct .confirmProduct-content .item.item-contact .item-content .contact {
+  width: 157px;
+}
+#confirmProduct .confirmProduct-content .item.package_date {
+  position: relative;
+}
+#confirmProduct .confirmProduct-content .item.package_date .package_date_selectBox {
+  position: relative;
+  line-height: 34px;
+  height: 34px;
+}
+#confirmProduct .confirmProduct-content .item.package_date .add-date {
+  font-size: 14px;
+  color: #467ed5;
+}
+#confirmProduct .add-other-address {
+  font-size: 14px;
+  line-height: 34px;
+  display: block;
+  width: auto;
+  height: 34px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 60px;
+  cursor: pointer;
+  color: #fff;
+  border: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  outline: none;
+  background: #f06800;
+  box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#confirmProduct .add-other-address:hover {
+  cursor: pointer;
+  background: #e16100;
+}
+#confirmProduct .add-other-address:active {
+  padding-top: 2px;
+}
+
+/*!www/common/module/cards/cards.less*/
+.card {
+  display: none;
+  position: absolute;
+}
+.card .square {
+  position: absolute;
+  z-index: 2;
+  width: 0px;
+  height: 0px;
+  border-top: 0px solid transparent;
+  border-bottom: 8px solid #F7F7F7;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  right: 2px;
+}
+.card .content {
+  position: relative;
+  background-color: #F7F7F7;
+  border: 1px solid #F7F7F7;
+  border-radius: 4px;
+  z-index: 1;
+  top: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #919fab;
+}
+.card .content p {
+  line-height: 25px;
+  font-size: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*!www/order/module/comfirm_psw_pop/comfirm_psw_pop.less*/
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+#passwordConfirm {
+  padding: 25px 20px;
+}
+#passwordConfirm .logo {
+  width: 140px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: url('/static/www/common/static/image/logo.png?__sprite') no-repeat;
+}
+#passwordConfirm dl dd {
+  position: relative;
+  margin-top: 25px;
+}
+#passwordConfirm dl dd input {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  width: 260px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 15px;
+  padding: 12px 14px;
+  border: 1px solid #c9ced2;
+}
+#passwordConfirm dl dd input#login-captcha {
+  width: 150px;
+}
+#passwordConfirm dl dd .captcha-wrap {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #c9ced2;
+  height: 44px;
+  width: 100px;
+  float: right;
+}
+#passwordConfirm dl dd span {
+  display: block;
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  width: 20px;
+  height: 20px;
+}
+#passwordConfirm dl dd span.icon-pass {
+  background: url('/static/www/common/static/image/icon_lock.png?__sprite');
+}
+#passwordConfirm #quit_tip {
+  text-align: right;
+  color: red;
+  font-size: 13px;
+  padding: 10px 0;
+  height: 13px;
+}
+#passwordConfirm #confirm_submit {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+  background: #fa8a2f;
+  width: 290px;
+  padding: 14px 0;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Microsoft YaHei';
+}
+#passwordConfirm #confirm_submit:hover {
+  background: #f78122;
+}
+
+/*!www/order/widget/view/order_details/order_details.less*/
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 面包屑样式 */
+#order_details {
+  background-color: #e9edf5;
+  position: relative;
+}
+#order_details .breadcrumb {
+  font-size: 16px;
+  line-height: 60px;
+  width: 100%;
+  height: 60px;
+  color: #273042;
+  background: #f7f7f7;
+  box-shadow: 1px 1px 1px 1px #dadde9;
+}
+#order_details .breadcrumb ol {
+  line-height: 60px;
+  height: 100%;
+  padding-left: 20px;
+}
+#order_details .breadcrumb ol li {
+  line-height: 60px;
+  float: left;
+  height: 60px;
+  padding: 0 2px;
+}
+#order_details .breadcrumb ol li a {
+  color: #273042;
+}
+#order_details .breadcrumb ol li a:hover {
+  color: #427dda;
+}
+#order_details .order-number {
+  font-size: 15px;
+  line-height: 35px;
+  width: 100%;
+  height: 35px;
+  margin-top: 20px;
+  background: #fff;
+}
+#order_details .order-number .number-left {
+  padding-left: 20px;
+  color: #3A82D0;
+}
+#order_details .order-number .number-right {
+  float: right;
+  padding-right: 20px;
+}
+#order_details .order-wrap {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #ffffff;
+  margin-top: 20px;
+  padding: 20px 20px 30px;
+}
+#order_details .order-wrap h3.second-title {
+  text-align: left;
+  border-bottom: 1px solid #ff6702;
+  font-size: 20px;
+  margin: 5px 40px 20px 40px;
+  color: #555;
+  font-family: 'Microsoft YaHei';
+  font-weight: bold;
+  line-height: 50px;
+}
+#order_details .order-wrap h3.second-title .edit-records {
+  cursor: pointer;
+  font-size: 14px;
+  color: #697886;
+}
+#order_details .order-wrap h3.second-title .edit-records a {
+  color: #697886;
+}
+#order_details .order-wrap.dispatch-editing-info {
+  background-color: #4680D4;
+  padding-bottom: 60px;
+}
+#order_details .order-wrap.dispatch-editing-info .export_box_info {
+  display: none;
+}
+#order_details .order-wrap.dispatch-editing-info .second-title {
+  color: #fff;
+  border-bottom: 0px;
+}
+#order_details .order-wrap.dispatch-editing-info .funcs.control {
+  display: none;
+}
+#order_details .order-title {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 80px;
+  line-height: 80px;
+  background: #fff;
+  margin-top: 20px;
+}
+#order_details .order-title .num-tidan {
+  height: 80px;
+  float: left;
+  font-family: 'Microsoft YaHei';
+  font-size: 22px;
+  margin-left: 20px;
+}
+#order_details .order-title .left,
+#order_details .order-title .right {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: right;
+}
+#order_details .order-title .left .name,
+#order_details .order-title .right .name {
+  line-height: 40px;
+  font-size: 20px;
+  color: #555;
+  margin-top: 10px;
+}
+#order_details .order-title .left .contact,
+#order_details .order-title .right .contact {
+  line-height: 20px;
+  font-size: 14px;
+  color: #666;
+}
+#order_details .order-title .left {
+  text-align: left;
+}
+#order_details .order-funcs {
+  margin-top: 20px;
+  text-align: right;
+}
+#order_details .order-funcs .status {
+  font-size: 26px;
+  font-family: 'Microsoft YaHei';
+  font-weight: bold;
+  height: 80px;
+  background: #fd6620;
+  color: #fff;
+  width: 260px;
+  text-align: center;
+  float: left;
+  line-height: 80px;
+}
+#order_details .order-funcs .order-btn {
+  margin-left: 10px;
+  display: inline-block;
+  margin-top: 25px;
+}
+#order_details .order-funcs .order-btn.style1 {
+  font-size: 14px;
+  line-height: 14px;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #fff;
+  background: #fd6620;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  transition-property: background;
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+  -webkit-transition-property: background;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-delay: 0s;
+  -webkit-transition-timing-function: ease;
+  -o-transition-property: background;
+  -o-transition-duration: 0.5s;
+  -o-transition-delay: 0s;
+  -o-transition-timing-function: ease;
+  -moz-transition-property: background;
+  -moz-transition-duration: 0.5s;
+  -moz-transition-delay: 0s;
+  -moz-transition-timing-function: ease;
+}
+#order_details .order-funcs .order-btn.style1:hover {
+  cursor: pointer;
+  background: #fd5c11;
+}
+#order_details .order-funcs .order-btn.style2 {
+  font-size: 14px;
+  line-height: 14px;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #fff;
+  background: #6d85a6;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  transition-property: background;
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+  -webkit-transition-property: background;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-delay: 0s;
+  -webkit-transition-timing-function: ease;
+  -o-transition-property: background;
+  -o-transition-duration: 0.5s;
+  -o-transition-delay: 0s;
+  -o-transition-timing-function: ease;
+  -moz-transition-property: background;
+  -moz-transition-duration: 0.5s;
+  -moz-transition-delay: 0s;
+  -moz-transition-timing-function: ease;
+}
+#order_details .order-funcs .order-btn.style2:hover {
+  cursor: pointer;
+  background: #637da0;
+}
+#order_details .order-files {
+  margin-top: 20px;
+}
+#order_details .order-info .order-info-wrap {
+  padding: 0 100px 30px 40px;
+}
+#order_details .order-info .order-info-wrap ul {
+  width: 50%;
+  float: left;
+}
+#order_details .order-info .order-info-wrap ul h4.title {
+  padding-left: 50px;
+  color: #fd6620;
+  font-size: 18px;
+  line-height: 40px;
+}
+#order_details .order-info .order-info-wrap ul li {
+  line-height: 40px;
+  font-size: 14px;
+}
+#order_details .order-info .order-info-wrap ul li label {
+  display: block;
+  text-align: right;
+  width: 110px;
+  float: left;
+  color: #697886;
+}
+#order_details .order-info .order-info-wrap ul li span {
+  margin-left: 30px;
+  color: #263241;
+}
+#order_details .order-info .order-info-wrap ul li.box-type div {
+  float: left;
+  margin-left: 30px;
+}
+#order_details .order-info .order-info-wrap ul li.box-type div span {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  margin-left: 0;
+  background: #e1e6ec;
+  padding: 2px 5px;
+}
+#order_details .order-info .order-info-wrap ul li .time {
+  margin-left: 30px;
+  float: left;
+}
+#order_details .order-info .btn-wrap {
+  text-align: center;
+}
+#order_details .order-info .btn-wrap a {
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  background: #6fd1de;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 10px 40px;
+}
+#order_details .order-info .btn-wrap a:hover {
+  cursor: pointer;
+  background: #63cddb;
+}

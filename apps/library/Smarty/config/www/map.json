@@ -1,0 +1,1704 @@
+{
+    "res": {
+        "common/module/address/address.js": {
+            "uri": "/static/common/module/address/address_e06d8bc.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/address/address"
+            },
+            "deps": [
+                "common/module/storage.js",
+                "common/module/select/select.js",
+                "common/module/address/address.less"
+            ],
+            "pkg": "p0"
+        },
+        "common/module/address/address.less": {
+            "uri": "/static/common/module/address/address_2413d5b.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "common/module/alert/alert.ejs": {
+            "uri": "/static/common/module/alert/alert_79c88a4.js",
+            "type": "js",
+            "deps": [
+                "common/module/alert/alert.less"
+            ]
+        },
+        "common/module/alert/alert.less": {
+            "uri": "/static/common/module/alert/alert_d204566.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "common/module/alert/alert.js": {
+            "uri": "/static/common/module/alert/alert_7b515a1.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/alert/alert"
+            },
+            "deps": [
+                "common/module/popup/popup.js",
+                "common/module/alert/alert.less"
+            ],
+            "pkg": "p0"
+        },
+        "common/module/cards/cards.js": {
+            "uri": "/static/common/module/cards/cards_e93a87d.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/cards/cards"
+            },
+            "deps": [
+                "common/module/cards/cards.less"
+            ],
+            "pkg": "p0"
+        },
+        "common/module/cards/cards.less": {
+            "uri": "/static/common/module/cards/cards_552741f.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "common/module/confirm/confirm.ejs": {
+            "uri": "/static/common/module/confirm/confirm_568641f.js",
+            "type": "js",
+            "deps": [
+                "common/module/confirm/confirm.less"
+            ]
+        },
+        "common/module/confirm/confirm.less": {
+            "uri": "/static/common/module/confirm/confirm_8e8a653.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "common/module/confirm/confirm.js": {
+            "uri": "/static/common/module/confirm/confirm_c7f701b.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/confirm/confirm"
+            },
+            "deps": [
+                "common/module/popup/popup.js",
+                "common/module/confirm/confirm.less"
+            ],
+            "pkg": "p0"
+        },
+        "common/module/datePicker/datePicker.js": {
+            "uri": "/static/common/module/datePicker/datePicker_6c9d536.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/datePicker/datePicker"
+            },
+            "deps": [
+                "common/module/datePicker/datePicker.less"
+            ],
+            "pkg": "p0"
+        },
+        "common/module/datePicker/datePicker.less": {
+            "uri": "/static/common/module/datePicker/datePicker_9e6e5f9.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "common/module/idVerify/idVerify.js": {
+            "uri": "/static/common/module/idVerify/idVerify_0d59499.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/idVerify/idVerify"
+            },
+            "pkg": "p0"
+        },
+        "common/module/loading/loading.js": {
+            "uri": "/static/common/module/loading/loading_2e59c28.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/loading/loading"
+            },
+            "deps": [
+                "common/module/loading/loading.less"
+            ],
+            "pkg": "p0"
+        },
+        "common/module/loading/tpl/tpl.tmpl": {
+            "uri": "/static/common/module/loading/tpl/tpl_a3ca664.js",
+            "type": "js"
+        },
+        "common/module/loading/loading.less": {
+            "uri": "/static/common/module/loading/loading_2b4f14c.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "common/module/loadingBtn/loadingBtn.js": {
+            "uri": "/static/common/module/loadingBtn/loadingBtn_1963be8.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/loadingBtn/loadingBtn"
+            },
+            "deps": [
+                "common/module/loadingBtn/loadingBtn.less"
+            ],
+            "pkg": "p0"
+        },
+        "common/module/loadingBtn/tpl/loadingBtn.tmpl": {
+            "uri": "/static/common/module/loadingBtn/tpl/loadingBtn_3d1174f.js",
+            "type": "js"
+        },
+        "common/module/loadingBtn/loadingBtn.less": {
+            "uri": "/static/common/module/loadingBtn/loadingBtn_28cbbe3.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "common/module/login/login.ejs": {
+            "uri": "/static/common/module/login/login_df7c0ad.js",
+            "type": "js",
+            "deps": [
+                "common/module/login/login.less"
+            ]
+        },
+        "common/module/login/login.less": {
+            "uri": "/static/common/module/login/login_c41ca58.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "common/module/login/login.js": {
+            "uri": "/static/common/module/login/login_015b9a3.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/login/login"
+            },
+            "deps": [
+                "common/module/popup/popup.js",
+                "common/module/util.js",
+                "common/module/login/login.less"
+            ],
+            "pkg": "p0"
+        },
+        "common/module/map/map.js": {
+            "uri": "/static/common/module/map/map_f000ba3.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/map/map"
+            },
+            "pkg": "p0"
+        },
+        "common/module/popup/popup.js": {
+            "uri": "/static/common/module/popup/popup_ca3f458.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/popup/popup"
+            },
+            "deps": [
+                "common/module/popup/popup.less"
+            ],
+            "pkg": "p0"
+        },
+        "common/module/popup/popup.less": {
+            "uri": "/static/common/module/popup/popup_d78964f.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "common/module/searchBox/searchBox.js": {
+            "uri": "/static/common/module/searchBox/searchBox_5e6d8ea.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/searchBox/searchBox"
+            },
+            "deps": [
+                "common/module/util.js",
+                "common/module/searchBox/searchBox.less"
+            ],
+            "pkg": "p0"
+        },
+        "common/module/searchBox/tpl/searchBox.tmpl": {
+            "uri": "/static/common/module/searchBox/tpl/searchBox_284dd92.js",
+            "type": "js"
+        },
+        "common/module/searchBox/searchBox.less": {
+            "uri": "/static/common/module/searchBox/searchBox_9acca21.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "common/module/select/select.js": {
+            "uri": "/static/common/module/select/select_bb9525f.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/select/select"
+            },
+            "deps": [
+                "common/module/select/select.less"
+            ],
+            "pkg": "p0"
+        },
+        "common/module/select/tpl/select.tmpl": {
+            "uri": "/static/common/module/select/tpl/select_7017c92.js",
+            "type": "js"
+        },
+        "common/module/select/select.less": {
+            "uri": "/static/common/module/select/select_b34233c.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "common/module/selectTimeBox/selectTimeBox.js": {
+            "uri": "/static/common/module/selectTimeBox/selectTimeBox_1c52ef8.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/selectTimeBox/selectTimeBox"
+            },
+            "deps": [
+                "common/module/util.js",
+                "common/module/select/select.js",
+                "common/module/selectTimeBox/selectTimeBox.less"
+            ],
+            "pkg": "p0"
+        },
+        "common/module/selectTimeBox/selectTimeBox.less": {
+            "uri": "/static/common/module/selectTimeBox/selectTimeBox_597e37e.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "common/module/storage.js": {
+            "uri": "/static/common/module/storage_86a2a1f.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/storage"
+            },
+            "pkg": "p0"
+        },
+        "common/module/upload/uploader.js": {
+            "uri": "/static/common/module/upload/uploader_0d7d032.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/upload/uploader"
+            },
+            "deps": [
+                "common/module/util.js"
+            ],
+            "pkg": "p0"
+        },
+        "common/module/util.js": {
+            "uri": "/static/common/module/util_1dff280.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/module/util"
+            },
+            "pkg": "p0"
+        },
+        "common/static/script/boot.js": {
+            "uri": "/static/common/static/script/boot_87bebcd.js",
+            "type": "js",
+            "deps": [
+                "common/module/alert/alert.js"
+            ],
+            "pkg": "p0"
+        },
+        "common/static/script/jquery.js": {
+            "uri": "/static/common/static/script/jquery_9519bad.js",
+            "type": "js",
+            "pkg": "p2"
+        },
+        "common/static/script/jquery.json.js": {
+            "uri": "/static/common/static/script/jquery.json_4924dd6.js",
+            "type": "js",
+            "pkg": "p2"
+        },
+        "common/static/script/mod.js": {
+            "uri": "/static/common/static/script/mod_2b1d325.js",
+            "type": "js",
+            "pkg": "p2"
+        },
+        "common/static/script/split.js": {
+            "uri": "/static/common/static/script/split_d29b5ad.js",
+            "type": "js"
+        },
+        "common/static/style/base.less": {
+            "uri": "/static/common/static/style/base_f9c400d.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "common/static/style/vars.less": {
+            "uri": "/static/common/static/style/vars_d41d8cd.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "common/widget/footer/footer.js": {
+            "uri": "/static/common/widget/footer/footer_ef3e702.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/widget/footer/footer"
+            },
+            "deps": [
+                "common/widget/footer/footer.less"
+            ],
+            "pkg": "p0"
+        },
+        "common/widget/footer/footer.less": {
+            "uri": "/static/common/widget/footer/footer_f458875.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "common/widget/footer/footer.tpl": {
+            "uri": "common/widget/footer/footer_50c5150.tpl",
+            "type": "tpl",
+            "deps": [
+                "common/widget/footer/footer.js",
+                "common/widget/footer/footer.less"
+            ]
+        },
+        "common/widget/pager/pager.js": {
+            "uri": "/static/common/widget/pager/pager_aa03e8f.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "common/widget/pager/pager"
+            },
+            "deps": [
+                "common/module/util.js",
+                "common/widget/pager/pager.less"
+            ],
+            "pkg": "p0"
+        },
+        "common/widget/pager/pager.less": {
+            "uri": "/static/common/widget/pager/pager_99a6879.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "common/widget/pager/pager.tpl": {
+            "uri": "common/widget/pager/pager_c40c090.tpl",
+            "type": "tpl",
+            "deps": [
+                "common/widget/pager/pager.js",
+                "common/widget/pager/pager.less"
+            ]
+        },
+        "index/module/apps/apps.js": {
+            "uri": "/static/index/module/apps/apps_5c4effa.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "index/module/apps/apps"
+            },
+            "deps": [
+                "common/module/popup/popup.js",
+                "common/module/util.js",
+                "index/module/apps/apps.less"
+            ],
+            "pkg": "p3"
+        },
+        "index/module/apps/tpl.tmpl": {
+            "uri": "/static/index/module/apps/tpl_8c45d07.js",
+            "type": "js"
+        },
+        "index/module/apps/apps.less": {
+            "uri": "/static/index/module/apps/apps_93a015b.css",
+            "type": "css",
+            "pkg": "p4"
+        },
+        "index/widget/header/header.js": {
+            "uri": "/static/index/widget/header/header_7d5dbd8.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "index/widget/header/header"
+            },
+            "deps": [
+                "common/module/login/login.js",
+                "index/module/apps/apps.js",
+                "index/widget/header/header.less"
+            ],
+            "pkg": "p3"
+        },
+        "index/widget/header/header.less": {
+            "uri": "/static/index/widget/header/header_3979030.css",
+            "type": "css",
+            "pkg": "p4"
+        },
+        "index/widget/header/header.tpl": {
+            "uri": "index/widget/header/header_2bf28c3.tpl",
+            "type": "tpl",
+            "deps": [
+                "index/widget/header/header.js",
+                "index/widget/header/header.less"
+            ]
+        },
+        "index/widget/view/agreement/agreement.less": {
+            "uri": "/static/index/widget/view/agreement/agreement_a35f55c.css",
+            "type": "css",
+            "pkg": "p4"
+        },
+        "index/widget/view/agreement/agreement.tpl": {
+            "uri": "index/widget/view/agreement/agreement_82db7e8.tpl",
+            "type": "tpl",
+            "deps": [
+                "index/widget/view/agreement/agreement.less"
+            ]
+        },
+        "index/widget/view/error/error.less": {
+            "uri": "/static/index/widget/view/error/error_c2431dd.css",
+            "type": "css",
+            "pkg": "p4"
+        },
+        "index/widget/view/error/error.tpl": {
+            "uri": "index/widget/view/error/error_2b014b7.tpl",
+            "type": "tpl",
+            "deps": [
+                "index/widget/view/error/error.less"
+            ]
+        },
+        "index/widget/view/forgotPassword/forgot_pwd.js": {
+            "uri": "/static/index/widget/view/forgotPassword/forgot_pwd_d9e06e3.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "index/widget/view/forgotPassword/forgot_pwd"
+            },
+            "deps": [
+                "common/module/util.js",
+                "index/widget/view/forgotPassword/forgot_pwd.less"
+            ],
+            "pkg": "p3"
+        },
+        "index/widget/view/forgotPassword/forgot_pwd.less": {
+            "uri": "/static/index/widget/view/forgotPassword/forgot_pwd_56143f1.css",
+            "type": "css",
+            "pkg": "p4"
+        },
+        "index/widget/view/forgotPassword/forgot_pwd.tpl": {
+            "uri": "index/widget/view/forgotPassword/forgot_pwd_1f74d08.tpl",
+            "type": "tpl",
+            "deps": [
+                "index/widget/view/forgotPassword/forgot_pwd.js",
+                "index/widget/view/forgotPassword/forgot_pwd.less"
+            ]
+        },
+        "index/widget/view/index/index.less": {
+            "uri": "/static/index/widget/view/index/index_b9a012c.css",
+            "type": "css",
+            "pkg": "p4"
+        },
+        "index/widget/view/index/index.tpl": {
+            "uri": "index/widget/view/index/index_f33ef24.tpl",
+            "type": "tpl",
+            "deps": [
+                "index/widget/view/index/index.less"
+            ]
+        },
+        "index/widget/view/login/login.js": {
+            "uri": "/static/index/widget/view/login/login_49808d8.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "index/widget/view/login/login"
+            },
+            "deps": [
+                "common/module/util.js",
+                "index/widget/view/login/login.less"
+            ],
+            "pkg": "p3"
+        },
+        "index/widget/view/login/login.less": {
+            "uri": "/static/index/widget/view/login/login_b465045.css",
+            "type": "css",
+            "pkg": "p4"
+        },
+        "index/widget/view/login/login.tpl": {
+            "uri": "index/widget/view/login/login_ee7649e.tpl",
+            "type": "tpl",
+            "deps": [
+                "index/widget/view/login/login.js",
+                "index/widget/view/login/login.less"
+            ]
+        },
+        "index/widget/view/reg/reg.js": {
+            "uri": "/static/index/widget/view/reg/reg_2081098.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "index/widget/view/reg/reg"
+            },
+            "deps": [
+                "common/module/util.js",
+                "index/widget/view/reg/reg.less"
+            ],
+            "pkg": "p3"
+        },
+        "index/widget/view/reg/reg.less": {
+            "uri": "/static/index/widget/view/reg/reg_f7a2edf.css",
+            "type": "css",
+            "pkg": "p4"
+        },
+        "index/widget/view/reg/reg.tpl": {
+            "uri": "index/widget/view/reg/reg_fcc9619.tpl",
+            "type": "tpl",
+            "deps": [
+                "index/widget/view/reg/reg.js",
+                "index/widget/view/reg/reg.less"
+            ]
+        },
+        "order/module/addSelectTimeBox/addSelectTimeBox.js": {
+            "uri": "/static/order/module/addSelectTimeBox/addSelectTimeBox_1e0f8ef.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/module/addSelectTimeBox/addSelectTimeBox"
+            },
+            "deps": [
+                "common/module/selectTimeBox/selectTimeBox.js",
+                "order/module/addSelectTimeBox/addSelectTimeBox.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/module/addSelectTimeBox/addSelectTimeBox.less": {
+            "uri": "/static/order/module/addSelectTimeBox/addSelectTimeBox_f980d51.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/module/assign_pop/assign_pop.js": {
+            "uri": "/static/order/module/assign_pop/assign_pop_260bc40.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/module/assign_pop/assign_pop"
+            },
+            "deps": [
+                "common/module/popup/popup.js",
+                "common/module/select/select.js",
+                "order/module/assign_pop/assign_pop.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/module/assign_pop/tpl/assign_pop.tmpl": {
+            "uri": "/static/order/module/assign_pop/tpl/assign_pop_2f1033f.js",
+            "type": "js"
+        },
+        "order/module/assign_pop/tpl/item.tmpl": {
+            "uri": "/static/order/module/assign_pop/tpl/item_aca1d48.js",
+            "type": "js"
+        },
+        "order/module/assign_pop/tpl/complete-item.tmpl": {
+            "uri": "/static/order/module/assign_pop/tpl/complete-item_7eada87.js",
+            "type": "js"
+        },
+        "order/module/assign_pop/assign_pop.less": {
+            "uri": "/static/order/module/assign_pop/assign_pop_a0ea67c.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/module/comfirm_psw_pop/comfirm_psw_pop.js": {
+            "uri": "/static/order/module/comfirm_psw_pop/comfirm_psw_pop_f2facdd.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/module/comfirm_psw_pop/comfirm_psw_pop"
+            },
+            "deps": [
+                "common/module/popup/popup.js",
+                "order/module/comfirm_psw_pop/comfirm_psw_pop.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/module/comfirm_psw_pop/tpl/comfirm_psw_pop.tmpl": {
+            "uri": "/static/order/module/comfirm_psw_pop/tpl/comfirm_psw_pop_62db849.js",
+            "type": "js"
+        },
+        "order/module/comfirm_psw_pop/comfirm_psw_pop.less": {
+            "uri": "/static/order/module/comfirm_psw_pop/comfirm_psw_pop_0263f69.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/module/commonBox.js": {
+            "uri": "/static/order/module/commonBox_be30403.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/module/commonBox"
+            },
+            "deps": [
+                "common/module/util.js",
+                "common/module/select/select.js",
+                "common/module/address/address.js"
+            ],
+            "pkg": "p5"
+        },
+        "order/module/confirm_product/confirm_product.js": {
+            "uri": "/static/order/module/confirm_product/confirm_product_d7c0305.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/module/confirm_product/confirm_product"
+            },
+            "deps": [
+                "common/module/popup/popup.js",
+                "order/module/confirm_product/confirm_product.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/module/confirm_product/tpl/confirm_product.tmpl": {
+            "uri": "/static/order/module/confirm_product/tpl/confirm_product_64ad80a.js",
+            "type": "js"
+        },
+        "order/module/confirm_product/confirm_product.less": {
+            "uri": "/static/order/module/confirm_product/confirm_product_4316942.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/module/edit_product/edit_product.js": {
+            "uri": "/static/order/module/edit_product/edit_product_33beba4.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/module/edit_product/edit_product"
+            },
+            "deps": [
+                "common/module/popup/popup.js",
+                "order/module/commonBox.js",
+                "order/module/addSelectTimeBox/addSelectTimeBox.js",
+                "order/module/edit_product/edit_product.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/module/edit_product/tpl/edit_product.tmpl": {
+            "uri": "/static/order/module/edit_product/tpl/edit_product_380e031.js",
+            "type": "js"
+        },
+        "order/module/edit_product/tpl/productInfo_box.tmpl": {
+            "uri": "/static/order/module/edit_product/tpl/productInfo_box_2a58c18.js",
+            "type": "js"
+        },
+        "order/module/edit_product/edit_product.less": {
+            "uri": "/static/order/module/edit_product/edit_product_0d82d9f.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/module/ensupe_pop/ensupe_pop.js": {
+            "uri": "/static/order/module/ensupe_pop/ensupe_pop_f70b9f8.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/module/ensupe_pop/ensupe_pop"
+            },
+            "deps": [
+                "common/module/popup/popup.js",
+                "common/module/util.js",
+                "order/module/ensupe_pop/ensupe_pop.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/module/ensupe_pop/tpl/ensupe_pop.tmpl": {
+            "uri": "/static/order/module/ensupe_pop/tpl/ensupe_pop_98c51e7.js",
+            "type": "js"
+        },
+        "order/module/ensupe_pop/ensupe_pop.less": {
+            "uri": "/static/order/module/ensupe_pop/ensupe_pop_25e02ba.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/module/quit_load/quit_load.js": {
+            "uri": "/static/order/module/quit_load/quit_load_6fe3f77.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/module/quit_load/quit_load"
+            },
+            "deps": [
+                "common/module/popup/popup.js",
+                "order/module/quit_load/quit_load.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/module/quit_load/quit_load.tmpl": {
+            "uri": "/static/order/module/quit_load/quit_load_2ac27c8.js",
+            "type": "js",
+            "deps": [
+                "order/module/quit_load/quit_load.less"
+            ]
+        },
+        "order/module/quit_load/quit_load.less": {
+            "uri": "/static/order/module/quit_load/quit_load_fbe834b.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/module/remark/html.tmpl": {
+            "uri": "/static/order/module/remark/html_f692ab8.js",
+            "type": "js"
+        },
+        "order/module/remark/remark.js": {
+            "uri": "/static/order/module/remark/remark_95a8fae.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/module/remark/remark"
+            },
+            "deps": [
+                "common/module/popup/popup.js",
+                "order/module/remark/remark.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/module/remark/remark.less": {
+            "uri": "/static/order/module/remark/remark_1ec9664.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/static/style/order-vars.less": {
+            "uri": "/static/order/static/style/order-vars_d41d8cd.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/widget/com/order_file_download/order_file_download.js": {
+            "uri": "/static/order/widget/com/order_file_download/order_file_download_691eefc.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/widget/com/order_file_download/order_file_download"
+            },
+            "deps": [
+                "order/widget/com/order_file_download/order_file_download.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/widget/com/order_file_download/order_file_download.less": {
+            "uri": "/static/order/widget/com/order_file_download/order_file_download_b2b2615.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/widget/com/order_file_download/order_file_download.tpl": {
+            "uri": "order/widget/com/order_file_download/order_file_download_ff2191c.tpl",
+            "type": "tpl",
+            "deps": [
+                "order/widget/com/order_file_download/order_file_download.js",
+                "order/widget/com/order_file_download/order_file_download.less"
+            ]
+        },
+        "order/widget/view/car_manage/car_manage.less": {
+            "uri": "/static/order/widget/view/car_manage/car_manage_4f5b3f9.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/widget/view/car_manage/car_manage.tpl": {
+            "uri": "order/widget/view/car_manage/car_manage_7961b99.tpl",
+            "type": "tpl",
+            "deps": [
+                "order/widget/view/car_manage/car_manage.less"
+            ]
+        },
+        "order/widget/view/modify_record/modify_record.less": {
+            "uri": "/static/order/widget/view/modify_record/modify_record_f1c7cca.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/widget/view/modify_record/modify_record.tpl": {
+            "uri": "order/widget/view/modify_record/modify_record_0fb8130.tpl",
+            "type": "tpl",
+            "deps": [
+                "order/widget/view/modify_record/modify_record.less"
+            ]
+        },
+        "order/widget/view/order_choose/order_choose.js": {
+            "uri": "/static/order/widget/view/order_choose/order_choose_dedeb20.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/widget/view/order_choose/order_choose"
+            },
+            "deps": [
+                "common/module/select/select.js",
+                "order/widget/view/order_choose/order_choose.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/widget/view/order_choose/order_choose.less": {
+            "uri": "/static/order/widget/view/order_choose/order_choose_ef86c9d.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/widget/view/order_choose/order_choose.tpl": {
+            "uri": "order/widget/view/order_choose/order_choose_ae7b337.tpl",
+            "type": "tpl",
+            "deps": [
+                "order/widget/view/order_choose/order_choose.js",
+                "order/widget/view/order_choose/order_choose.less"
+            ]
+        },
+        "order/widget/view/order_complete/addressBox.js": {
+            "uri": "/static/order/widget/view/order_complete/addressBox_696eb28.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/widget/view/order_complete/addressBox"
+            },
+            "deps": [
+                "common/module/util.js",
+                "order/widget/view/order_complete/commonBox.js",
+                "order/module/addSelectTimeBox/addSelectTimeBox.js"
+            ],
+            "pkg": "p5"
+        },
+        "order/widget/view/order_complete/tpl/addressBox.tmpl": {
+            "uri": "/static/order/widget/view/order_complete/tpl/addressBox_c942bf9.js",
+            "type": "js"
+        },
+        "order/widget/view/order_complete/commonBox.js": {
+            "uri": "/static/order/widget/view/order_complete/commonBox_983eb40.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/widget/view/order_complete/commonBox"
+            },
+            "deps": [
+                "common/module/util.js",
+                "common/module/select/select.js",
+                "common/module/address/address.js"
+            ],
+            "pkg": "p5"
+        },
+        "order/widget/view/order_complete/order_complete.js": {
+            "uri": "/static/order/widget/view/order_complete/order_complete_b43ae8b.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/widget/view/order_complete/order_complete"
+            },
+            "deps": [
+                "common/module/util.js",
+                "order/widget/view/order_complete/commonBox.js",
+                "order/widget/view/order_complete/addressBox.js",
+                "common/module/select/select.js",
+                "common/module/searchBox/searchBox.js",
+                "order/widget/view/order_complete/order_complete.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/widget/view/order_complete/order_complete.less": {
+            "uri": "/static/order/widget/view/order_complete/order_complete_6d5893a.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/widget/view/order_complete/order_complete.tpl": {
+            "uri": "order/widget/view/order_complete/order_complete_f21ceae.tpl",
+            "type": "tpl",
+            "deps": [
+                "order/widget/view/order_complete/order_complete.js",
+                "order/widget/view/order_complete/order_complete.less"
+            ]
+        },
+        "order/widget/view/order_details/order_details.js": {
+            "uri": "/static/order/widget/view/order_details/order_details_7ca49c0.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/widget/view/order_details/order_details"
+            },
+            "deps": [
+                "order/module/edit_product/edit_product.js",
+                "order/module/confirm_product/confirm_product.js",
+                "common/module/cards/cards.js",
+                "order/module/comfirm_psw_pop/comfirm_psw_pop.js",
+                "order/widget/view/order_details/order_details.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/widget/view/order_details/order_details.less": {
+            "uri": "/static/order/widget/view/order_details/order_details_6defa84.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/widget/view/order_details/order_details.tpl": {
+            "uri": "order/widget/view/order_details/order_details_77a596d.tpl",
+            "type": "tpl",
+            "deps": [
+                "order/widget/view/order_details/order_details.js",
+                "order/widget/view/order_details/order_details.less"
+            ]
+        },
+        "order/widget/view/order_details/partial/box_info/box_info.js": {
+            "uri": "/static/order/widget/view/order_details/partial/box_info/box_info_450d235.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/widget/view/order_details/partial/box_info/box_info"
+            },
+            "deps": [
+                "order/module/ensupe_pop/ensupe_pop.js",
+                "order/module/assign_pop/assign_pop.js",
+                "common/module/cards/cards.js",
+                "common/module/select/select.js",
+                "common/module/confirm/confirm.js",
+                "order/widget/view/order_details/partial/box_info/box_info.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/widget/view/order_details/partial/box_info/tpl/box_details.tmpl": {
+            "uri": "/static/order/widget/view/order_details/partial/box_info/tpl/box_details_7916393.js",
+            "type": "js"
+        },
+        "order/widget/view/order_details/partial/box_info/box_info.less": {
+            "uri": "/static/order/widget/view/order_details/partial/box_info/box_info_d3aabcc.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/widget/view/order_details/partial/box_info/box_info.tpl": {
+            "uri": "order/widget/view/order_details/partial/box_info/box_info_6fba6c1.tpl",
+            "type": "tpl",
+            "deps": [
+                "order/widget/view/order_details/partial/box_info/box_info.js",
+                "order/widget/view/order_details/partial/box_info/box_info.less"
+            ]
+        },
+        "order/widget/view/order_list/order_list.js": {
+            "uri": "/static/order/widget/view/order_list/order_list_f5c9166.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/widget/view/order_list/order_list"
+            },
+            "deps": [
+                "order/module/remark/remark.js",
+                "common/module/select/select.js",
+                "order/widget/view/order_list/order_list.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/widget/view/order_list/order_list.less": {
+            "uri": "/static/order/widget/view/order_list/order_list_db0f88d.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/widget/view/order_list/order_list.tpl": {
+            "uri": "order/widget/view/order_list/order_list_d04b85d.tpl",
+            "type": "tpl",
+            "deps": [
+                "order/widget/view/order_list/order_list.js",
+                "order/widget/view/order_list/order_list.less"
+            ]
+        },
+        "order/widget/view/order_new/order_new.js": {
+            "uri": "/static/order/widget/view/order_new/order_new_d8fcfbe.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/widget/view/order_new/order_new"
+            },
+            "deps": [
+                "common/module/upload/uploader.js",
+                "common/module/select/select.js",
+                "common/module/loadingBtn/loadingBtn.js",
+                "order/widget/view/order_new/order_new.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/widget/view/order_new/order_new.less": {
+            "uri": "/static/order/widget/view/order_new/order_new_6f0d226.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/widget/view/order_new/order_new.tpl": {
+            "uri": "order/widget/view/order_new/order_new_2146646.tpl",
+            "type": "tpl",
+            "deps": [
+                "order/widget/view/order_new/order_new.js",
+                "order/widget/view/order_new/order_new.less"
+            ]
+        },
+        "order/widget/view/order_trace/order_trace.js": {
+            "uri": "/static/order/widget/view/order_trace/order_trace_a61eaad.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/widget/view/order_trace/order_trace"
+            },
+            "deps": [
+                "order/widget/view/order_trace/order_trace.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/widget/view/order_trace/order_trace.less": {
+            "uri": "/static/order/widget/view/order_trace/order_trace_e1bfdfd.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/widget/view/order_trace/order_trace.tpl": {
+            "uri": "order/widget/view/order_trace/order_trace_e08aa1c.tpl",
+            "type": "tpl",
+            "deps": [
+                "order/widget/view/order_trace/order_trace.js",
+                "order/widget/view/order_trace/order_trace.less"
+            ]
+        },
+        "order/widget/view/order_trace/templete/order_trace_details/order_trace_details.js": {
+            "uri": "/static/order/widget/view/order_trace/templete/order_trace_details/order_trace_details_f1d52e5.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/widget/view/order_trace/templete/order_trace_details/order_trace_details"
+            },
+            "deps": [
+                "common/module/map/map.js",
+                "order/widget/view/order_trace/templete/order_trace_details/order_trace_details.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/widget/view/order_trace/templete/order_trace_details/tpl/infoWindow.tmpl": {
+            "uri": "/static/order/widget/view/order_trace/templete/order_trace_details/tpl/infoWindow_c6d6b7c.js",
+            "type": "js"
+        },
+        "order/widget/view/order_trace/templete/order_trace_details/order_trace_details.less": {
+            "uri": "/static/order/widget/view/order_trace/templete/order_trace_details/order_trace_details_fbcd04e.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/widget/view/order_trace/templete/order_trace_details/order_trace_details.tpl": {
+            "uri": "order/widget/view/order_trace/templete/order_trace_details/order_trace_details_3d5a8c0.tpl",
+            "type": "tpl",
+            "deps": [
+                "order/widget/view/order_trace/templete/order_trace_details/order_trace_details.js",
+                "order/widget/view/order_trace/templete/order_trace_details/order_trace_details.less"
+            ]
+        },
+        "order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar.js": {
+            "uri": "/static/order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar_1dab1ae.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar"
+            },
+            "deps": [
+                "order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar.less": {
+            "uri": "/static/order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar_023645a.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar.tpl": {
+            "uri": "order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar_cd46ec8.tpl",
+            "type": "tpl",
+            "deps": [
+                "order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar.js",
+                "order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar.less"
+            ]
+        },
+        "order/widget/view/print_product_address/print_product_address.js": {
+            "uri": "/static/order/widget/view/print_product_address/print_product_address_995b142.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/widget/view/print_product_address/print_product_address"
+            },
+            "deps": [
+                "order/widget/view/print_product_address/print_product_address.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/widget/view/print_product_address/print_product_address.less": {
+            "uri": "/static/order/widget/view/print_product_address/print_product_address_11a609f.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/widget/view/print_product_address/print_product_address.tpl": {
+            "uri": "order/widget/view/print_product_address/print_product_address_4405968.tpl",
+            "type": "tpl",
+            "deps": [
+                "order/widget/view/print_product_address/print_product_address.js",
+                "order/widget/view/print_product_address/print_product_address.less"
+            ]
+        },
+        "order/widget/view/print_reconstrucct_msg/addressBox.js": {
+            "uri": "/static/order/widget/view/print_reconstrucct_msg/addressBox_d4780d8.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/widget/view/print_reconstrucct_msg/addressBox"
+            },
+            "deps": [
+                "common/module/util.js",
+                "order/widget/view/order_complete/commonBox.js",
+                "order/module/addSelectTimeBox/addSelectTimeBox.js"
+            ],
+            "pkg": "p5"
+        },
+        "order/widget/view/print_reconstrucct_msg/tpl/addressBox.tmpl": {
+            "uri": "/static/order/widget/view/print_reconstrucct_msg/tpl/addressBox_1655773.js",
+            "type": "js"
+        },
+        "order/widget/view/print_reconstrucct_msg/commonBox.js": {
+            "uri": "/static/order/widget/view/print_reconstrucct_msg/commonBox_8262bf1.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/widget/view/print_reconstrucct_msg/commonBox"
+            },
+            "deps": [
+                "common/module/util.js",
+                "common/module/select/select.js",
+                "common/module/address/address.js"
+            ],
+            "pkg": "p5"
+        },
+        "order/widget/view/print_reconstrucct_msg/print_reconstrucct_msg.js": {
+            "uri": "/static/order/widget/view/print_reconstrucct_msg/print_reconstrucct_msg_d0b53a1.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/widget/view/print_reconstrucct_msg/print_reconstrucct_msg"
+            },
+            "deps": [
+                "order/widget/view/order_complete/commonBox.js",
+                "order/widget/view/order_complete/addressBox.js",
+                "common/module/searchBox/searchBox.js",
+                "order/module/comfirm_psw_pop/comfirm_psw_pop.js",
+                "common/module/select/select.js",
+                "order/widget/view/print_reconstrucct_msg/print_reconstrucct_msg.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/widget/view/print_reconstrucct_msg/print_reconstrucct_msg.less": {
+            "uri": "/static/order/widget/view/print_reconstrucct_msg/print_reconstrucct_msg_f57293b.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/widget/view/print_reconstrucct_msg/print_reconstrucct_msg.tpl": {
+            "uri": "order/widget/view/print_reconstrucct_msg/print_reconstrucct_msg_dd02242.tpl",
+            "type": "tpl",
+            "deps": [
+                "order/widget/view/print_reconstrucct_msg/print_reconstrucct_msg.js",
+                "order/widget/view/print_reconstrucct_msg/print_reconstrucct_msg.less"
+            ]
+        },
+        "order/widget/view/product_address_list/product_address_list.js": {
+            "uri": "/static/order/widget/view/product_address_list/product_address_list_315e8b2.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "order/widget/view/product_address_list/product_address_list"
+            },
+            "deps": [
+                "order/widget/view/product_address_list/product_address_list.less"
+            ],
+            "pkg": "p5"
+        },
+        "order/widget/view/product_address_list/product_address_list.less": {
+            "uri": "/static/order/widget/view/product_address_list/product_address_list_20d51a1.css",
+            "type": "css",
+            "pkg": "p6"
+        },
+        "order/widget/view/product_address_list/product_address_list.tpl": {
+            "uri": "order/widget/view/product_address_list/product_address_list_f46629b.tpl",
+            "type": "tpl",
+            "deps": [
+                "order/widget/view/product_address_list/product_address_list.js",
+                "order/widget/view/product_address_list/product_address_list.less"
+            ]
+        },
+        "user/static/style/common.less": {
+            "uri": "/static/user/static/style/common_f8193ab.css",
+            "type": "css",
+            "pkg": "p7"
+        },
+        "user/static/style/nav.less": {
+            "uri": "/static/user/static/style/nav_bd2857a.css",
+            "type": "css",
+            "pkg": "p7"
+        },
+        "user/widget/header/header.js": {
+            "uri": "/static/user/widget/header/header_adcc065.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "user/widget/header/header"
+            },
+            "deps": [
+                "index/module/apps/apps.js",
+                "user/widget/header/header.less"
+            ],
+            "pkg": "p8"
+        },
+        "user/widget/header/header.less": {
+            "uri": "/static/user/widget/header/header_f4d0392.css",
+            "type": "css",
+            "pkg": "p7"
+        },
+        "user/widget/header/header.tpl": {
+            "uri": "user/widget/header/header_4446cfc.tpl",
+            "type": "tpl",
+            "deps": [
+                "user/widget/header/header.js",
+                "user/widget/header/header.less"
+            ]
+        },
+        "user/widget/header_content/header_content.less": {
+            "uri": "/static/user/widget/header_content/header_content_29d6223.css",
+            "type": "css",
+            "pkg": "p7"
+        },
+        "user/widget/header_content/header_content.tpl": {
+            "uri": "user/widget/header_content/header_content_271b0c7.tpl",
+            "type": "tpl",
+            "deps": [
+                "user/widget/header_content/header_content.less"
+            ]
+        },
+        "user/widget/nav_service/nav_service.tpl": {
+            "uri": "user/widget/nav_service/nav_service_b1ee845.tpl",
+            "type": "tpl"
+        },
+        "user/widget/nav_user/nav_user.tpl": {
+            "uri": "user/widget/nav_user/nav_user_add06d8.tpl",
+            "type": "tpl"
+        },
+        "user/widget/view/account_company/company.js": {
+            "uri": "/static/user/widget/view/account_company/company_6fe8df2.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "user/widget/view/account_company/company"
+            },
+            "deps": [
+                "common/module/upload/uploader.js",
+                "common/module/address/address.js",
+                "common/module/select/select.js",
+                "common/module/selectTimeBox/selectTimeBox.js",
+                "common/module/confirm/confirm.js",
+                "common/module/util.js",
+                "user/widget/view/account_company/company.less"
+            ],
+            "pkg": "p8"
+        },
+        "user/widget/view/account_company/company.less": {
+            "uri": "/static/user/widget/view/account_company/company_b7d150e.css",
+            "type": "css",
+            "pkg": "p7"
+        },
+        "user/widget/view/account_company/company.tpl": {
+            "uri": "user/widget/view/account_company/company_85f6ccc.tpl",
+            "type": "tpl",
+            "deps": [
+                "user/widget/view/account_company/company.js",
+                "user/widget/view/account_company/company.less"
+            ]
+        },
+        "user/widget/view/account_info/account_info.js": {
+            "uri": "/static/user/widget/view/account_info/account_info_21cb0ac.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "user/widget/view/account_info/account_info"
+            },
+            "deps": [
+                "common/module/util.js",
+                "user/widget/view/account_info/account_info.less"
+            ],
+            "pkg": "p8"
+        },
+        "user/widget/view/account_info/account_info.less": {
+            "uri": "/static/user/widget/view/account_info/account_info_df2f702.css",
+            "type": "css",
+            "pkg": "p7"
+        },
+        "user/widget/view/account_info/account_info.tpl": {
+            "uri": "user/widget/view/account_info/account_info_9def7e7.tpl",
+            "type": "tpl",
+            "deps": [
+                "user/widget/view/account_info/account_info.js",
+                "user/widget/view/account_info/account_info.less"
+            ]
+        },
+        "user/widget/view/account_security/account_security.js": {
+            "uri": "/static/user/widget/view/account_security/account_security_0ac8870.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "user/widget/view/account_security/account_security"
+            },
+            "deps": [
+                "user/widget/view/account_security/select_change_mobile.js",
+                "user/widget/view/account_security/account_security.less"
+            ],
+            "pkg": "p8"
+        },
+        "user/widget/view/account_security/account_security.less": {
+            "uri": "/static/user/widget/view/account_security/account_security_f259ab2.css",
+            "type": "css",
+            "pkg": "p7"
+        },
+        "user/widget/view/account_security/account_security.tpl": {
+            "uri": "user/widget/view/account_security/account_security_24476fa.tpl",
+            "type": "tpl",
+            "deps": [
+                "user/widget/view/account_security/account_security.js",
+                "user/widget/view/account_security/account_security.less"
+            ]
+        },
+        "user/widget/view/account_security/change_pass.js": {
+            "uri": "/static/user/widget/view/account_security/change_pass_70e8411.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "user/widget/view/account_security/change_pass"
+            },
+            "deps": [
+                "common/module/util.js",
+                "user/widget/view/account_security/change_pass.less"
+            ],
+            "pkg": "p8"
+        },
+        "user/widget/view/account_security/change_pass.less": {
+            "uri": "/static/user/widget/view/account_security/change_pass_ffcdf18.css",
+            "type": "css",
+            "pkg": "p7"
+        },
+        "user/widget/view/account_security/change_pass.tpl": {
+            "uri": "user/widget/view/account_security/change_pass_ac67522.tpl",
+            "type": "tpl",
+            "deps": [
+                "user/widget/view/account_security/change_pass.js",
+                "user/widget/view/account_security/change_pass.less"
+            ]
+        },
+        "user/widget/view/account_security/change_phone.js": {
+            "uri": "/static/user/widget/view/account_security/change_phone_67abef4.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "user/widget/view/account_security/change_phone"
+            },
+            "deps": [
+                "common/module/util.js",
+                "user/widget/view/account_security/change_phone.less"
+            ],
+            "pkg": "p8"
+        },
+        "user/widget/view/account_security/change_phone.less": {
+            "uri": "/static/user/widget/view/account_security/change_phone_2cc5845.css",
+            "type": "css",
+            "pkg": "p7"
+        },
+        "user/widget/view/account_security/change_phone.tpl": {
+            "uri": "user/widget/view/account_security/change_phone_3421cb1.tpl",
+            "type": "tpl",
+            "deps": [
+                "user/widget/view/account_security/change_phone.js",
+                "user/widget/view/account_security/change_phone.less"
+            ]
+        },
+        "user/widget/view/account_security/select_change_mobile.ejs": {
+            "uri": "/static/user/widget/view/account_security/select_change_mobile_ba1626e.js",
+            "type": "js",
+            "deps": [
+                "user/widget/view/account_security/select_change_mobile.less"
+            ]
+        },
+        "user/widget/view/account_security/select_change_mobile.less": {
+            "uri": "/static/user/widget/view/account_security/select_change_mobile_5bdd03f.css",
+            "type": "css",
+            "pkg": "p7"
+        },
+        "user/widget/view/account_security/select_change_mobile.js": {
+            "uri": "/static/user/widget/view/account_security/select_change_mobile_9c5d15b.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "user/widget/view/account_security/select_change_mobile"
+            },
+            "deps": [
+                "common/module/popup/popup.js",
+                "user/widget/view/account_security/select_change_mobile.less"
+            ],
+            "pkg": "p8"
+        },
+        "user/widget/view/apply_manager/apply_manager.js": {
+            "uri": "/static/user/widget/view/apply_manager/apply_manager_7a794d3.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "user/widget/view/apply_manager/apply_manager"
+            },
+            "deps": [
+                "common/module/upload/uploader.js",
+                "user/widget/view/apply_manager/apply_manager.less"
+            ],
+            "pkg": "p8"
+        },
+        "user/widget/view/apply_manager/apply_manager.less": {
+            "uri": "/static/user/widget/view/apply_manager/apply_manager_b4c69c5.css",
+            "type": "css",
+            "pkg": "p7"
+        },
+        "user/widget/view/apply_manager/apply_manager.tpl": {
+            "uri": "user/widget/view/apply_manager/apply_manager_d2898c8.tpl",
+            "type": "tpl",
+            "deps": [
+                "user/widget/view/apply_manager/apply_manager.js",
+                "user/widget/view/apply_manager/apply_manager.less"
+            ]
+        },
+        "user/widget/view/employee/employee.js": {
+            "uri": "/static/user/widget/view/employee/employee_752efd9.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "user/widget/view/employee/employee"
+            },
+            "deps": [
+                "user/widget/view/employee/employee.less"
+            ],
+            "pkg": "p8"
+        },
+        "user/widget/view/employee/employee.less": {
+            "uri": "/static/user/widget/view/employee/employee_8ed6aca.css",
+            "type": "css",
+            "pkg": "p7"
+        },
+        "user/widget/view/employee/employee.tpl": {
+            "uri": "user/widget/view/employee/employee_09dec4f.tpl",
+            "type": "tpl",
+            "deps": [
+                "user/widget/view/employee/employee.js",
+                "user/widget/view/employee/employee.less"
+            ]
+        },
+        "user/widget/view/employee_apply/employee_apply.js": {
+            "uri": "/static/user/widget/view/employee_apply/employee_apply_1a1dd86.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "user/widget/view/employee_apply/employee_apply"
+            },
+            "deps": [
+                "user/widget/view/employee_apply/employee_apply.less"
+            ],
+            "pkg": "p8"
+        },
+        "user/widget/view/employee_apply/employee_apply.less": {
+            "uri": "/static/user/widget/view/employee_apply/employee_apply_45d43c4.css",
+            "type": "css",
+            "pkg": "p7"
+        },
+        "user/widget/view/employee_apply/employee_apply.tpl": {
+            "uri": "user/widget/view/employee_apply/employee_apply_ee79fa7.tpl",
+            "type": "tpl",
+            "deps": [
+                "user/widget/view/employee_apply/employee_apply.js",
+                "user/widget/view/employee_apply/employee_apply.less"
+            ]
+        }
+    },
+    "pkg": {
+        "p0": {
+            "uri": "/static/pkg/js/common_99a86a1.js",
+            "type": "js",
+            "has": [
+                "common/module/storage.js",
+                "common/module/select/select.js",
+                "common/module/address/address.js",
+                "common/module/popup/popup.js",
+                "common/module/cards/cards.js",
+                "common/module/util.js",
+                "common/module/searchBox/searchBox.js",
+                "common/module/datePicker/datePicker.js",
+                "common/module/loading/loading.js",
+                "common/module/selectTimeBox/selectTimeBox.js",
+                "common/module/login/login.js",
+                "common/widget/pager/pager.js",
+                "common/widget/footer/footer.js",
+                "common/module/alert/alert.js",
+                "common/module/confirm/confirm.js",
+                "common/module/idVerify/idVerify.js",
+                "common/module/loadingBtn/loadingBtn.js",
+                "common/module/map/map.js",
+                "common/module/upload/uploader.js",
+                "common/static/script/boot.js"
+            ],
+            "deps": [
+                "common/module/select/select.less",
+                "common/module/address/address.less",
+                "common/module/popup/popup.less",
+                "common/module/cards/cards.less",
+                "common/module/searchBox/searchBox.less",
+                "common/module/datePicker/datePicker.less",
+                "common/module/loading/loading.less",
+                "common/module/selectTimeBox/selectTimeBox.less",
+                "common/module/login/login.less",
+                "common/widget/pager/pager.less",
+                "common/widget/footer/footer.less",
+                "common/module/alert/alert.less",
+                "common/module/confirm/confirm.less",
+                "common/module/loadingBtn/loadingBtn.less"
+            ]
+        },
+        "p1": {
+            "uri": "/static/pkg/css/common_4e77856.css",
+            "type": "css",
+            "has": [
+                "common/module/address/address.less",
+                "common/module/popup/popup.less",
+                "common/module/cards/cards.less",
+                "common/module/searchBox/searchBox.less",
+                "common/module/datePicker/datePicker.less",
+                "common/module/select/select.less",
+                "common/module/loadingBtn/loadingBtn.less",
+                "common/module/login/login.less",
+                "common/module/alert/alert.less",
+                "common/module/confirm/confirm.less",
+                "common/module/loading/loading.less",
+                "common/module/selectTimeBox/selectTimeBox.less",
+                "common/static/style/base.less",
+                "common/static/style/vars.less",
+                "common/widget/footer/footer.less",
+                "common/widget/pager/pager.less"
+            ]
+        },
+        "p2": {
+            "uri": "/static/pkg/libs/libs_f9ea63b.js",
+            "type": "js",
+            "has": [
+                "common/static/script/mod.js",
+                "common/static/script/jquery.js",
+                "common/static/script/jquery.json.js"
+            ]
+        },
+        "p3": {
+            "uri": "/static/pkg/js/index_dd3f013.js",
+            "type": "js",
+            "has": [
+                "index/module/apps/apps.js",
+                "index/widget/header/header.js",
+                "index/widget/view/forgotPassword/forgot_pwd.js",
+                "index/widget/view/login/login.js",
+                "index/widget/view/reg/reg.js"
+            ],
+            "deps": [
+                "common/module/popup/popup.js",
+                "common/module/util.js",
+                "index/module/apps/apps.less",
+                "common/module/login/login.js",
+                "index/widget/header/header.less",
+                "index/widget/view/forgotPassword/forgot_pwd.less",
+                "index/widget/view/login/login.less",
+                "index/widget/view/reg/reg.less"
+            ]
+        },
+        "p4": {
+            "uri": "/static/pkg/css/index_6eba6e2.css",
+            "type": "css",
+            "has": [
+                "index/module/apps/apps.less",
+                "index/widget/header/header.less",
+                "index/widget/view/agreement/agreement.less",
+                "index/widget/view/error/error.less",
+                "index/widget/view/forgotPassword/forgot_pwd.less",
+                "index/widget/view/index/index.less",
+                "index/widget/view/login/login.less",
+                "index/widget/view/reg/reg.less"
+            ]
+        },
+        "p5": {
+            "uri": "/static/pkg/js/order_314e5ba.js",
+            "type": "js",
+            "has": [
+                "order/module/addSelectTimeBox/addSelectTimeBox.js",
+                "order/widget/view/order_complete/commonBox.js",
+                "order/widget/view/order_complete/addressBox.js",
+                "order/widget/view/order_complete/order_complete.js",
+                "order/module/comfirm_psw_pop/comfirm_psw_pop.js",
+                "order/module/commonBox.js",
+                "order/module/edit_product/edit_product.js",
+                "order/module/confirm_product/confirm_product.js",
+                "order/widget/view/order_details/order_details.js",
+                "order/module/ensupe_pop/ensupe_pop.js",
+                "order/module/assign_pop/assign_pop.js",
+                "order/widget/view/order_details/partial/box_info/box_info.js",
+                "order/module/remark/remark.js",
+                "order/widget/view/order_list/order_list.js",
+                "order/widget/view/order_new/order_new.js",
+                "order/widget/view/order_choose/order_choose.js",
+                "order/widget/view/order_trace/order_trace.js",
+                "order/widget/view/order_trace/templete/order_trace_details/order_trace_details.js",
+                "order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar.js",
+                "order/module/quit_load/quit_load.js",
+                "order/widget/com/order_file_download/order_file_download.js",
+                "order/widget/view/print_product_address/print_product_address.js",
+                "order/widget/view/print_reconstrucct_msg/addressBox.js",
+                "order/widget/view/print_reconstrucct_msg/commonBox.js",
+                "order/widget/view/print_reconstrucct_msg/print_reconstrucct_msg.js",
+                "order/widget/view/product_address_list/product_address_list.js"
+            ],
+            "deps": [
+                "common/module/selectTimeBox/selectTimeBox.js",
+                "order/module/addSelectTimeBox/addSelectTimeBox.less",
+                "common/module/util.js",
+                "common/module/select/select.js",
+                "common/module/address/address.js",
+                "common/module/searchBox/searchBox.js",
+                "order/widget/view/order_complete/order_complete.less",
+                "common/module/popup/popup.js",
+                "order/module/comfirm_psw_pop/comfirm_psw_pop.less",
+                "order/module/edit_product/edit_product.less",
+                "order/module/confirm_product/confirm_product.less",
+                "common/module/cards/cards.js",
+                "order/widget/view/order_details/order_details.less",
+                "order/module/ensupe_pop/ensupe_pop.less",
+                "order/module/assign_pop/assign_pop.less",
+                "common/module/confirm/confirm.js",
+                "order/widget/view/order_details/partial/box_info/box_info.less",
+                "order/module/remark/remark.less",
+                "order/widget/view/order_list/order_list.less",
+                "common/module/upload/uploader.js",
+                "common/module/loadingBtn/loadingBtn.js",
+                "order/widget/view/order_new/order_new.less",
+                "order/widget/view/order_choose/order_choose.less",
+                "order/widget/view/order_trace/order_trace.less",
+                "common/module/map/map.js",
+                "order/widget/view/order_trace/templete/order_trace_details/order_trace_details.less",
+                "order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar.less",
+                "order/module/quit_load/quit_load.less",
+                "order/widget/com/order_file_download/order_file_download.less",
+                "order/widget/view/print_product_address/print_product_address.less",
+                "order/widget/view/print_reconstrucct_msg/print_reconstrucct_msg.less",
+                "order/widget/view/product_address_list/product_address_list.less"
+            ]
+        },
+        "p6": {
+            "uri": "/static/pkg/css/order_0df568e.css",
+            "type": "css",
+            "has": [
+                "order/module/addSelectTimeBox/addSelectTimeBox.less",
+                "order/widget/view/order_choose/order_choose.less",
+                "order/module/comfirm_psw_pop/comfirm_psw_pop.less",
+                "order/widget/view/order_complete/order_complete.less",
+                "order/module/edit_product/edit_product.less",
+                "order/widget/view/order_details/order_details.less",
+                "order/module/quit_load/quit_load.less",
+                "order/widget/view/order_details/partial/box_info/box_info.less",
+                "order/static/style/order-vars.less",
+                "order/widget/view/order_list/order_list.less",
+                "order/widget/view/car_manage/car_manage.less",
+                "order/widget/view/order_new/order_new.less",
+                "order/module/assign_pop/assign_pop.less",
+                "order/widget/view/order_trace/order_trace.less",
+                "order/module/ensupe_pop/ensupe_pop.less",
+                "order/module/remark/remark.less",
+                "order/widget/com/order_file_download/order_file_download.less",
+                "order/widget/view/modify_record/modify_record.less",
+                "order/module/confirm_product/confirm_product.less",
+                "order/widget/view/order_trace/templete/order_trace_details/order_trace_details.less",
+                "order/widget/view/order_trace/templete/order_trace_sidebar/order_trace_sidebar.less",
+                "order/widget/view/print_product_address/print_product_address.less",
+                "order/widget/view/print_reconstrucct_msg/print_reconstrucct_msg.less",
+                "order/widget/view/product_address_list/product_address_list.less"
+            ]
+        },
+        "p7": {
+            "uri": "/static/pkg/css/user_05d7427.css",
+            "type": "css",
+            "has": [
+                "user/static/style/common.less",
+                "user/widget/view/account_security/account_security.less",
+                "user/widget/header/header.less",
+                "user/widget/view/account_security/change_pass.less",
+                "user/widget/view/account_company/company.less",
+                "user/widget/view/account_info/account_info.less",
+                "user/static/style/nav.less",
+                "user/widget/header_content/header_content.less",
+                "user/widget/view/account_security/change_phone.less",
+                "user/widget/view/account_security/select_change_mobile.less",
+                "user/widget/view/apply_manager/apply_manager.less",
+                "user/widget/view/employee/employee.less",
+                "user/widget/view/employee_apply/employee_apply.less"
+            ]
+        },
+        "p8": {
+            "uri": "/static/pkg/js/user_17f57a3.js",
+            "type": "js",
+            "has": [
+                "user/widget/header/header.js",
+                "user/widget/view/account_company/company.js",
+                "user/widget/view/account_info/account_info.js",
+                "user/widget/view/account_security/select_change_mobile.js",
+                "user/widget/view/account_security/account_security.js",
+                "user/widget/view/account_security/change_pass.js",
+                "user/widget/view/account_security/change_phone.js",
+                "user/widget/view/apply_manager/apply_manager.js",
+                "user/widget/view/employee/employee.js",
+                "user/widget/view/employee_apply/employee_apply.js"
+            ],
+            "deps": [
+                "index/module/apps/apps.js",
+                "user/widget/header/header.less",
+                "common/module/upload/uploader.js",
+                "common/module/address/address.js",
+                "common/module/select/select.js",
+                "common/module/selectTimeBox/selectTimeBox.js",
+                "common/module/confirm/confirm.js",
+                "common/module/util.js",
+                "user/widget/view/account_company/company.less",
+                "user/widget/view/account_info/account_info.less",
+                "common/module/popup/popup.js",
+                "user/widget/view/account_security/select_change_mobile.less",
+                "user/widget/view/account_security/account_security.less",
+                "user/widget/view/account_security/change_pass.less",
+                "user/widget/view/account_security/change_phone.less",
+                "user/widget/view/apply_manager/apply_manager.less",
+                "user/widget/view/employee/employee.less",
+                "user/widget/view/employee_apply/employee_apply.less"
+            ]
+        }
+    }
+}

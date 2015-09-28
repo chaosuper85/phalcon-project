@@ -1,0 +1,11 @@
+.address_province {
+  float: left;
+}
+.address_city {
+  float: left;
+  margin-left: 30px;
+}
+.address_area {
+  float: left;
+  margin-left: 30px;
+}

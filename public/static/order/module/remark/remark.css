@@ -1,0 +1,78 @@
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+#remark h3 {
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: 'Microsoft YaHei';
+  color: #555;
+}
+#remark ul {
+  width: 265px;
+  height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#remark ul li {
+  float: left;
+  padding: 9px;
+  cursor: pointer;
+}
+#remark ul li span {
+  width: 35px;
+  height: 33px;
+  display: block;
+  background: url('/static/order/static/image/star_off.png?__sprite');
+}
+#remark ul li.on span {
+  background: url('/static/order/static/image/star_on.png?__sprite');
+}
+#remark .remark-content {
+  margin: 20px auto;
+}
+#remark .remark-content .content-wrap {
+  width: 131px;
+  height: 77px;
+  line-height: 77px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Microsoft YaHei';
+  color: #95c466;
+  margin-left: auto;
+  margin-right: auto;
+  background: url('/static/order/static/image/star_bg.png?__sprite');
+}
+#remark .remark-content .content-wrap.red {
+  color: red;
+}
+#remark .submit-wrap {
+  margin-top: 40px;
+}
+#remark .submit-wrap .user-btn {
+  margin-left: 0;
+}

@@ -1,0 +1,118 @@
+.print-header {
+  padding: 30px;
+  background: #f7f7f7;
+}
+.print-header h3 {
+  width: 80px;
+  float: left;
+}
+.print-header span {
+  display: block;
+  line-height: 19px;
+}
+.download {
+  margin: 30px 0px 30px 30px;
+}
+.download .btn-download {
+  border: solid 1px #3085cd;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #3085cd;
+  background: #ffffff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.download .btn-download:hover {
+  cursor: pointer;
+}
+.print-content {
+  min-height: 800px;
+  background: #ffffff;
+}
+.print-content .print-title {
+  text-align: center;
+  padding: 50px 0px 20px 0px;
+}
+.print-content .print-title h2 {
+  font-size: 30px;
+}
+.print-content .print-title p {
+  padding: 10px 0px;
+  font-size: 20px;
+}
+.print-content .print-date {
+  padding: 10px 30px;
+}
+.print-content .print-date label {
+  float: left;
+}
+.print-content .print-date p {
+  float: left;
+  border-bottom: solid 1px #333;
+}
+.print-content .print-table {
+  margin-top: 10px;
+  padding: 10px 30px 0px 30px;
+}
+.print-content .print-table table {
+  width: 100%;
+  border: solid 1px #333;
+}
+.print-content .print-table table tbody {
+  border: solid 1px #333;
+}
+.print-content .print-table table tbody tr {
+  border: solid 1px #333;
+}
+.print-content .print-table table tbody tr.tr-title {
+  line-height: 40px;
+  background: #f7f7f7;
+}
+.print-content .print-table table tbody tr.tr-title h3 {
+  text-align: left;
+}
+.print-content .print-table table tbody td {
+  border: solid 1px #333;
+  line-height: 50px;
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 20px;
+}
+.print-content .print-table table tbody td .box-number {
+  width: 100px;
+  line-height: 30px;
+  float: left;
+}
+.print-content .print-table table tbody td.title {
+  font-weight: 500;
+}
+.print-content .print-table table tbody td.date p {
+  line-height: 30px;
+}
+.print-content .print-table table tbody td.notice {
+  height: 150px;
+  text-align: left;
+  padding-left: 10px;
+}
+.print-content .print-table table tbody td.notice p {
+  line-height: 40px;
+}
+.print-content .bottom-print {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+.print-content .bottom-print .btn-download {
+  border: solid 1px #3085cd;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #3085cd;
+  background: #ffffff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.print-content .bottom-print .btn-download:hover {
+  cursor: pointer;
+}

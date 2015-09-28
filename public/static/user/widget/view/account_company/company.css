@@ -1,0 +1,174 @@
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+#user-company .apply h3 {
+  text-align: center;
+  line-height: 550px;
+}
+#user-company .apply h3 a {
+  color: #6fd1de;
+}
+#user-company .info dl dd .title em {
+  color: red;
+  width: 200px;
+  text-align: left;
+  margin-right: 50px;
+  line-height: 40px;
+  float: right;
+  font-size: 16px;
+}
+#user-company .info dl dd .content .zhizhao {
+  display: block;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+#user-company .info dl dd .content .edit-wrap {
+  position: relative;
+}
+#user-company .info dl dd .content .edit-wrap .input-short {
+  width: 60px;
+  text-align: center;
+}
+#user-company .info dl dd .content .edit-wrap .input-long {
+  width: 165px;
+  text-align: center;
+}
+#user-company .info dl dd .content .edit-wrap .right-mark {
+  height: 15px;
+  width: 21px;
+  display: block;
+  background: url('/static/index/static/image/right.png?__sprite');
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+#user-company .info dl dd .content .upload-license {
+  position: relative;
+  width: 370px;
+  max-height: 450px;
+}
+#user-company .info dl dd .content .upload-license .user-btn {
+  position: absolute;
+  height: 20px;
+  line-height: 20px;
+  z-index: 1;
+  font-size: 14px;
+  padding: 8px;
+  width: 150px;
+  cursor: pointer;
+  top: 0;
+}
+#user-company .info dl dd .content .upload-license input {
+  position: absolute;
+  width: 150px;
+  z-index: 2;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+#user-company .info dl dd .content .info-wrap {
+  position: relative;
+  left: 200px;
+  font-size: 12px;
+  color: #999;
+}
+#user-company .info dl dd .content .info-wrap p {
+  line-height: 20px;
+}
+#user-company .info dl dd .content .img-license-content {
+  position: relative;
+  float: left;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  max-height: 400px;
+  margin-right: 15px;
+  top: 20px;
+  text-align: center;
+}
+#user-company .info dl dd .content .img-license-content img.license {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 0;
+  left: 0px;
+  max-height: 400px;
+  margin-right: 15px;
+}
+#user-company .info dl dd .content .img-license-content a {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  z-index: 5;
+  right: -20px;
+  top: -7px;
+  cursor: pointer;
+  background: url(/static/user/static/image/cross13.png?__sprite) no-repeat;
+  float: right;
+}
+#user-company .info dl dd .tip {
+  color: red;
+  width: 200px;
+  text-align: left;
+  margin-right: 50px;
+  line-height: 40px;
+  float: right;
+  font-size: 16px;
+}
+#user-company .info dl dd .tip i {
+  background: url(/static/user/static/image/warn.png?__sprite) no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: left;
+  margin-top: 5px;
+  margin-right: 10px;
+  line-height: 40px;
+}
+#user-company .info dl dd .tip .i-right {
+  background: url(/static/user/static/image/right.png?__sprite) no-repeat !important;
+}
+#user-company .info .status {
+  width: 100%;
+  background-color: #f7f7f7;
+  line-height: 50px;
+  text-align: center;
+}
+#user-company .info .status .red {
+  color: red;
+}
+#user-company .info .status a {
+  color: #57c5f7;
+}
+#user-company .info .status a:hover {
+  text-decoration: underline;
+}
+#user-company .info .user-btn-wrap {
+  text-align: center;
+  margin-top: 40px;
+}
+#user-company .info .user-btn-wrap .user-btn {
+  width: 150px;
+}

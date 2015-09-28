@@ -1,0 +1,157 @@
+#trace_details_content {
+  float: left;
+  width: 930px;
+}
+#trace_details_content .details {
+  background-color: #F0F4F7;
+  box-shadow: 3px 4px 1px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 4px;
+}
+#trace_details_content .details h3 {
+  font-size: 16px;
+  color: #F06700;
+  font-weight: normal;
+}
+#trace_details_content .details .content {
+  margin-top: 20px;
+  color: #1e2739;
+}
+#trace_details_content .details .content li {
+  width: 100%;
+  min-height: 120px;
+  height: auto;
+}
+#trace_details_content .details .content li .timeline {
+  float: left;
+  line-height: 20px;
+}
+#trace_details_content .details .content li .traceline {
+  position: relative;
+  float: left;
+  width: 60px;
+}
+#trace_details_content .details .content li .traceline .line {
+  position: absolute;
+  top: 0px;
+  left: 29px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 2px;
+  height: auto;
+  background: url('/static/www/order/static/image/trace/line-dot.png?__sprite');
+  background-repeat: repeat;
+  z-index: 0;
+}
+#trace_details_content .details .content li .info {
+  float: left;
+  max-width: 700px;
+}
+#trace_details_content .details .content li .info > p {
+  margin-bottom: 20px;
+}
+#trace_details_content .details .content li .info p {
+  line-height: 20px;
+}
+#trace_details_content .details .content li .info .info-text {
+  float: left;
+  background-color: #FCF9E0;
+  padding: 5px 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+#trace_details_content .details .content li .info .info-text p {
+  line-height: 27px;
+}
+#trace_details_content .details .content li .info .info-text p label {
+  display: inline-block;
+  min-width: 70px;
+  text-align: right;
+}
+#trace_details_content .details .content li .info .info-img {
+  float: left;
+  padding-bottom: 20px;
+}
+#trace_details_content .details .content li .info .info-img img {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#trace_details_content .details .content li.start .traceline .dot {
+  position: relative;
+  z-index: 2;
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url('/static/www/order/static/image/trace/start-dot.png?__sprite');
+}
+#trace_details_content .details .content li.process .traceline .dot {
+  position: relative;
+  z-index: 2;
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url('/static/www/order/static/image/trace/process-dot.png?__sprite');
+}
+#trace_details_content .details .content li.end .traceline .dot {
+  position: relative;
+  z-index: 2;
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url('/static/www/order/static/image/trace/end-dot.png?__sprite');
+}
+#trace_details_content .details .box_address {
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+#trace_details_content .details .box_address .icon-mark {
+  display: block;
+  width: 16px;
+  height: 22px;
+  float: left;
+  margin-right: 4px;
+  margin-top: 4px;
+  background: url('/static/www/order/static/image/trace/icon-mark.png?__sprite');
+}
+/** 地图 */
+#trace_map {
+  height: 330px;
+}
+#trace-info {
+  position: relative;
+  padding-bottom: 8px;
+}
+#trace-info .text {
+  padding: 10px;
+  min-width: 64px;
+  text-align: center;
+}
+#trace-info .square {
+  position: absolute;
+  bottom: 0px;
+  right: 20%;
+  width: 14px;
+  height: 8px;
+}
+#trace-info.current .text {
+  color: #fff;
+  background-color: #E15D3C;
+  font-size: 16px;
+  border-radius: 4px;
+}
+#trace-info.current .square {
+  background: url('/static/www/order/static/image/trace/square-or.png?__sprite');
+}
+#trace-info.normal .text {
+  color: #fff;
+  background-color: #4680D4;
+  font-size: 16px;
+  border-radius: 4px;
+}
+#trace-info.normal .square {
+  background: url('/static/www/order/static/image/trace/square-blue.png?__sprite');
+}

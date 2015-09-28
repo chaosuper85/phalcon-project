@@ -1,0 +1,1 @@
+define("common/widget/footer/footer",function(){var e=$(window),o=$("body"),i=$("#footer"),t=e.height(),h=o.height();t>h+160&&o.height(t-160),i.removeClass("invisible")});

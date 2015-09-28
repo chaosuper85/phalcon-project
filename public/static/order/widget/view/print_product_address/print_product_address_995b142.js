@@ -1,0 +1,1 @@
+define("order/widget/view/print_product_address/print_product_address",function(n,d,o){function t(){DOM={btnDownload:$("#download_address")},DOM.btnDownload.click(function(){})}o.exports={init:function(){t()}}});

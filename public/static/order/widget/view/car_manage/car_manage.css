@@ -1,0 +1,50 @@
+#car-manage table {
+  width: 100%;
+  text-align: center;
+}
+#car-manage .content {
+  border: solid 1px #d8dfe5;
+}
+#car-manage .content tr {
+  border-bottom: solid 1px #d8dfe5;
+}
+#car-manage .content thead {
+  height: 50px;
+  line-height: 50px;
+  color: #919fac;
+  background: #f7f7f7;
+  font-size: 14px;
+  font-family: 'Microsoft YaHei';
+}
+#car-manage .content tbody tr.item-content {
+  height: 55px;
+  line-height: 55px;
+}
+#car-manage .content tbody tr.item-content td {
+  position: relative;
+  font-size: 14px;
+  color: #333;
+  padding: 0 18px;
+  border-right: solid 1px #d8dfe5;
+}
+#car-manage .no_car {
+  padding-top: 180px;
+  text-align: center;
+  line-height: 37px;
+  font-size: 16px;
+}
+#car-manage .no_car .choose_order {
+  color: #57c5f7;
+}
+#car-manage .no_car .choose_order:hover {
+  text-decoration: underline;
+}
+#car-manage .no_car .tel-text {
+  color: #57c5f7;
+}
+#car-manage .no_car .tel-text a {
+  color: #57c5f7;
+}
+#car-manage .no_car .tel-text a:hover {
+  text-decoration: underline;
+}

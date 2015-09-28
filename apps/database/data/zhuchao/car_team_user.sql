@@ -1,0 +1,62 @@
+-- MySQL dump 10.13  Distrib 5.6.24, for osx10.10 (x86_64)
+--
+-- Host: 123.59.59.233    Database: phalcon
+-- ------------------------------------------------------
+-- Server version	5.5.22-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `car_team_user`
+--
+
+use phalcon;
+
+DROP TABLE IF EXISTS `car_team_user`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `car_team_user` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `userid` int(11) unsigned NOT NULL,
+  `teamName` varchar(64) COLLATE utf8_unicode_ci NOT NULL DEFAULT '' COMMENT '车队名',
+  `teamPic` varchar(256) COLLATE utf8_unicode_ci NOT NULL DEFAULT '' COMMENT '营业执照',
+  `ownerName` varchar(64) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
+  `ownerIdentityCardId` varchar(32) COLLATE utf8_unicode_ci NOT NULL DEFAULT '' COMMENT '车队负责人身份证号',
+  `status` int(11) NOT NULL,
+  `idcard_pic` varchar(64) COLLATE utf8_unicode_ci NOT NULL DEFAULT '' COMMENT '身份证图片',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `userid` (`userid`)
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `car_team_user`
+--
+
+LOCK TABLES `car_team_user` WRITE;
+/*!40000 ALTER TABLE `car_team_user` DISABLE KEYS */;
+INSERT INTO `car_team_user` VALUES (1,'0000-00-00 00:00:00','2015-09-05 02:31:49',866714702,'T1','PIC11','O1','I',4,'IDCPIC'),(2,'0000-00-00 00:00:00','2015-08-28 07:04:03',866714703,'T2','PIC12','O2','ID111',4,'IDCPIC'),(3,'0000-00-00 00:00:00','2015-08-31 04:19:13',866714707,'T3','PIC5','ON3','ID6',2,'IDPIC'),(4,'0000-00-00 00:00:00','2015-08-31 04:19:16',866714705,'T4','PIC6','O4','ID7',8,'IDDDPSDIC'),(13,'2015-08-27 00:06:19','2015-08-31 04:19:19',866714683,'teamN1','PIC1','ONWER1','ID-1',12,'IDCARD'),(14,'2015-08-28 02:31:21','2015-08-31 04:19:21',866714684,'teamN2','PIC2','ONWER2','ID-2',16,'IDCARDPIC'),(15,'2015-08-28 04:37:43','2015-08-31 04:19:24',866714700,'teamN2.5','PIC3','ONWER3','ID-3',128,'IDCARDPIC'),(16,'2015-08-28 04:46:18','2015-08-31 04:19:26',866714701,'teamN3','PIC4','ONWER4','ID-5',256,'IDCARDPID'),(17,'2015-09-04 23:21:59','2015-09-05 07:23:27',866714832,'','','','',4,'');
+/*!40000 ALTER TABLE `car_team_user` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2015-09-05 19:33:07

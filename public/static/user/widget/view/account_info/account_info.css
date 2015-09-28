@@ -1,0 +1,118 @@
+/**
+ * [transition 动画效果]
+ * @param  @t_pto:     all           [属性]
+ * @param  @runTime:   0.5s          [运行时间]
+ * @param  @deleyTime: 0s            [延迟时间]
+ * @param  @runFun:    ease;         [运行方式]
+ */
+/**
+ * a标签hover样式
+ * @font_color: 字体颜色
+ * @ahover_darken: 字体hover颜色加深百分比
+ */
+/* 
+ * 通用按钮hover
+ * @bg_color: 按钮颜色
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+/* 
+ * 通用按钮样式
+ * @bg_color: 按钮颜色 默认#6fd1de（浅蓝色）
+ * @padding_tb: 按钮padding-top padding-bottom
+ * @padding_lr: 按钮padding-left padding-right
+ * @hover_darken: 按钮hover颜色加深百分比
+ */
+#user_info .head-img-content {
+  float: left;
+  /*非IE的主流浏览器识别的垂直居中的方法*/
+  display: table-cell;
+  vertical-align: middle;
+  /*设置水平居中*/
+  text-align: center;
+  /* 针对IE的Hack */
+  *display: block;
+  *font-size: 130px;
+  /*约为高度的0.873，200*0.873 约为175*/
+  *font-family: Arial;
+  /*防止非utf-8引起的hack失效问题，如gbk编码*/
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+}
+#user_info .head-img-content #head-img {
+  vertical-align: middle;
+}
+#user_info .btn-head {
+  float: left;
+  margin-top: 55px;
+  margin-left: 90px;
+}
+#user_info .btn-head .info-wrap {
+  display: block;
+  width: 200px;
+  margin-top: 45px;
+  margin-left: -45px;
+  line-height: 18px;
+  font-size: 14px;
+  color: #999;
+}
+#user_info .btn-head .info-wrap p {
+  margin-top: 2px;
+}
+#user_info dl .edit-dd {
+  position: relative;
+}
+#user_info dl .edit-dd div,
+#user_info dl .edit-dd input,
+#user_info dl .edit-dd span {
+  float: left;
+}
+#user_info dl .edit-dd .invisible {
+  visibility: hidden;
+}
+#user_info dl .edit-dd .tip {
+  color: red;
+  width: 320px;
+  text-align: left;
+  margin-right: 50px;
+  line-height: 40px;
+  float: right;
+  font-size: 16px;
+}
+#user_info dl .edit-dd .tip i {
+  background: url(/static/user/static/image/warn.png?__sprite) no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: left;
+  margin-top: 5px;
+  margin-right: 10px;
+  line-height: 40px;
+}
+#user_info dl .edit-dd .tip i.i-right {
+  background: url(/static/user/static/image/right.png?__sprite) no-repeat !important;
+}
+#user_info .edit {
+  margin-top: 70px;
+}
+#user_info .edit .content {
+  float: none;
+}
+#user_info .edit .content .btn-wrap {
+  margin: 0 auto;
+}
+#user_info .edit .content .btn-wrap a {
+  width: 150px;
+  background-color: #2182d3;
+}
+#user_info input {
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  padding: 8px;
+  width: 250px;
+}
+#user_info .submit-btn {
+  background-color: #fd6620!important;
+  display: none;
+}

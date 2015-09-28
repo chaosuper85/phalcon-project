@@ -1,0 +1,78 @@
+#main-head {
+  color: #91a0ad;
+  height: 80px;
+  line-height: 80px;
+  background: #fff;
+  width: 100%;
+  box-shadow: #e2e7e7 1px 1px 1px;
+  -webkit-box-shadow: #e2e7e7 1px 1px 1px;
+}
+#main-head .title {
+  margin-left: 30px;
+  font-size: 20px;
+  font-family: 'Microsoft YaHei';
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+#main-head .head-user {
+  float: right;
+  margin-right: 30px;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 0 15px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  position: relative;
+}
+#main-head .head-user .head-user-nav {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  line-height: 40px;
+  background: #f9fcfd;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 100%;
+  overflow: hidden;
+  display: none;
+}
+#main-head .head-user .head-user-nav li {
+  height: 40px;
+  text-align: center;
+  border-top: 1px solid #e6f2f7;
+  font-size: 12px;
+}
+#main-head .head-user .head-user-nav li i {
+  font-size: 14px;
+  margin-right: 2px;
+}
+#main-head .head-user .head-user-nav li:hover {
+  background: #f1f8fa;
+}
+#main-head .head-user:hover {
+  background: #f1f8fa;
+}
+#main-head .head-user:hover .head-user-nav {
+  display: block;
+}
+#main-head .head-user .name {
+  font-size: 14px;
+}
+#main-head .head-user img {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  margin-right: 10px;
+  float: left;
+  border: 1px solid #fbefda;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+}
+#main-head .head-user i.icon-yfselect {
+  margin-left: 6px;
+  font-size: 12px;
+  float: right;
+}

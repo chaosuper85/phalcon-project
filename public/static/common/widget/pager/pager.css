@@ -1,0 +1,61 @@
+.pager-wrap {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+}
+.pager-wrap .pager {
+  display: inline-block;
+  line-height: 30px;
+  *max-width: 300px;
+  font-size: 12px;
+}
+.pager-wrap .pager .page-item,
+.pager-wrap .pager .first,
+.pager-wrap .pager .last {
+  border: 1px solid #e7e7e6;
+  margin-left: -1px;
+  float: left;
+  height: 24px;
+  line-height: 26px;
+  *line-height: 24px;
+  width: 24px;
+  background-color: #f8f8fb;
+}
+.pager-wrap .pager .page-item:hover,
+.pager-wrap .pager .first:hover,
+.pager-wrap .pager .last:hover {
+  color: #fd6620;
+}
+.pager-wrap .pager .page-item {
+  color: #2983cf;
+}
+.pager-wrap .pager .page-item.current {
+  color: #fff;
+  background: #fd6620;
+}
+.pager-wrap .pager .first,
+.pager-wrap .pager .last {
+  text-align: center;
+}
+.pager-wrap .pager .first div,
+.pager-wrap .pager .last div {
+  width: 14px;
+  height: 11px;
+  margin-top: 6px;
+  margin-left: 5px;
+  *margin-left: 4px;
+}
+.pager-wrap .pager .first div {
+  background: url('/static/common/static/image/pager_first.png?__sprite') no-repeat;
+}
+.pager-wrap .pager .last div {
+  background: url('/static/common/static/image/pager_last.png?__sprite') no-repeat;
+}
+.pager-wrap .pager .total-page {
+  color: #2983cf;
+  float: left;
+  height: 26px;
+  line-height: 26px;
+  margin-left: 10px;
+}

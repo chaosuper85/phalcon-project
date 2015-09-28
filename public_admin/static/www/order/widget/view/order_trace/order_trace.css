@@ -1,0 +1,157 @@
+#main-wrapper {
+  width: 1240px;
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+#order_trace {
+  margin-bottom: 80px;
+  font-size: 14px;
+}
+#order_trace .breadcrumb {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background: #F7F7F7;
+  font-size: 16px;
+  color: #273042;
+  box-shadow: 1px 1px 1px 1px #DADDE9;
+}
+#order_trace .trace_procedure {
+  padding: 40px 0 0px 0px;
+}
+#order_trace .trace_procedure ul {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+#order_trace .trace_procedure ul .step_1,
+#order_trace .trace_procedure ul .step_2,
+#order_trace .trace_procedure ul .step_3,
+#order_trace .trace_procedure ul .step_4,
+#order_trace .trace_procedure ul .step_5 {
+  float: left;
+  width: 220px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+#order_trace .trace_procedure ul .step_1 dl,
+#order_trace .trace_procedure ul .step_2 dl,
+#order_trace .trace_procedure ul .step_3 dl,
+#order_trace .trace_procedure ul .step_4 dl,
+#order_trace .trace_procedure ul .step_5 dl {
+  width: 100%;
+}
+#order_trace .trace_procedure ul .step_1 dl dt,
+#order_trace .trace_procedure ul .step_2 dl dt,
+#order_trace .trace_procedure ul .step_3 dl dt,
+#order_trace .trace_procedure ul .step_4 dl dt,
+#order_trace .trace_procedure ul .step_5 dl dt {
+  width: 74px;
+  height: 66px;
+  line-height: 66px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #DFE2E5;
+  background: url('/static/www/order/static/image/trace/step-5.png?__sprite');
+}
+#order_trace .trace_procedure ul .step_1 dl dd,
+#order_trace .trace_procedure ul .step_2 dl dd,
+#order_trace .trace_procedure ul .step_3 dl dd,
+#order_trace .trace_procedure ul .step_4 dl dd,
+#order_trace .trace_procedure ul .step_5 dl dd {
+  line-height: 40px;
+  width: 100%;
+}
+#order_trace .trace_procedure ul .step_1.active dl dt,
+#order_trace .trace_procedure ul .step_2.active dl dt,
+#order_trace .trace_procedure ul .step_3.active dl dt,
+#order_trace .trace_procedure ul .step_4.active dl dt,
+#order_trace .trace_procedure ul .step_5.active dl dt {
+  color: #fff;
+  background: url('/static/www/order/static/image/trace/step-1-active.png?__sprite');
+}
+#order_trace .trace_procedure ul .line_1,
+#order_trace .trace_procedure ul .line_2,
+#order_trace .trace_procedure ul .line_3,
+#order_trace .trace_procedure ul .line_4 {
+  position: absolute;
+  height: 66px;
+  width: 220px;
+  z-index: 1;
+}
+#order_trace .trace_procedure ul .line_1 .line,
+#order_trace .trace_procedure ul .line_2 .line,
+#order_trace .trace_procedure ul .line_3 .line,
+#order_trace .trace_procedure ul .line_4 .line {
+  height: 10px;
+  width: 100%;
+  margin-top: 28px;
+  background-color: #C8D0D5;
+}
+#order_trace .trace_procedure ul .line_1.active .line,
+#order_trace .trace_procedure ul .line_2.active .line,
+#order_trace .trace_procedure ul .line_3.active .line,
+#order_trace .trace_procedure ul .line_4.active .line {
+  background-color: #B7E8EF;
+}
+#order_trace .trace_procedure ul .line_1 {
+  left: 110px;
+}
+#order_trace .trace_procedure ul .line_2 {
+  left: 330px;
+}
+#order_trace .trace_procedure ul .line_3 {
+  left: 550px;
+}
+#order_trace .trace_procedure ul .line_4 {
+  left: 770px;
+}
+#order_trace .trace_info {
+  height: 37px;
+  line-height: 37px;
+  background-color: #fff;
+}
+#order_trace .trace_info .num {
+  max-width: 60%;
+  margin-left: 20px;
+  line-height: 37px;
+  color: #427ED6;
+}
+#order_trace .trace_info .company {
+  max-width: 60%;
+  margin-right: 20px;
+  line-height: 37px;
+  text-align: right;
+}
+#order_trace .trace_info .company a {
+  display: inline-block;
+  float: right;
+}
+#order_trace .trace_info .company .icon-phone {
+  display: block;
+  background: url('/static/www/order/static/image/trace/phone.png?__sprite');
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-top: 8.5px;
+  margin-left: 6px;
+}
+#order_trace .trace_info .company .icon-msg {
+  display: block;
+  background: url('/static/www/order/static/image/trace/message.png?__sprite');
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-top: 8.5px;
+  margin-left: 6px;
+}
+#order_trace .trace_details {
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  position: relative;
+}

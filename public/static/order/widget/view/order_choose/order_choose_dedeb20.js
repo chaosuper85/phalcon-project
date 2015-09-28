@@ -1,0 +1,1 @@
+define("order/widget/view/order_choose/order_choose",function(e,o,t){function n(){new c({container:"#docks-selector",options:[{text:"天津",value:"1"}],defaultValue:"1",defaultText:"天津",width:280});$("#choose-out").on("click",function(){$(this).addClass("current"),$("#choose-in").removeClass("current")})}var c=e("common/module/select/select.js");t.exports={init:function(){n()}}});

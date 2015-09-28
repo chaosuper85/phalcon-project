@@ -1,0 +1,298 @@
+[][WARNING][2015-09-10 10:58:45.274303 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13978][7136b4a1a3028eb442abf209a457f120][GET][/order/list][274.30295944214][1.5928745269775][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-10 10:58:45.282016 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13978][7136b4a1a3028eb442abf209a457f120][GET][/order/list][282.01603889465][1.5759468078613][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-10 10:58:54.351299 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13978][5318ea012795819097d1216a877008c8][POST][/api/carteam/order/save_box_ensupe][351.29904747009][4.8611164093018][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 10:59:02.620943 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13978][b11fa0989f7dce712733f6f94cf1b21f][POST][/api/carteam/order/assign_edit_save][620.94306945801][2.6931762695312][/Users/chaosuper/migrate_project/phpweb/apps/services/LogicService/CarteamOrderAssignEditSaveService.php:176] commit ok
+
+[][WARNING][2015-09-10 10:59:06.602477 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][602c92aa9b7e88b53b455024b4f5ef21][GET][/order/details?orderid=105&dispatch=1][602.47707366943][2.4800300598145][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:365] 产装时间：179 地址：83 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 11:08:01.433822 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13978][9acb276473ccb19c2a0872c8bb78e265][GET][/order/list][433.8219165802][1.4820098876953][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-10 11:08:01.442229 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13978][9acb276473ccb19c2a0872c8bb78e265][GET][/order/list][442.22903251648][1.5039443969727][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-10 11:18:10.207737 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13978][48fbf8208c1d02946a2c9b51cd88a0b7][GET][/order/list][207.73696899414][1.2729167938232][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-10 11:18:10.215887 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13978][48fbf8208c1d02946a2c9b51cd88a0b7][GET][/order/list][215.88706970215][1.3110637664795][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-10 11:18:18.379176 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13978][1b7f08fa40187a04f2bdbc28a56c2e05][GET][/order/list][379.17590141296][1.2438297271729][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-10 11:18:18.385930 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13978][1b7f08fa40187a04f2bdbc28a56c2e05][GET][/order/list][385.93006134033][1.3670921325684][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-10 11:20:55.926750 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][fc5d0b26c31615c1dadaf8e6ee4d7071][GET][/order/details?orderid=108][926.74994468689][0.93483924865723][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:365] 产装时间：188 地址：88 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 11:21:10.628002 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][38de0d702a1eab7662e9e25999b48517][POST][/api/carteam/order/address_confirm][628.00192832947][1.060962677002][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:365] 产装时间：0 地址：88 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 11:21:10.628890 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][38de0d702a1eab7662e9e25999b48517][POST][/api/carteam/order/address_confirm][628.89003753662][0.88810920715332][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderProductAddressService.php:93] product_address_id: 88, cannot be updated
+
+[][WARNING][2015-09-10 11:21:10.665187 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][38de0d702a1eab7662e9e25999b48517][POST][/api/carteam/order/address_confirm][665.18688201904][3.2708644866943][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:21:10.673217 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][38de0d702a1eab7662e9e25999b48517][POST][/api/carteam/order/address_confirm][673.21705818176][1.7621517181396][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:21:10.687063 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][38de0d702a1eab7662e9e25999b48517][POST][/api/carteam/order/address_confirm][687.06297874451][2.295970916748][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:21:10.691418 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][38de0d702a1eab7662e9e25999b48517][POST][/api/carteam/order/address_confirm][691.41793251038][1.8830299377441][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:21:25.458801 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][7ae31c2611c4f566cea2f59d18d04c97][POST][/api/carteam/order/address_confirm][458.80103111267][1.4340877532959][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:21:25.466410 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][7ae31c2611c4f566cea2f59d18d04c97][POST][/api/carteam/order/address_confirm][466.40992164612][0.95582008361816][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:365] 产装时间：0 地址：88 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 11:21:25.467325 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][7ae31c2611c4f566cea2f59d18d04c97][POST][/api/carteam/order/address_confirm][467.32497215271][0.9150505065918][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderProductAddressService.php:93] product_address_id: 88, cannot be updated
+
+[][WARNING][2015-09-10 11:21:25.476938 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][7ae31c2611c4f566cea2f59d18d04c97][POST][/api/carteam/order/address_confirm][476.93800926208][1.3329982757568][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:21:25.484619 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][7ae31c2611c4f566cea2f59d18d04c97][POST][/api/carteam/order/address_confirm][484.61890220642][2.6419162750244][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:21:25.494153 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][7ae31c2611c4f566cea2f59d18d04c97][POST][/api/carteam/order/address_confirm][494.15302276611][1.4181137084961][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:21:25.497950 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][7ae31c2611c4f566cea2f59d18d04c97][POST][/api/carteam/order/address_confirm][497.95007705688][1.4190673828125][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:22:37.393004 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][1e0bcb0f387d30bbf95d668e0b7050f4][POST][/api/carteam/order/address_confirm][393.00394058228][1.0180473327637][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:365] 产装时间：0 地址：88 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 11:22:37.394383 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][1e0bcb0f387d30bbf95d668e0b7050f4][POST][/api/carteam/order/address_confirm][394.3829536438][1.3790130615234][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderProductAddressService.php:93] product_address_id: 88, cannot be updated
+
+[][WARNING][2015-09-10 11:22:37.417712 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][1e0bcb0f387d30bbf95d668e0b7050f4][POST][/api/carteam/order/address_confirm][417.71197319031][1.4579296112061][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:22:37.446504 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][1e0bcb0f387d30bbf95d668e0b7050f4][POST][/api/carteam/order/address_confirm][446.50411605835][1.3902187347412][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:23:10.232025 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][1b326efde930f0142226377de73f70cf][POST][/api/carteam/order/address_confirm][232.0249080658][1.0387897491455][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:365] 产装时间：0 地址：88 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 11:23:10.233011 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][1b326efde930f0142226377de73f70cf][POST][/api/carteam/order/address_confirm][233.01100730896][0.98609924316406][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderProductAddressService.php:93] product_address_id: 88, cannot be updated
+
+[][WARNING][2015-09-10 11:23:10.253125 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][1b326efde930f0142226377de73f70cf][POST][/api/carteam/order/address_confirm][253.12495231628][1.7938613891602][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:23:10.276264 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][1b326efde930f0142226377de73f70cf][POST][/api/carteam/order/address_confirm][276.26395225525][1.4228820800781][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:23:10.284926 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][1b326efde930f0142226377de73f70cf][POST][/api/carteam/order/address_confirm][284.92593765259][1.4958381652832][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:23:10.288949 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][1b326efde930f0142226377de73f70cf][POST][/api/carteam/order/address_confirm][288.94901275635][1.4100074768066][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:23:39.647293 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26683][9922db6f9e578e0436421e4285cf35bc][POST][/api/carteam/order/assign_edit_save][647.29309082031][2.1121501922607][/Users/chaosuper/migrate_project/phpweb/apps/services/LogicService/CarteamOrderAssignEditSaveService.php:176] commit ok
+
+[][WARNING][2015-09-10 11:23:58.528527 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][7d7584aba29bf67aa88522188e3d3f26][GET][/order/list][528.52702140808][1.4560222625732][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-10 11:23:58.536669 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][7d7584aba29bf67aa88522188e3d3f26][GET][/order/list][536.6690158844][1.5549659729004][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-10 11:24:42.629970 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13978][155cdeab8ee900c32b34ed4d40d60c3f][GET][/order/list][629.97007369995][1.317024230957][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-10 11:24:42.637542 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13978][155cdeab8ee900c32b34ed4d40d60c3f][GET][/order/list][637.54200935364][1.3411045074463][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-10 11:24:59.232175 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][749db80eaefebd9ededd12a4543d14de][POST][/api/carteam/order/address_confirm][232.17511177063][1.5180110931396][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:25:21.199031 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26683][80489b277b0ccfe4df947843d9363e62][POST][/api/carteam/order/address_confirm][199.03111457825][1.4371871948242][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:25:21.208053 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26683][80489b277b0ccfe4df947843d9363e62][POST][/api/carteam/order/address_confirm][208.05311203003][1.2969970703125][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:25:21.212939 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26683][80489b277b0ccfe4df947843d9363e62][POST][/api/carteam/order/address_confirm][212.93902397156][1.9960403442383][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 11:25:32.794450 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][80f31c6984fccdf80b05d67d909b8936][GET][/order/list][794.45004463196][1.3761520385742][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-10 11:25:32.804669 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][80f31c6984fccdf80b05d67d909b8936][GET][/order/list][804.66890335083][2.4127960205078][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-10 11:25:42.762966 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13978][449662a688d06bc74e86d37e3885ea56][POST][/api/carteam/order/save_box_ensupe][762.96591758728][3.3359527587891][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 12:49:54.978851 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][dfd2dc3460e9a0e6e0a1b3851bd0694c][POST][/api/carteam/order/address_confirm][978.8510799408][16.595125198364][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderProductAddressService.php:64] 订单id传入错误, 地址传入错误！
+
+[][WARNING][2015-09-10 12:49:54.983231 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][dfd2dc3460e9a0e6e0a1b3851bd0694c][POST][/api/carteam/order/address_confirm][983.23106765747][4.3799877166748][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderProductTimeService.php:21] 参数传递出错，请查看!
+
+[][WARNING][2015-09-10 12:49:54.985640 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][dfd2dc3460e9a0e6e0a1b3851bd0694c][POST][/api/carteam/order/address_confirm][985.64004898071][2.4089813232422][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderProductAddressService.php:312] OrderProductTimeService->createProductTime return false
+
+[][WARNING][2015-09-10 12:49:54.986681 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][dfd2dc3460e9a0e6e0a1b3851bd0694c][POST][/api/carteam/order/address_confirm][986.68098449707][1.0409355163574][/Users/chaosuper/migrate_project/phpweb/apps/services/LogicService/OrderAddressConfirmService.php:265] db->rollback, orderid: 127 orderAddressConfirm return ok
+
+[][WARNING][2015-09-10 12:50:29.642226 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][0e9d9f0d10ae2728ac2181391dc9f744][POST][/api/carteam/order/address_confirm][642.22598075867][18.663883209229][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderProductAddressService.php:64] 订单id传入错误, 地址传入错误！
+
+[][WARNING][2015-09-10 12:50:29.645468 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][0e9d9f0d10ae2728ac2181391dc9f744][POST][/api/carteam/order/address_confirm][645.46799659729][3.242015838623][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderProductTimeService.php:21] 参数传递出错，请查看!
+
+[][WARNING][2015-09-10 12:50:29.647348 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][0e9d9f0d10ae2728ac2181391dc9f744][POST][/api/carteam/order/address_confirm][647.34792709351][1.8799304962158][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderProductAddressService.php:312] OrderProductTimeService->createProductTime return false
+
+[][WARNING][2015-09-10 12:50:29.648457 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][0e9d9f0d10ae2728ac2181391dc9f744][POST][/api/carteam/order/address_confirm][648.45705032349][1.1091232299805][/Users/chaosuper/migrate_project/phpweb/apps/services/LogicService/OrderAddressConfirmService.php:265] db->rollback, orderid: 127 orderAddressConfirm return ok
+
+[][WARNING][2015-09-10 12:52:44.708096 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][c225c9a8d174d84e8b5c0d6502235886][POST][/api/carteam/order/address_confirm][708.09602737427][11.569023132324][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 12:52:44.720038 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][c225c9a8d174d84e8b5c0d6502235886][POST][/api/carteam/order/address_confirm][720.03793716431][8.807897567749][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 12:52:44.811800 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][c225c9a8d174d84e8b5c0d6502235886][POST][/api/carteam/order/address_confirm][811.80000305176][9.4499588012695][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 12:52:44.862501 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][c225c9a8d174d84e8b5c0d6502235886][POST][/api/carteam/order/address_confirm][862.5009059906][9.8538398742676][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 12:52:44.909461 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][c225c9a8d174d84e8b5c0d6502235886][POST][/api/carteam/order/address_confirm][909.46102142334][10.154962539673][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 12:52:44.999069 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][c225c9a8d174d84e8b5c0d6502235886][POST][/api/carteam/order/address_confirm][999.06897544861][9.7050666809082][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 12:52:45.044880 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][c225c9a8d174d84e8b5c0d6502235886][POST][/api/carteam/order/address_confirm][1044.8799133301][9.7618103027344][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 12:52:45.091172 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][c225c9a8d174d84e8b5c0d6502235886][POST][/api/carteam/order/address_confirm][1091.1719799042][10.950088500977][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 12:52:45.184132 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][c225c9a8d174d84e8b5c0d6502235886][POST][/api/carteam/order/address_confirm][1184.1320991516][9.8361968994141][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 12:52:45.230768 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][c225c9a8d174d84e8b5c0d6502235886][POST][/api/carteam/order/address_confirm][1230.7679653168][10.055065155029][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 13:42:57.112567 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][f58d9f333db00cf19214e52404f396fb][POST][/api/carteam/order/address_confirm][1112.566947937][10.457038879395][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 13:42:57.160328 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][f58d9f333db00cf19214e52404f396fb][POST][/api/carteam/order/address_confirm][1160.327911377][11.555910110474][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 13:42:57.207285 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][f58d9f333db00cf19214e52404f396fb][POST][/api/carteam/order/address_confirm][1207.2849273682][10.10799407959][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 13:42:57.305153 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][f58d9f333db00cf19214e52404f396fb][POST][/api/carteam/order/address_confirm][1305.1528930664][12.503862380981][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 13:42:57.353491 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][f58d9f333db00cf19214e52404f396fb][POST][/api/carteam/order/address_confirm][1353.4910678864][11.303186416626][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 13:42:57.403733 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][f58d9f333db00cf19214e52404f396fb][POST][/api/carteam/order/address_confirm][1403.7330150604][9.6979141235352][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 13:42:57.492152 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][f58d9f333db00cf19214e52404f396fb][POST][/api/carteam/order/address_confirm][1492.1519756317][10.940074920654][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 13:42:57.533768 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][f58d9f333db00cf19214e52404f396fb][POST][/api/carteam/order/address_confirm][1533.7679386139][10.351896286011][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 13:42:57.629568 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][f58d9f333db00cf19214e52404f396fb][POST][/api/carteam/order/address_confirm][1629.5680999756][10.341167449951][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 14:32:13.613191 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26683][730d385216bf7fdcc4e3cb142c3d286e][GET][/order/list?status=2][1613.1908893585][10.036945343018][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-10 14:32:13.668687 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26683][730d385216bf7fdcc4e3cb142c3d286e][GET][/order/list?status=2][1668.6871051788][10.439157485962][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-10 14:32:36.656376 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][3d74e938edd81eb683d13cb3796c572f][POST][/api/carteam/order/assign_edit_save][656.37588500977][18.276929855347][/Users/chaosuper/migrate_project/phpweb/apps/services/LogicService/CarteamOrderAssignEditSaveService.php:176] commit ok
+
+[][WARNING][2015-09-10 14:37:34.772029 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26683][3e618d99618c5b5e62d98893c6183182][POST][/api/carteam/order/save_box_ensupe][772.02892303467][11.225938796997][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 14:37:40.599077 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][ca909b037ea4962fa119b4619c819923][POST][/api/carteam/order/save_box_ensupe][599.07698631287][12.732982635498][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 15:14:08.631633 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13978][664a0e9284ecca3f7c67ea1d328cafda][POST][/api/carteam/order/assign_edit_save][631.63304328918][25.237083435059][/Users/chaosuper/migrate_project/phpweb/apps/services/LogicService/CarteamOrderAssignEditSaveService.php:176] commit ok
+
+[][WARNING][2015-09-10 16:49:47.740630 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][b2144b6193ae86c70c503f95176c09e8][POST][/api/carteam/order/save_box_ensupe][740.62991142273][9.1869831085205][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 16:50:00.806651 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26683][b3b132a472e608a3bfe23f29e37e206d][POST][/api/carteam/order/save_box_ensupe][806.65111541748][11.787176132202][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 16:51:10.846586 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][a09ae388de3a93e5f1cf48bbdfd24c25][POST][/api/carteam/order/assign_edit_save][846.58598899841][9.0670585632324][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 16:55:57.221808 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13979][53a6447103cf09cbbc8c66b846af55f5][GET][/order/details?orderid=108&dispatch=1][1221.8079566956][1.2969970703125][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:386] 产装时间：312 地址：129 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 16:59:43.625164 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][13980][4eab2f701e192584ee1c2d4688a3e618][GET][/order/details?orderid=122&dispatch=1][625.16403198242][1.3470649719238][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:386] 产装时间：331 地址：138 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 17:15:46.429883 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][2b3ea085a69f0f0c66ae039e65b92a6c][GET][/order/details?orderid=122&dispatch=1][1429.8830032349][1.3949871063232][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:384] 产装时间：331 地址：138 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 17:20:24.538550 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][850][9d5e5bdf7f4068fe78f3abf216895ccb][POST][/api/carteam/order/assign_edit_save][538.54990005493][8.6219310760498][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:20:24.562894 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][850][9d5e5bdf7f4068fe78f3abf216895ccb][POST][/api/carteam/order/assign_edit_save][562.89410591125][9.8030567169189][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:20:25.404995 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][851][90aacc683abb2a213510e25e48f2cd25][GET][/order/details?orderid=122&dispatch=1][1404.9949645996][1.2249946594238][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:384] 产装时间：331 地址：138 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 17:27:36.610240 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][851][17981b016d04fcdc5585e5e58f632f01][GET][/order/details?orderid=122&dispatch=1][1610.239982605][2.1359920501709][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:384] 产装时间：331 地址：138 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 17:27:44.545758 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][850][c0c885445070e6b08d5daedd16db3848][GET][/order/details?orderid=108&dispatch=1][545.75800895691][1.2531280517578][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:384] 产装时间：312 地址：129 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 17:27:56.350793 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][c1cbb17ea3f44d9809b75ba3f5d19c1a][POST][/api/carteam/order/assign_edit_save][350.79288482666][8.9597702026367][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:27:56.971862 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][850][7ad0ede9ade59d5cfd96c60cd568d0a4][GET][/order/details?orderid=108&dispatch=1][971.86207771301][1.521110534668][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:384] 产装时间：312 地址：129 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 17:28:11.064856 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][a6a371caf6b5f3adf8c2660c679793c2][POST][/api/carteam/order/assign_edit_save][1064.8560523987][14.028072357178][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:28:11.202260 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][a6a371caf6b5f3adf8c2660c679793c2][POST][/api/carteam/order/assign_edit_save][1202.260017395][19.124984741211][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:28:11.743420 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][850][f30e0c35f6bf9116cc1961f66ebb0065][GET][/order/details?orderid=108&dispatch=1][743.41988563538][1.4448165893555][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:384] 产装时间：312 地址：129 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 17:30:02.014777 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][850][4a3176a40020e79657b2a6c717b6bb39][GET][/order/list?page=2][1014.7769451141][12.75897026062][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-10 17:30:02.063937 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][850][4a3176a40020e79657b2a6c717b6bb39][GET][/order/list?page=2][1063.9369487762][11.359930038452][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-10 17:30:26.541741 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][851][baa5fb2cab9596392278e11f59882a20][POST][/api/carteam/order/save_box_ensupe][541.74089431763][7.1640014648438][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:30:48.638204 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][850][5fe2c0b15afabd393939cbdc4e5bcb92][POST][/api/carteam/order/address_confirm][638.2040977478][7.9891681671143][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:31:15.269362 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][3edb091c2355d5c0ed7a826c7e7f232a][POST][/api/carteam/order/address_confirm][269.36197280884][9.1719627380371][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:31:15.286490 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][3edb091c2355d5c0ed7a826c7e7f232a][POST][/api/carteam/order/address_confirm][286.48996353149][14.322996139526][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:31:15.404753 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][3edb091c2355d5c0ed7a826c7e7f232a][POST][/api/carteam/order/address_confirm][404.75296974182][21.180868148804][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:31:45.444209 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][d18d7f196e03ce6370e6723ae8f412b8][POST][/api/carteam/order/assign_edit_save][444.20909881592][11.747121810913][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:31:45.899753 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][d18d7f196e03ce6370e6723ae8f412b8][POST][/api/carteam/order/assign_edit_save][899.75309371948][9.7010135650635][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:41:06.451477 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][d101ed6aa1a75224566b7c928a6f9921][POST][/api/carteam/order/address_confirm][451.47705078125][6.1860084533691][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:41:06.460146 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][d101ed6aa1a75224566b7c928a6f9921][POST][/api/carteam/order/address_confirm][460.14595031738][5.7740211486816][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:41:06.589283 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][d101ed6aa1a75224566b7c928a6f9921][POST][/api/carteam/order/address_confirm][589.28298950195][11.220932006836][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:41:06.639843 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][d101ed6aa1a75224566b7c928a6f9921][POST][/api/carteam/order/address_confirm][639.84298706055][13.695001602173][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:41:06.698110 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][d101ed6aa1a75224566b7c928a6f9921][POST][/api/carteam/order/address_confirm][698.11010360718][8.7771415710449][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:41:24.072964 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][a01fec2ac952cd1a9af2d633453a020c][POST][/api/carteam/order/address_confirm][1072.9639530182][6.4668655395508][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:41:24.086687 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][a01fec2ac952cd1a9af2d633453a020c][POST][/api/carteam/order/address_confirm][1086.6870880127][9.8111629486084][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:41:24.190749 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][a01fec2ac952cd1a9af2d633453a020c][POST][/api/carteam/order/address_confirm][1190.7489299774][11.106967926025][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:41:24.258043 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][a01fec2ac952cd1a9af2d633453a020c][POST][/api/carteam/order/address_confirm][1258.043050766][13.954162597656][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:41:24.327118 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][a01fec2ac952cd1a9af2d633453a020c][POST][/api/carteam/order/address_confirm][1327.1179199219][8.2910060882568][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:41:24.433490 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][a01fec2ac952cd1a9af2d633453a020c][POST][/api/carteam/order/address_confirm][1433.4900379181][12.625932693481][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:41:35.823103 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][379e23454c3f09327e967871686e1778][POST][/api/carteam/order/save_box_ensupe][823.1029510498][7.6189041137695][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:42:02.295044 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][226022da0cbede4dc953d68989914544][POST][/api/carteam/order/assign_edit_save][1295.0439453125][10.983943939209][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:42:02.638059 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][226022da0cbede4dc953d68989914544][POST][/api/carteam/order/assign_edit_save][1638.0589008331][18.490791320801][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:42:03.071995 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][226022da0cbede4dc953d68989914544][POST][/api/carteam/order/assign_edit_save][2071.9950199127][331.35104179382][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:46:51.514537 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][ad8c33aebd8da73b6a326af722c61f4f][POST][/api/carteam/order/assign_edit_save][514.53709602356][10.189056396484][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:46:51.603388 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][ad8c33aebd8da73b6a326af722c61f4f][POST][/api/carteam/order/assign_edit_save][603.38807106018][24.077177047729][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:46:52.319503 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][850][3e26dc6b7ac2724da5a7cd9c234d03f8][GET][/order/details?orderid=49&dispatch=1][1319.503068924][1.2810230255127][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:378] 产装时间：373 地址：149 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 17:47:00.492935 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][2c5d3d42d62ca024283f3bb17d86ee19][POST][/api/carteam/order/save_box_ensupe][492.93494224548][14.410972595215][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:47:01.199120 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][850][5f5a711e06bc84ec3c0f9d34af33b038][GET][/order/details?orderid=49&dispatch=1][1199.1200447083][1.8310546875][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:378] 产装时间：373 地址：149 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 17:47:16.129038 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][c7d9992848c2789ed19c32e352851fc5][GET][/order/details?orderid=49&dispatch=1][1129.0380954742][1.1470317840576][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:378] 产装时间：373 地址：149 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 17:47:33.883054 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][850][54b75264c4f6b348158b1c65f919b4cb][GET][/order/details?orderid=38&dispatch=1][883.05401802063][1.8990039825439][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:378] 产装时间：240 地址：106 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 17:50:39.739782 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][851][a5738b6efcaf7ebdaf99595274dc95a8][POST][/api/carteam/order/assign_edit_save][148739.78209496][36.099195480347][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 17:52:26.285454 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][851][a5738b6efcaf7ebdaf99595274dc95a8][POST][/api/carteam/order/assign_edit_save][255285.45403481][75.407981872559][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 18:00:38.258479 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][9168c4cc7e49582ba8342272bc8f05a0][POST][/api/carteam/order/assign_edit_save][258.47911834717][9.7591876983643][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 18:00:38.296024 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][9168c4cc7e49582ba8342272bc8f05a0][POST][/api/carteam/order/assign_edit_save][296.02408409119][8.3050727844238][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 18:01:01.792126 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][517f8150b607a0f8ecbb300487886d9d][POST][/api/carteam/order/assign_edit_save][792.12594032288][10.545015335083][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 18:01:01.821055 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][517f8150b607a0f8ecbb300487886d9d][POST][/api/carteam/order/assign_edit_save][821.05493545532][6.8819522857666][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 18:01:10.629921 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][671622ad9e57c032cfde98db46e5d7d5][POST][/api/carteam/order/save_box_ensupe][629.92095947266][25.44093132019][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 18:15:15.979377 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][5ec6ef76713f70dfdf84236fa62333c3][POST][/api/carteam/order/assign_edit_save][979.37703132629][10.821104049683][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 18:15:16.021211 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][5ec6ef76713f70dfdf84236fa62333c3][POST][/api/carteam/order/assign_edit_save][1021.2109088898][11.192798614502][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 18:15:25.067153 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][1355][a79566e68bfcd1e7a4685423beaa1674][POST][/api/carteam/order/save_box_ensupe][3067.1529769897][44.219017028809][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 18:16:13.873928 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][bdacb57c39fb5d6ad9bdf98b118b132e][POST][/api/carteam/order/assign_edit_save][873.92807006836][11.614084243774][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 18:16:13.942624 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][bdacb57c39fb5d6ad9bdf98b118b132e][POST][/api/carteam/order/assign_edit_save][942.62409210205][12.789011001587][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 18:17:06.367768 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][1445][0bf9ebb44069d2425a9b0c918d339c0b][POST][/api/carteam/order/save_box_ensupe][4367.7680492401][9.0789794921875][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 18:19:33.898282 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][851][e4fb3bbfd3678576f104399904b17632][POST][/api/carteam/order/save_box_ensupe][171898.28205109][23.32615852356][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 18:19:33.984215 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][852][4db565a2937b8e69b4ffaa157f476403][POST][/api/carteam/order/save_box_ensupe][178984.21502113][80.528020858765][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 18:19:39.710061 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][850][1240b4264e5a34d07c48f923b45759a7][POST][/api/carteam/order/save_box_ensupe][710.06107330322][8.7981224060059][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/ActivityLogService.php:345] save order log true or false ? 1.
+
+[][WARNING][2015-09-10 20:22:56.736682 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][1445][2247872c748e0edcf2e06a2cdd31181c][GET][/order/details?orderid=137&dispatch=1][736.68193817139][1.8279552459717][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:455] 产装时间：311 地址：129 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 20:22:56.860200 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][1445][2247872c748e0edcf2e06a2cdd31181c][GET][/order/details?orderid=137&dispatch=1][860.19992828369][1.7390251159668][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:455] 产装时间：313 地址：131 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 20:22:56.889170 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][1445][2247872c748e0edcf2e06a2cdd31181c][GET][/order/details?orderid=137&dispatch=1][889.16993141174][1.8658638000488][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:455] 产装时间：355 地址：131 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 20:23:19.136346 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][1355][6851f77c99877c628a155f33fa368460][GET][/order/details?orderid=137&dispatch=1][1136.3461017609][1.6531944274902][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:455] 产装时间：311 地址：129 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-10 20:23:19.239111 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][1355][6851f77c99877c628a155f33fa368460][GET][/order/details?orderid=137&dispatch=1][1239.1109466553][1.9769668579102][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:455] 产装时间：313 地址：131 已经产装记录:2 不可修改。
+
+[][WARNING][2015-09-10 20:23:19.251588 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][1355][6851f77c99877c628a155f33fa368460][GET][/order/details?orderid=137&dispatch=1][1251.5881061554][1.8310546875][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:455] 产装时间：355 地址：131 已经产装记录:1 不可修改。
+

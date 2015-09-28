@@ -1,0 +1,6 @@
+[][WARNING][2015-09-17 16:18:45.833903 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][3388][24f1f45649d90abb254b41fef1cb141b][GET][/order/details?orderid=30][833.90307426453][1.60813331604][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:532] 产装时间：75 地址：41 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-17 17:39:16.180494 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][3417][9f80b308bc3f3eae3d7679108513d6d1][GET][/order/details?orderid=30][1180.4940700531][1.6319751739502][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:532] 产装时间：75 地址：41 已经产装记录:1 不可修改。
+
+[][WARNING][2015-09-17 17:39:16.260431 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][3389][a50d943f3c2c73b3e0170db4e522799b][GET][/order/details?orderid=30][1260.4310512543][1.2490749359131][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderAssignDriverService.php:532] 产装时间：75 地址：41 已经产装记录:1 不可修改。
+

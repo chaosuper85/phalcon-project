@@ -1,0 +1,125 @@
+[][WARNING][2015-09-08 12:23:48.086316 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21039][40c7a96ac4ae26be54fbbf442010e6fc][GET][/order/list][86.316108703613][0.56004524230957][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 12:23:48.089056 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21039][40c7a96ac4ae26be54fbbf442010e6fc][GET][/order/list][89.056015014648][0.47612190246582][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][FATAL][2015-09-08 12:30:51.188493 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26319][b27e4ab58080e0e09453418cab209e15][GET][/order/list][188.49301338196][3.6859512329102][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Controllers/OrderController.php:91][1.94mb][{"_url":"\/order\/list","PHPSESSID":"126c0b458362765bfc11a54c94405933","xdd-token":"zA\/6m9NRTi5OFkw8lbYa+eA8GlJOm7MYhv+aXN3wTEs="}][] SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+#0 nofile(noline): OrderController->ordersListAction()
+#1 nofile(noline): Phalcon\Dispatcher->dispatch()
+#2 /Users/chaosuper/migrate_project/phpweb/public/index.php(40): Phalcon\Mvc\Application->handle()
+
+[][WARNING][2015-09-08 12:31:06.843629 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21038][5a77c075c4192e80189bbec1a85758ad][POST][/api/index/do_login][843.62888336182][1.5068054199219][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/UserLoginService.php:77] Table 'users' doesn't exist in database when dumping meta-data for Users
+
+[][WARNING][2015-09-08 12:31:16.739675 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21040][359be09ecbac2e595cfcfbf08e147729][POST][/api/index/do_login][739.67504501343][2.9489994049072][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/UserLoginService.php:77] Table 'users' doesn't exist in database when dumping meta-data for Users
+
+[][WARNING][2015-09-08 12:32:38.255160 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21039][dfa5ddedb0965a9fa0e80912bf0544e8][GET][/order/list][255.1600933075][0.59199333190918][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 12:32:38.258697 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21039][dfa5ddedb0965a9fa0e80912bf0544e8][GET][/order/list][258.69703292847][0.57101249694824][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 12:32:50.247739 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26319][1be59d7914472607c99a8fb27672f766][GET][/order/list][247.73907661438][0.5800724029541][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 12:32:50.250488 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26319][1be59d7914472607c99a8fb27672f766][GET][/order/list][250.48804283142][0.52213668823242][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 12:33:22.779090 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21038][7e81c475d9520df847265e6809b3b39a][GET][/order/list][779.08992767334][0.47993659973145][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 12:33:22.781861 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21038][7e81c475d9520df847265e6809b3b39a][GET][/order/list][781.86106681824][0.59103965759277][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 12:38:26.636741 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26096][df1365a3d02c583a516b7396da3af2bb][GET][/order/list][636.74092292786][0.52189826965332][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 12:38:26.640875 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26096][df1365a3d02c583a516b7396da3af2bb][GET][/order/list][640.87510108948][0.59318542480469][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 12:38:43.739697 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26096][bd8d1c62a3fb0461f4cfe44d0eca0e1b][GET][/order/list][739.69697952271][0.55098533630371][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 12:38:43.752687 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26096][bd8d1c62a3fb0461f4cfe44d0eca0e1b][GET][/order/list][752.68697738647][0.82087516784668][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 12:38:45.461106 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21038][79c52bb6acbc369c5a128802e0ff4b12][GET][/order/list][461.10606193542][0.49901008605957][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 12:38:45.463767 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21038][79c52bb6acbc369c5a128802e0ff4b12][GET][/order/list][463.76705169678][0.55503845214844][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 12:38:46.766848 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21040][f18504c06c0f1bb4887e67859a5b0ed2][GET][/order/list][766.84808731079][0.6411075592041][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 12:38:46.769931 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21040][f18504c06c0f1bb4887e67859a5b0ed2][GET][/order/list][769.93107795715][0.53906440734863][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 12:54:54.573832 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21039][758551832fb4232189990847d853e432][GET][/order/list][573.8320350647][0.70095062255859][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 12:54:54.577414 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21039][758551832fb4232189990847d853e432][GET][/order/list][577.41403579712][0.76603889465332][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 14:18:02.332968 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21039][ca24f9e2e46f3a7dd5afc5fc0c34e2a6][GET][/order/list][332.96799659729][0.57601928710938][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 14:18:02.336360 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21039][ca24f9e2e46f3a7dd5afc5fc0c34e2a6][GET][/order/list][336.35997772217][0.61607360839844][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 14:24:33.391425 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26096][469849817ed2ddc8a3a160a932d561c4][GET][/order/list][391.42489433289][0.51188468933105][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 14:24:33.395085 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26096][469849817ed2ddc8a3a160a932d561c4][GET][/order/list][395.08509635925][0.67710876464844][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 14:57:35.459619 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21039][e95247b52e26c71cb6cd9b4cdfdee45f][POST][/api/index/do_login][459.61904525757][1.7831325531006][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/UserLoginService.php:73] user wanghui not found
+
+[][WARNING][2015-09-08 15:27:24.320903 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21038][9d9a6c5d207eb11749528d2f0c5c289f][POST][/api/carteam/order/address_confirm][320.90306282043][1.2481212615967][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderProductAddressService.php:83] 没有此id的产装地址，检查id是否传送正确!
+
+[][WARNING][2015-09-08 15:38:08.872363 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21040][45cde0947a95f889c2576f808c490d13][GET][/order/list][872.36309051514][0.59700012207031][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 15:38:08.875667 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21040][45cde0947a95f889c2576f808c490d13][GET][/order/list][875.66709518433][0.58603286743164][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 17:20:13.047373 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21038][228b550c06456d56f80c97c548c8da20][GET][/order/list][1047.3730564117][0.51593780517578][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 17:20:13.050914 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21038][228b550c06456d56f80c97c548c8da20][GET][/order/list][1050.9140491486][0.5800724029541][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 17:24:41.092062 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21038][7c3567610e31fa464e2a6fe1e7f4c99a][POST][/api/carteam/order/address_confirm][1092.06199646][6.1309337615967][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderProductAddressService.php:320] create Product Address error:SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1970-01-01 08:00:00' for column 'product_supply_time' at row 1 orderId:108
+
+[][WARNING][2015-09-08 18:30:14.311261 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26319][3f28e17040f05db5c7e5db516cb3eafd][GET][/order/list][311.26093864441][0.56695938110352][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 18:30:14.314772 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26319][3f28e17040f05db5c7e5db516cb3eafd][GET][/order/list][314.77189064026][0.57888031005859][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 18:45:30.382157 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26319][391383a95d2ee8b8fb8ea1858ff31f71][GET][/order/list][382.15708732605][0.69403648376465][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 18:45:30.385729 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26319][391383a95d2ee8b8fb8ea1858ff31f71][GET][/order/list][385.72907447815][0.5650520324707][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 18:47:44.501426 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21038][d1a749137fdf5c6bbbcee36930d08b5a][GET][/order/list][501.42598152161][0.52404403686523][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 18:47:44.504475 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21038][d1a749137fdf5c6bbbcee36930d08b5a][GET][/order/list][504.47511672974][0.50210952758789][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 18:54:43.079432 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21038][298db7f3cff674f359e573dffa59fff5][GET][/order/list][1079.4320106506][0.59604644775391][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 18:54:43.082714 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21038][298db7f3cff674f359e573dffa59fff5][GET][/order/list][1082.7140808105][0.5650520324707][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 18:54:45.816865 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26319][4feaacb5896a606710aa08397dccc33f][GET][/order/list?status=2][816.86496734619][0.49686431884766][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 18:54:45.819653 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26319][4feaacb5896a606710aa08397dccc33f][GET][/order/list?status=2][819.65303421021][0.60701370239258][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 18:54:51.873649 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26319][9668e23f74a0105ad3af588e312fa618][GET][/order/list][873.64888191223][0.52094459533691][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 18:54:51.877137 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26319][9668e23f74a0105ad3af588e312fa618][GET][/order/list][877.13694572449][0.63085556030273][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 19:00:39.718608 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21040][dbc55b109c71d4cabd09db342d8e7dbb][GET][/order/list][718.60790252686][0.640869140625][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 19:00:39.722015 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21040][dbc55b109c71d4cabd09db342d8e7dbb][GET][/order/list][722.01490402222][0.5040168762207][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 19:00:43.016061 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26096][dcdc4f11fd445dda2c162392dc304ae4][GET][/order/list][1016.0610675812][0.53095817565918][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 19:00:43.019136 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26096][dcdc4f11fd445dda2c162392dc304ae4][GET][/order/list][1019.1359519958][0.53000450134277][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 19:00:44.630250 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21039][65ed826a369ce35c5692bb909d1e5c35][GET][/order/list][630.24997711182][0.57387351989746][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 19:00:44.633059 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21039][65ed826a369ce35c5692bb909d1e5c35][GET][/order/list][633.05902481079][0.53596496582031][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 19:00:47.597913 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21040][4e26b540ac5fbafc6f70bb7788d517ab][GET][/order/list][597.91302680969][0.47206878662109][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 19:00:47.600557 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21040][4e26b540ac5fbafc6f70bb7788d517ab][GET][/order/list][600.55708885193][0.55313110351562][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 19:01:13.239902 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21039][79948e2c74927f07a728dccfd87cd562][GET][/order/list][239.90201950073][0.61511993408203][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 19:01:13.243450 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21039][79948e2c74927f07a728dccfd87cd562][GET][/order/list][243.44992637634][0.54192543029785][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 19:01:52.903622 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26319][131a791f3f779ab76adcae56a2ca54e5][GET][/order/list][903.62191200256][0.54097175598145][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 19:01:52.906210 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26319][131a791f3f779ab76adcae56a2ca54e5][GET][/order/list][906.20994567871][0.49591064453125][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 19:55:51.190324 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21040][c57be8308bbcc7042d5683e6bcbadb13][GET][/order/list][190.32406806946][0.65016746520996][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 19:55:51.194976 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21040][c57be8308bbcc7042d5683e6bcbadb13][GET][/order/list][194.97609138489][0.87904930114746][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 19:58:20.999185 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][26096][ba736cdd825572c1dac1421da7412c34][POST][/api/carteam/order/address_confirm][999.18508529663][7.8990459442139][/Users/chaosuper/migrate_project/phpweb/apps/modules/www/Controllers/api/ApiCarteamOrderController.php:139] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address_townid' cannot be null
+
+[][WARNING][2015-09-08 20:19:18.066607 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21039][94372d2f6a056be6440821cb30c94d44][GET][/order/list][1066.6069984436][0.77390670776367][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
+[][WARNING][2015-09-08 20:19:18.070302 +0800][127.0.0.1][www.56xdd.com][127.0.0.1][21039][94372d2f6a056be6440821cb30c94d44][GET][/order/list][1070.3020095825][0.52809715270996][/Users/chaosuper/migrate_project/phpweb/apps/services/DataService/OrderFreightBoxDetailService.php:66] 获取产装联系单详情页--获取省市县全名出错!
+
